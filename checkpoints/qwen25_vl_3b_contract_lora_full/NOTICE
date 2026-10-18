@@ -1,0 +1,14 @@
+Qwen is licensed under the Qwen RESEARCH LICENSE AGREEMENT, Copyright (c) Alibaba Cloud. All Rights Reserved.
+
+Built with Qwen.
+
+The checkpoint in checkpoints/qwen25_vl_3b_contract_lora_full is a newly trained
+LoRA adapter for Qwen/Qwen2.5-VL-3B-Instruct, not an official Alibaba checkpoint.
+The adapter was trained for two epochs on 180 same-scene contract examples.
+The adapter tensor file is unchanged from the verified training output. Its
+SHA256 is 380450d3df4d95c9d263a318d7ffaa0a6ca6ec1e643063c4f61dae222a885aa0.
+The generated checkpoint README has been replaced with a completed model card.
+
+See LICENSE-QWEN-RESEARCH for the applicable upstream model license.
+The repository owner has not selected an additional license for original
+project code. No MIT or Apache license for that code is implied by this release.

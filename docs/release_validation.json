@@ -1,0 +1,19 @@
+{
+  "code_release": "PASS",
+  "unit_and_mock_integration_tests_passed": 78,
+  "staged_files_secret_scan": "PASS",
+  "audited_entrypoint_hashes_match": true,
+  "adapter_tensor_sha256": "380450d3df4d95c9d263a318d7ffaa0a6ca6ec1e643063c4f61dae222a885aa0",
+  "github_lfs_adapter_download_already_verified": true,
+  "adapter_license": "Qwen Research License",
+  "raw_camera_data_included": false,
+  "base_model_tensors_included": false,
+  "created_unix": 1792329253.607241,
+  "cuda_inference_smoke": {
+    "status": "PASS",
+    "schema_valid": true,
+    "camera_actuation": false,
+    "generation_ms": 2254.44,
+    "adapter_sha256": "380450d3df4d95c9d263a318d7ffaa0a6ca6ec1e643063c4f61dae222a885aa0"
+  }
+}

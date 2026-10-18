@@ -1,0 +1,9 @@
+# Install a PyTorch build compatible with your CUDA environment first.
+# The original diagnostic used torch 2.8.0+cu128 on Python 3.12.3.
+numpy==2.3.2
+pillow==11.3.0
+transformers==5.20.1
+peft==0.21.2
+accelerate==1.15.0
+qwen-vl-utils==0.0.14
+modelscope==1.40.2

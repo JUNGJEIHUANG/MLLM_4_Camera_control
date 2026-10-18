@@ -1,0 +1,53 @@
+{
+  "adapter_tensor_unchanged": true,
+  "files": {
+    "adapter_config.json": {
+      "bytes": 1214,
+      "sha256": "53f70eb284032a86c3a18673b01461f1cab1c5ddce9b71cf1c79139a563daae2"
+    },
+    "adapter_model.safetensors": {
+      "bytes": 148712776,
+      "sha256": "380450d3df4d95c9d263a318d7ffaa0a6ca6ec1e643063c4f61dae222a885aa0"
+    },
+    "adapter_model.safetensors.stream.partial": {
+      "bytes": 19857408,
+      "sha256": "ea7be7d16592558b35166a5cbaa7b336d693a9afd8263c092af38c8f90b2f63f"
+    },
+    "base_model_provenance.json": {
+      "bytes": 7881,
+      "sha256": "03ce9cfb0b9e270778d099250e1ab9b9b37c3614921575cffa21a88fb75af312"
+    },
+    "chat_template.jinja": {
+      "bytes": 1017,
+      "sha256": "a0bc6f6fc7a29a80017a433e8f03a1cc1236e838a944a2d034295a60c4f2fddb"
+    },
+    "LICENSE": {
+      "bytes": 7387,
+      "sha256": "b5c0e5cf74cf51af1ecbc4af597cfcd13fd9925611838884a681070838a14a50"
+    },
+    "NOTICE": {
+      "bytes": 823,
+      "sha256": "f79812a522a040acc85ef32409ac70dcc65a0bd706e63d6c8673efcca6e037a6"
+    },
+    "processor_config.json": {
+      "bytes": 1294,
+      "sha256": "aa5f37af5406db3091eeb37ed2cf37bc2d09dcde9814fcac606a8fa536060a25"
+    },
+    "README.md": {
+      "bytes": 3621,
+      "sha256": "9f3bd924fe36d2c93d60be22a817d378e5a66335316699bdc5c2b364c1e42538"
+    },
+    "source_training_receipt.json": {
+      "bytes": 510,
+      "sha256": "082ae40fd1ee155993e4800638481308fd41f33f1bb9d3e5519653e9b1f57420"
+    },
+    "tokenizer.json": {
+      "bytes": 11421892,
+      "sha256": "3fd169731d2cbde95e10bf356d66d5997fd885dd8dbb6fb4684da3f23b2585d8"
+    },
+    "tokenizer_config.json": {
+      "bytes": 785,
+      "sha256": "8057ab2f877fa23ba2c20b12d067222f648582623fb351694b6903836698388e"
+    }
+  }
+}

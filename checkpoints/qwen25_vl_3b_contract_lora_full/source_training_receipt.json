@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "label": "same_scene_diagnostic",
+  "full_run_performed": true,
+  "train_samples": 180,
+  "epochs": 2,
+  "test_samples_per_stage": 120,
+  "evaluation_stages_verified": 9,
+  "records_verified": 1080,
+  "train_microsteps": 720,
+  "optimizer_updates": 180,
+  "adapter_reload_verified": true,
+  "source_data_hashes_unchanged": true,
+  "infeasible_cases_retained": 18,
+  "shared_images_retained": true,
+  "publication_evidence": false,
+  "created_unix": 1792326572.9406548
+}

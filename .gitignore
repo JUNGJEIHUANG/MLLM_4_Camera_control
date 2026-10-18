@@ -1,0 +1,36 @@
+# Secrets and local connection settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+remote.py
+*deploy_and_run*
+*ssh*
+
+# Private camera captures, datasets, generated experiment outputs and caches
+Camera_Data/
+images/
+train_contracts.jsonl
+test_contracts.jsonl
+sCMOS_physical_ledger.json
+T_model_paths.json
+audit_*/
+models/
+.cache/
+*.bin
+*.raw
+*.zip
+*.tar.gz
+*.log
+*.pid
+*.partial
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.DS_Store
+Thumbs.db

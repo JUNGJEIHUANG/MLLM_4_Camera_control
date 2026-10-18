@@ -1,0 +1,1048 @@
+{
+  "label": "same_scene_diagnostic",
+  "n_train": 180,
+  "epochs": 2,
+  "n_test": 120,
+  "infeasible_test_rows": 18,
+  "independent_test_images": false,
+  "publication_evidence": false,
+  "stages": {
+    "3B_zeroshot": {
+      "model_tag": "3B-ZeroShot",
+      "repr_mode": "dual_offset_grid",
+      "include_telemetry": true,
+      "num_samples": 120,
+      "schema_valid_rate": 0.0,
+      "roi_code_accuracy": 0.25,
+      "grid_cell_accuracy": 0.0,
+      "roi_accuracy": 0.0,
+      "target_dn_mae": 32.5,
+      "median_vlm_latency_ms": 951.1,
+      "p95_vlm_latency_ms": 1011.88,
+      "summary_by_policy": {
+        "raw_ratio": {
+          "episodes": 120,
+          "fast_loop_converged_rate": 1.0,
+          "semantic_task_qualified_rate": 0.0,
+          "semantic_task_qualified_count": 0,
+          "mean_online_frames": 11.2,
+          "total_online_frames": 1344,
+          "mean_updates": 2.6,
+          "mean_vlm_calls": 1.0,
+          "median_vlm_latency_ms": 951.1,
+          "median_total_confirmation_ms": 3440.12,
+          "mean_total_confirmation_ms": 3678.86,
+          "median_true_task_mae_dn": 13.338
+        },
+        "shared_offset": {
+          "episodes": 120,
+          "fast_loop_converged_rate": 1.0,
+          "semantic_task_qualified_rate": 0.0,
+          "semantic_task_qualified_count": 0,
+          "mean_online_frames": 9.467,
+          "total_online_frames": 1136,
+          "mean_updates": 1.733,
+          "mean_vlm_calls": 1.0,
+          "median_vlm_latency_ms": 951.1,
+          "median_total_confirmation_ms": 3350.95,
+          "mean_total_confirmation_ms": 3252.47,
+          "median_true_task_mae_dn": 9.707
+        },
+        "secant_offset": {
+          "episodes": 120,
+          "fast_loop_converged_rate": 1.0,
+          "semantic_task_qualified_rate": 0.0,
+          "semantic_task_qualified_count": 0,
+          "mean_online_frames": 10.267,
+          "total_online_frames": 1232,
+          "mean_updates": 2.133,
+          "mean_vlm_calls": 1.0,
+          "median_vlm_latency_ms": 951.1,
+          "median_total_confirmation_ms": 3394.08,
+          "mean_total_confirmation_ms": 3449.27,
+          "median_true_task_mae_dn": 9.707
+        },
+        "shared_offset_selective": {
+          "episodes": 120,
+          "fast_loop_converged_rate": 1.0,
+          "semantic_task_qualified_rate": 0.0,
+          "semantic_task_qualified_count": 0,
+          "mean_online_frames": 7.733,
+          "total_online_frames": 928,
+          "mean_updates": 1.733,
+          "mean_vlm_calls": 1.0,
+          "median_vlm_latency_ms": 951.1,
+          "median_total_confirmation_ms": 2870.95,
+          "mean_total_confirmation_ms": 2836.47,
+          "median_true_task_mae_dn": 9.707
+        },
+        "secant_offset_selective": {
+          "episodes": 120,
+          "fast_loop_converged_rate": 1.0,
+          "semantic_task_qualified_rate": 0.0,
+          "semantic_task_qualified_count": 0,
+          "mean_online_frames": 8.133,
+          "total_online_frames": 976,
+          "mean_updates": 2.133,
+          "mean_vlm_calls": 1.0,
+          "median_vlm_latency_ms": 951.1,
+          "median_total_confirmation_ms": 2914.08,
+          "mean_total_confirmation_ms": 2937.27,
+          "median_true_task_mae_dn": 9.707
+        }
+      },
+      "stage_wall_seconds": 117.177,
+      "schema_first_failure_counts": {
+        "ValueError: Invalid ROI/grid": 35,
+        "ValueError: Invalid tolerance_dn": 75,
+        "ValueError: Invalid target_dn": 10
+      },
+      "same_scene_stratified_counts": {
+        "raw_ratio": {
+          "all_pass": 0,
+          "all_total": 120,
+          "feasible_pass": 0,
+          "feasible_total": 102,
+          "infeasible_pass": 0,
+          "infeasible_total": 18
+        },
+        "shared_offset": {
+          "all_pass": 0,
+          "all_total": 120,
+          "feasible_pass": 0,
+          "feasible_total": 102,
+          "infeasible_pass": 0,
+          "infeasible_total": 18
+        },
+        "secant_offset": {
+          "all_pass": 0,
+          "all_total": 120,
+          "feasible_pass": 0,
+          "feasible_total": 102,
+          "infeasible_pass": 0,
+          "infeasible_total": 18
+        },
+        "shared_offset_selective": {
+          "all_pass": 0,
+          "all_total": 120,
+          "feasible_pass": 0,
+          "feasible_total": 102,
+          "infeasible_pass": 0,
+          "infeasible_total": 18
+        },
+        "secant_offset_selective": {
+          "all_pass": 0,
+          "all_total": 120,
+          "feasible_pass": 0,
+          "feasible_total": 102,
+          "infeasible_pass": 0,
+          "infeasible_total": 18
+        }
+      },
+      "truncated_contract_outputs": 0
+    },
+    "3B_direct": {
+      "model_tag": "3B-P1",
+      "episodes": 120,
+      "semantic_task_qualified_rate": 0.0917,
+      "semantic_task_qualified_count": 11,
+      "mean_online_frames": 6.45,
+      "total_online_frames": 774,
+      "mean_updates": 2.25,
+      "mean_vlm_calls": 2.742,
+      "median_total_confirmation_ms": 1955.02,
+      "mean_total_confirmation_ms": 2048.16,
+      "stage_wall_seconds": 61.523,
+      "truncated_direct_outputs": 0
+    },
+    "3B_repr_linear": {
+      "model_tag": "3B-linear-visual-only",
+      "repr_mode": "linear",
+      "include_telemetry": false,
+      "num_samples": 120,
+      "schema_valid_rate": 0.0,
+      "roi_code_accuracy": 0.25,
+      "grid_cell_accuracy": 0.0,
+      "roi_accuracy": 0.0,
+      "target_dn_mae": 32.5,
+      "median_vlm_latency_ms": 983.42,
+      "p95_vlm_latency_ms": 1031.92,
+      "summary_by_policy": {
+        "raw_ratio": {
+          "episodes": 120,
+          "fast_loop_converged_rate": 1.0,
+          "semantic_task_qualified_rate": 0.0,
+          "semantic_task_qualified_count": 0,
+          "mean_online_frames": 11.2,
+          "total_online_frames": 1344,
+          "mean_updates": 2.6,
+          "mean_vlm_calls": 1.0,
+          "median_vlm_latency_ms": 983.42,
+          "median_total_confirmation_ms": 3443.51,
+          "mean_total_confirmation_ms": 3705.03,
+          "median_true_task_mae_dn": 13.338
+        },
+        "shared_offset": {
+          "episodes": 120,
+          "fast_loop_converged_rate": 1.0,
+          "semantic_task_qualified_rate": 0.0,
+          "semantic_task_qualified_count": 0,
+          "mean_online_frames": 9.467,
+          "total_online_frames": 1136,
+          "mean_updates": 1.733,
+          "mean_vlm_calls": 1.0,
+          "median_vlm_latency_ms": 983.42,
+          "median_total_confirmation_ms": 3376.32,
+          "mean_total_confirmation_ms": 3278.63,
+          "median_true_task_mae_dn": 9.707
+        },
+        "secant_offset": {
+          "episodes": 120,
+          "fast_loop_converged_rate": 1.0,
+          "semantic_task_qualified_rate": 0.0,
+          "semantic_task_qualified_count": 0,
+          "mean_online_frames": 10.267,
+          "total_online_frames": 1232,
+          "mean_updates": 2.133,
+          "mean_vlm_calls": 1.0,
+          "median_vlm_latency_ms": 983.42,
+          "median_total_confirmation_ms": 3418.19,
+          "mean_total_confirmation_ms": 3475.43,
+          "median_true_task_mae_dn": 9.707
+        },
+        "shared_offset_selective": {
+          "episodes": 120,
+          "fast_loop_converged_rate": 1.0,
+          "semantic_task_qualified_rate": 0.0,
+          "semantic_task_qualified_count": 0,
+          "mean_online_frames": 7.733,
+          "total_online_frames": 928,
+          "mean_updates": 1.733,
+          "mean_vlm_calls": 1.0,
+          "median_vlm_latency_ms": 983.42,
+          "median_total_confirmation_ms": 2896.32,
+          "mean_total_confirmation_ms": 2862.63,
+          "median_true_task_mae_dn": 9.707
+        },
+        "secant_offset_selective": {
+          "episodes": 120,
+          "fast_loop_converged_rate": 1.0,
+          "semantic_task_qualified_rate": 0.0,
+          "semantic_task_qualified_count": 0,
+          "mean_online_frames": 8.133,
+          "total_online_frames": 976,
+          "mean_updates": 2.133,
+          "mean_vlm_calls": 1.0,
+          "median_vlm_latency_ms": 983.42,
+          "median_total_confirmation_ms": 2938.19,
+          "mean_total_confirmation_ms": 2963.43,
+          "median_true_task_mae_dn": 9.707
+        }
+      },
+      "stage_wall_seconds": 119.492,
+      "schema_first_failure_counts": {
+        "ValueError: Invalid ROI/grid": 120
+      },
+      "same_scene_stratified_counts": {
+        "raw_ratio": {
+          "all_pass": 0,
+          "all_total": 120,
+          "feasible_pass": 0,
+          "feasible_total": 102,
+          "infeasible_pass": 0,
+          "infeasible_total": 18
+        },
+        "shared_offset": {
+          "all_pass": 0,
+          "all_total": 120,
+          "feasible_pass": 0,
+          "feasible_total": 102,
+          "infeasible_pass": 0,
+          "infeasible_total": 18
+        },
+        "secant_offset": {
+          "all_pass": 0,
+          "all_total": 120,
+          "feasible_pass": 0,
+          "feasible_total": 102,
+          "infeasible_pass": 0,
+          "infeasible_total": 18
+        },
+        "shared_offset_selective": {
+          "all_pass": 0,
+          "all_total": 120,
+          "feasible_pass": 0,
+          "feasible_total": 102,
+          "infeasible_pass": 0,
+          "infeasible_total": 18
+        },
+        "secant_offset_selective": {
+          "all_pass": 0,
+          "all_total": 120,
+          "feasible_pass": 0,
+          "feasible_total": 102,
+          "infeasible_pass": 0,
+          "infeasible_total": 18
+        }
+      },
+      "truncated_contract_outputs": 0
+    },
+    "3B_repr_minmax": {
+      "model_tag": "3B-minmax-visual-only",
+      "repr_mode": "minmax",
+      "include_telemetry": false,
+      "num_samples": 120,
+      "schema_valid_rate": 0.0,
+      "roi_code_accuracy": 0.25,
+      "grid_cell_accuracy": 0.0,
+      "roi_accuracy": 0.0,
+      "target_dn_mae": 32.5,
+      "median_vlm_latency_ms": 986.11,
+      "p95_vlm_latency_ms": 1031.45,
+      "summary_by_policy": {
+        "raw_ratio": {
+          "episodes": 120,
+          "fast_loop_converged_rate": 1.0,
+          "semantic_task_qualified_rate": 0.0,
+          "semantic_task_qualified_count": 0,
+          "mean_online_frames": 11.2,
+          "total_online_frames": 1344,
+          "mean_updates": 2.6,
+          "mean_vlm_calls": 1.0,
+          "median_vlm_latency_ms": 986.11,
+          "median_total_confirmation_ms": 3458.16,
+          "mean_total_confirmation_ms": 3707.31,
+          "median_true_task_mae_dn": 13.338
+        },
+        "shared_offset": {
+          "episodes": 120,
+          "fast_loop_converged_rate": 1.0,
+          "semantic_task_qualified_rate": 0.0,
+          "semantic_task_qualified_count": 0,
+          "mean_online_frames": 9.467,
+          "total_online_frames": 1136,
+          "mean_updates": 1.733,
+          "mean_vlm_calls": 1.0,
+          "median_vlm_latency_ms": 986.11,
+          "median_total_confirmation_ms": 3370.37,
+          "mean_total_confirmation_ms": 3280.91,
+          "median_true_task_mae_dn": 9.707
+        },
+        "secant_offset": {
+          "episodes": 120,
+          "fast_loop_converged_rate": 1.0,
+          "semantic_task_qualified_rate": 0.0,
+          "semantic_task_qualified_count": 0,
+          "mean_online_frames": 10.267,
+          "total_online_frames": 1232,
+          "mean_updates": 2.133,
+          "mean_vlm_calls": 1.0,
+          "median_vlm_latency_ms": 986.11,
+          "median_total_confirmation_ms": 3427.43,
+          "mean_total_confirmation_ms": 3477.71,
+          "median_true_task_mae_dn": 9.707
+        },
+        "shared_offset_selective": {
+          "episodes": 120,
+          "fast_loop_converged_rate": 1.0,
+          "semantic_task_qualified_rate": 0.0,
+          "semantic_task_qualified_count": 0,
+          "mean_online_frames": 7.733,
+          "total_online_frames": 928,
+          "mean_updates": 1.733,
+          "mean_vlm_calls": 1.0,
+          "median_vlm_latency_ms": 986.11,
+          "median_total_confirmation_ms": 2890.37,
+          "mean_total_confirmation_ms": 2864.91,
+          "median_true_task_mae_dn": 9.707
+        },
+        "secant_offset_selective": {
+          "episodes": 120,
+          "fast_loop_converged_rate": 1.0,
+          "semantic_task_qualified_rate": 0.0,
+          "semantic_task_qualified_count": 0,
+          "mean_online_frames": 8.133,
+          "total_online_frames": 976,
+          "mean_updates": 2.133,
+          "mean_vlm_calls": 1.0,
+          "median_vlm_latency_ms": 986.11,
+          "median_total_confirmation_ms": 2947.43,
+          "mean_total_confirmation_ms": 2965.71,
+          "median_true_task_mae_dn": 9.707
+        }
+      },
+      "stage_wall_seconds": 119.95,
+      "schema_first_failure_counts": {
+        "ValueError: Invalid ROI/grid": 120
+      },
+      "same_scene_stratified_counts": {
+        "raw_ratio": {
+          "all_pass": 0,
+          "all_total": 120,
+          "feasible_pass": 0,
+          "feasible_total": 102,
+          "infeasible_pass": 0,
+          "infeasible_total": 18
+        },
+        "shared_offset": {
+          "all_pass": 0,
+          "all_total": 120,
+          "feasible_pass": 0,
+          "feasible_total": 102,
+          "infeasible_pass": 0,
+          "infeasible_total": 18
+        },
+        "secant_offset": {
+          "all_pass": 0,
+          "all_total": 120,
+          "feasible_pass": 0,
+          "feasible_total": 102,
+          "infeasible_pass": 0,
+          "infeasible_total": 18
+        },
+        "shared_offset_selective": {
+          "all_pass": 0,
+          "all_total": 120,
+          "feasible_pass": 0,
+          "feasible_total": 102,
+          "infeasible_pass": 0,
+          "infeasible_total": 18
+        },
+        "secant_offset_selective": {
+          "all_pass": 0,
+          "all_total": 120,
+          "feasible_pass": 0,
+          "feasible_total": 102,
+          "infeasible_pass": 0,
+          "infeasible_total": 18
+        }
+      },
+      "truncated_contract_outputs": 0
+    },
+    "3B_repr_dual_offset_grid": {
+      "model_tag": "3B-dual_offset_grid-visual-only",
+      "repr_mode": "dual_offset_grid",
+      "include_telemetry": false,
+      "num_samples": 120,
+      "schema_valid_rate": 0.0,
+      "roi_code_accuracy": 0.25,
+      "grid_cell_accuracy": 0.0,
+      "roi_accuracy": 0.0,
+      "target_dn_mae": 32.5,
+      "median_vlm_latency_ms": 990.24,
+      "p95_vlm_latency_ms": 1037.44,
+      "summary_by_policy": {
+        "raw_ratio": {
+          "episodes": 120,
+          "fast_loop_converged_rate": 1.0,
+          "semantic_task_qualified_rate": 0.0,
+          "semantic_task_qualified_count": 0,
+          "mean_online_frames": 11.2,
+          "total_online_frames": 1344,
+          "mean_updates": 2.6,
+          "mean_vlm_calls": 1.0,
+          "median_vlm_latency_ms": 990.24,
+          "median_total_confirmation_ms": 3461.09,
+          "mean_total_confirmation_ms": 3713.11,
+          "median_true_task_mae_dn": 13.338
+        },
+        "shared_offset": {
+          "episodes": 120,
+          "fast_loop_converged_rate": 1.0,
+          "semantic_task_qualified_rate": 0.0,
+          "semantic_task_qualified_count": 0,
+          "mean_online_frames": 9.467,
+          "total_online_frames": 1136,
+          "mean_updates": 1.733,
+          "mean_vlm_calls": 1.0,
+          "median_vlm_latency_ms": 990.24,
+          "median_total_confirmation_ms": 3373.8,
+          "mean_total_confirmation_ms": 3286.71,
+          "median_true_task_mae_dn": 9.707
+        },
+        "secant_offset": {
+          "episodes": 120,
+          "fast_loop_converged_rate": 1.0,
+          "semantic_task_qualified_rate": 0.0,
+          "semantic_task_qualified_count": 0,
+          "mean_online_frames": 10.267,
+          "total_online_frames": 1232,
+          "mean_updates": 2.133,
+          "mean_vlm_calls": 1.0,
+          "median_vlm_latency_ms": 990.24,
+          "median_total_confirmation_ms": 3448.85,
+          "mean_total_confirmation_ms": 3483.51,
+          "median_true_task_mae_dn": 9.707
+        },
+        "shared_offset_selective": {
+          "episodes": 120,
+          "fast_loop_converged_rate": 1.0,
+          "semantic_task_qualified_rate": 0.0,
+          "semantic_task_qualified_count": 0,
+          "mean_online_frames": 7.733,
+          "total_online_frames": 928,
+          "mean_updates": 1.733,
+          "mean_vlm_calls": 1.0,
+          "median_vlm_latency_ms": 990.24,
+          "median_total_confirmation_ms": 2893.8,
+          "mean_total_confirmation_ms": 2870.71,
+          "median_true_task_mae_dn": 9.707
+        },
+        "secant_offset_selective": {
+          "episodes": 120,
+          "fast_loop_converged_rate": 1.0,
+          "semantic_task_qualified_rate": 0.0,
+          "semantic_task_qualified_count": 0,
+          "mean_online_frames": 8.133,
+          "total_online_frames": 976,
+          "mean_updates": 2.133,
+          "mean_vlm_calls": 1.0,
+          "median_vlm_latency_ms": 990.24,
+          "median_total_confirmation_ms": 2968.85,
+          "mean_total_confirmation_ms": 2971.51,
+          "median_true_task_mae_dn": 9.707
+        }
+      },
+      "stage_wall_seconds": 121.128,
+      "schema_first_failure_counts": {
+        "ValueError: Invalid ROI/grid": 119,
+        "ValueError: Invalid tolerance_dn": 1
+      },
+      "same_scene_stratified_counts": {
+        "raw_ratio": {
+          "all_pass": 0,
+          "all_total": 120,
+          "feasible_pass": 0,
+          "feasible_total": 102,
+          "infeasible_pass": 0,
+          "infeasible_total": 18
+        },
+        "shared_offset": {
+          "all_pass": 0,
+          "all_total": 120,
+          "feasible_pass": 0,
+          "feasible_total": 102,
+          "infeasible_pass": 0,
+          "infeasible_total": 18
+        },
+        "secant_offset": {
+          "all_pass": 0,
+          "all_total": 120,
+          "feasible_pass": 0,
+          "feasible_total": 102,
+          "infeasible_pass": 0,
+          "infeasible_total": 18
+        },
+        "shared_offset_selective": {
+          "all_pass": 0,
+          "all_total": 120,
+          "feasible_pass": 0,
+          "feasible_total": 102,
+          "infeasible_pass": 0,
+          "infeasible_total": 18
+        },
+        "secant_offset_selective": {
+          "all_pass": 0,
+          "all_total": 120,
+          "feasible_pass": 0,
+          "feasible_total": 102,
+          "infeasible_pass": 0,
+          "infeasible_total": 18
+        }
+      },
+      "truncated_contract_outputs": 0
+    },
+    "3B_lora_telemetry": {
+      "model_tag": "3B-LoRA",
+      "repr_mode": "dual_offset_grid",
+      "include_telemetry": true,
+      "num_samples": 120,
+      "schema_valid_rate": 1.0,
+      "roi_code_accuracy": 1.0,
+      "grid_cell_accuracy": 1.0,
+      "roi_accuracy": 1.0,
+      "target_dn_mae": 0.25,
+      "median_vlm_latency_ms": 1720.93,
+      "p95_vlm_latency_ms": 1791.29,
+      "summary_by_policy": {
+        "raw_ratio": {
+          "episodes": 120,
+          "fast_loop_converged_rate": 0.85,
+          "semantic_task_qualified_rate": 0.8417,
+          "semantic_task_qualified_count": 101,
+          "mean_online_frames": 13.017,
+          "total_online_frames": 1562,
+          "mean_updates": 2.4,
+          "mean_vlm_calls": 1.0,
+          "median_vlm_latency_ms": 1720.93,
+          "median_total_confirmation_ms": 4221.27,
+          "mean_total_confirmation_ms": 4876.57,
+          "median_true_task_mae_dn": 6.185
+        },
+        "shared_offset": {
+          "episodes": 120,
+          "fast_loop_converged_rate": 0.85,
+          "semantic_task_qualified_rate": 0.8417,
+          "semantic_task_qualified_count": 101,
+          "mean_online_frames": 11.783,
+          "total_online_frames": 1414,
+          "mean_updates": 1.567,
+          "mean_vlm_calls": 1.0,
+          "median_vlm_latency_ms": 1720.93,
+          "median_total_confirmation_ms": 4115.42,
+          "mean_total_confirmation_ms": 4570.57,
+          "median_true_task_mae_dn": 2.61
+        },
+        "secant_offset": {
+          "episodes": 120,
+          "fast_loop_converged_rate": 0.85,
+          "semantic_task_qualified_rate": 0.8417,
+          "semantic_task_qualified_count": 101,
+          "mean_online_frames": 12.517,
+          "total_online_frames": 1502,
+          "mean_updates": 2.0,
+          "mean_vlm_calls": 1.0,
+          "median_vlm_latency_ms": 1720.93,
+          "median_total_confirmation_ms": 4153.49,
+          "mean_total_confirmation_ms": 4751.77,
+          "median_true_task_mae_dn": 4.225
+        },
+        "shared_offset_selective": {
+          "episodes": 120,
+          "fast_loop_converged_rate": 0.85,
+          "semantic_task_qualified_rate": 0.8417,
+          "semantic_task_qualified_count": 101,
+          "mean_online_frames": 10.617,
+          "total_online_frames": 1274,
+          "mean_updates": 1.567,
+          "mean_vlm_calls": 1.0,
+          "median_vlm_latency_ms": 1720.93,
+          "median_total_confirmation_ms": 3637.42,
+          "mean_total_confirmation_ms": 4290.57,
+          "median_true_task_mae_dn": 2.61
+        },
+        "secant_offset_selective": {
+          "episodes": 120,
+          "fast_loop_converged_rate": 0.85,
+          "semantic_task_qualified_rate": 0.8417,
+          "semantic_task_qualified_count": 101,
+          "mean_online_frames": 10.983,
+          "total_online_frames": 1318,
+          "mean_updates": 2.0,
+          "mean_vlm_calls": 1.0,
+          "median_vlm_latency_ms": 1720.93,
+          "median_total_confirmation_ms": 3673.49,
+          "mean_total_confirmation_ms": 4383.77,
+          "median_true_task_mae_dn": 4.225
+        }
+      },
+      "stage_wall_seconds": 209.144,
+      "schema_first_failure_counts": {},
+      "same_scene_stratified_counts": {
+        "raw_ratio": {
+          "all_pass": 101,
+          "all_total": 120,
+          "feasible_pass": 101,
+          "feasible_total": 102,
+          "infeasible_pass": 0,
+          "infeasible_total": 18
+        },
+        "shared_offset": {
+          "all_pass": 101,
+          "all_total": 120,
+          "feasible_pass": 101,
+          "feasible_total": 102,
+          "infeasible_pass": 0,
+          "infeasible_total": 18
+        },
+        "secant_offset": {
+          "all_pass": 101,
+          "all_total": 120,
+          "feasible_pass": 101,
+          "feasible_total": 102,
+          "infeasible_pass": 0,
+          "infeasible_total": 18
+        },
+        "shared_offset_selective": {
+          "all_pass": 101,
+          "all_total": 120,
+          "feasible_pass": 101,
+          "feasible_total": 102,
+          "infeasible_pass": 0,
+          "infeasible_total": 18
+        },
+        "secant_offset_selective": {
+          "all_pass": 101,
+          "all_total": 120,
+          "feasible_pass": 101,
+          "feasible_total": 102,
+          "infeasible_pass": 0,
+          "infeasible_total": 18
+        }
+      },
+      "truncated_contract_outputs": 0
+    },
+    "3B_lora_visual": {
+      "model_tag": "3B-LoRA-visual-only",
+      "repr_mode": "dual_offset_grid",
+      "include_telemetry": false,
+      "num_samples": 120,
+      "schema_valid_rate": 1.0,
+      "roi_code_accuracy": 1.0,
+      "grid_cell_accuracy": 1.0,
+      "roi_accuracy": 1.0,
+      "target_dn_mae": 1.5,
+      "median_vlm_latency_ms": 1722.68,
+      "p95_vlm_latency_ms": 1786.81,
+      "summary_by_policy": {
+        "raw_ratio": {
+          "episodes": 120,
+          "fast_loop_converged_rate": 0.85,
+          "semantic_task_qualified_rate": 0.8,
+          "semantic_task_qualified_count": 96,
+          "mean_online_frames": 13.033,
+          "total_online_frames": 1564,
+          "mean_updates": 2.408,
+          "mean_vlm_calls": 1.0,
+          "median_vlm_latency_ms": 1722.68,
+          "median_total_confirmation_ms": 4219.97,
+          "mean_total_confirmation_ms": 4882.12,
+          "median_true_task_mae_dn": 6.252
+        },
+        "shared_offset": {
+          "episodes": 120,
+          "fast_loop_converged_rate": 0.85,
+          "semantic_task_qualified_rate": 0.8,
+          "semantic_task_qualified_count": 96,
+          "mean_online_frames": 11.783,
+          "total_online_frames": 1414,
+          "mean_updates": 1.567,
+          "mean_vlm_calls": 1.0,
+          "median_vlm_latency_ms": 1722.68,
+          "median_total_confirmation_ms": 4125.82,
+          "mean_total_confirmation_ms": 4572.02,
+          "median_true_task_mae_dn": 2.61
+        },
+        "secant_offset": {
+          "episodes": 120,
+          "fast_loop_converged_rate": 0.85,
+          "semantic_task_qualified_rate": 0.8,
+          "semantic_task_qualified_count": 96,
+          "mean_online_frames": 12.517,
+          "total_online_frames": 1502,
+          "mean_updates": 2.0,
+          "mean_vlm_calls": 1.0,
+          "median_vlm_latency_ms": 1722.68,
+          "median_total_confirmation_ms": 4162.65,
+          "mean_total_confirmation_ms": 4753.22,
+          "median_true_task_mae_dn": 4.593
+        },
+        "shared_offset_selective": {
+          "episodes": 120,
+          "fast_loop_converged_rate": 0.85,
+          "semantic_task_qualified_rate": 0.8,
+          "semantic_task_qualified_count": 96,
+          "mean_online_frames": 10.617,
+          "total_online_frames": 1274,
+          "mean_updates": 1.567,
+          "mean_vlm_calls": 1.0,
+          "median_vlm_latency_ms": 1722.68,
+          "median_total_confirmation_ms": 3645.82,
+          "mean_total_confirmation_ms": 4292.02,
+          "median_true_task_mae_dn": 2.61
+        },
+        "secant_offset_selective": {
+          "episodes": 120,
+          "fast_loop_converged_rate": 0.85,
+          "semantic_task_qualified_rate": 0.8,
+          "semantic_task_qualified_count": 96,
+          "mean_online_frames": 10.983,
+          "total_online_frames": 1318,
+          "mean_updates": 2.0,
+          "mean_vlm_calls": 1.0,
+          "median_vlm_latency_ms": 1722.68,
+          "median_total_confirmation_ms": 3682.65,
+          "mean_total_confirmation_ms": 4385.22,
+          "median_true_task_mae_dn": 4.593
+        }
+      },
+      "stage_wall_seconds": 209.263,
+      "schema_first_failure_counts": {},
+      "same_scene_stratified_counts": {
+        "raw_ratio": {
+          "all_pass": 96,
+          "all_total": 120,
+          "feasible_pass": 96,
+          "feasible_total": 102,
+          "infeasible_pass": 0,
+          "infeasible_total": 18
+        },
+        "shared_offset": {
+          "all_pass": 96,
+          "all_total": 120,
+          "feasible_pass": 96,
+          "feasible_total": 102,
+          "infeasible_pass": 0,
+          "infeasible_total": 18
+        },
+        "secant_offset": {
+          "all_pass": 96,
+          "all_total": 120,
+          "feasible_pass": 96,
+          "feasible_total": 102,
+          "infeasible_pass": 0,
+          "infeasible_total": 18
+        },
+        "shared_offset_selective": {
+          "all_pass": 96,
+          "all_total": 120,
+          "feasible_pass": 96,
+          "feasible_total": 102,
+          "infeasible_pass": 0,
+          "infeasible_total": 18
+        },
+        "secant_offset_selective": {
+          "all_pass": 96,
+          "all_total": 120,
+          "feasible_pass": 96,
+          "feasible_total": 102,
+          "infeasible_pass": 0,
+          "infeasible_total": 18
+        }
+      },
+      "truncated_contract_outputs": 0
+    },
+    "7B_zeroshot": {
+      "model_tag": "7B-ZeroShot",
+      "repr_mode": "dual_offset_grid",
+      "include_telemetry": true,
+      "num_samples": 120,
+      "schema_valid_rate": 0.6333,
+      "roi_code_accuracy": 0.6583,
+      "grid_cell_accuracy": 0.525,
+      "roi_accuracy": 0.525,
+      "target_dn_mae": 338.394,
+      "median_vlm_latency_ms": 1020.5,
+      "p95_vlm_latency_ms": 1049.53,
+      "summary_by_policy": {
+        "raw_ratio": {
+          "episodes": 120,
+          "fast_loop_converged_rate": 0.9833,
+          "semantic_task_qualified_rate": 0.05,
+          "semantic_task_qualified_count": 6,
+          "mean_online_frames": 9.55,
+          "total_online_frames": 1146,
+          "mean_updates": 1.817,
+          "mean_vlm_calls": 1.0,
+          "median_vlm_latency_ms": 1020.5,
+          "median_total_confirmation_ms": 2488.74,
+          "mean_total_confirmation_ms": 3328.17,
+          "median_true_task_mae_dn": 50.787
+        },
+        "shared_offset": {
+          "episodes": 120,
+          "fast_loop_converged_rate": 0.9833,
+          "semantic_task_qualified_rate": 0.05,
+          "semantic_task_qualified_count": 6,
+          "mean_online_frames": 7.983,
+          "total_online_frames": 958,
+          "mean_updates": 1.033,
+          "mean_vlm_calls": 1.0,
+          "median_vlm_latency_ms": 1020.5,
+          "median_total_confirmation_ms": 2488.74,
+          "mean_total_confirmation_ms": 2942.77,
+          "median_true_task_mae_dn": 50.585
+        },
+        "secant_offset": {
+          "episodes": 120,
+          "fast_loop_converged_rate": 0.9833,
+          "semantic_task_qualified_rate": 0.05,
+          "semantic_task_qualified_count": 6,
+          "mean_online_frames": 8.4,
+          "total_online_frames": 1008,
+          "mean_updates": 1.242,
+          "mean_vlm_calls": 1.0,
+          "median_vlm_latency_ms": 1020.5,
+          "median_total_confirmation_ms": 2488.74,
+          "mean_total_confirmation_ms": 3045.27,
+          "median_true_task_mae_dn": 50.585
+        },
+        "shared_offset_selective": {
+          "episodes": 120,
+          "fast_loop_converged_rate": 0.9833,
+          "semantic_task_qualified_rate": 0.05,
+          "semantic_task_qualified_count": 6,
+          "mean_online_frames": 6.95,
+          "total_online_frames": 834,
+          "mean_updates": 1.033,
+          "mean_vlm_calls": 1.0,
+          "median_vlm_latency_ms": 1020.5,
+          "median_total_confirmation_ms": 2488.74,
+          "mean_total_confirmation_ms": 2694.77,
+          "median_true_task_mae_dn": 50.585
+        },
+        "secant_offset_selective": {
+          "episodes": 120,
+          "fast_loop_converged_rate": 0.9833,
+          "semantic_task_qualified_rate": 0.05,
+          "semantic_task_qualified_count": 6,
+          "mean_online_frames": 7.158,
+          "total_online_frames": 859,
+          "mean_updates": 1.242,
+          "mean_vlm_calls": 1.0,
+          "median_vlm_latency_ms": 1020.5,
+          "median_total_confirmation_ms": 2488.74,
+          "mean_total_confirmation_ms": 2747.27,
+          "median_true_task_mae_dn": 50.585
+        }
+      },
+      "stage_wall_seconds": 123.717,
+      "schema_first_failure_counts": {
+        "ValueError: Invalid target_dn": 27,
+        "ValueError: Invalid tolerance_dn": 17
+      },
+      "same_scene_stratified_counts": {
+        "raw_ratio": {
+          "all_pass": 6,
+          "all_total": 120,
+          "feasible_pass": 6,
+          "feasible_total": 102,
+          "infeasible_pass": 0,
+          "infeasible_total": 18
+        },
+        "shared_offset": {
+          "all_pass": 6,
+          "all_total": 120,
+          "feasible_pass": 6,
+          "feasible_total": 102,
+          "infeasible_pass": 0,
+          "infeasible_total": 18
+        },
+        "secant_offset": {
+          "all_pass": 6,
+          "all_total": 120,
+          "feasible_pass": 6,
+          "feasible_total": 102,
+          "infeasible_pass": 0,
+          "infeasible_total": 18
+        },
+        "shared_offset_selective": {
+          "all_pass": 6,
+          "all_total": 120,
+          "feasible_pass": 6,
+          "feasible_total": 102,
+          "infeasible_pass": 0,
+          "infeasible_total": 18
+        },
+        "secant_offset_selective": {
+          "all_pass": 6,
+          "all_total": 120,
+          "feasible_pass": 6,
+          "feasible_total": 102,
+          "infeasible_pass": 0,
+          "infeasible_total": 18
+        }
+      },
+      "truncated_contract_outputs": 0
+    },
+    "7B_direct": {
+      "model_tag": "7B-P1",
+      "episodes": 120,
+      "semantic_task_qualified_rate": 0.1833,
+      "semantic_task_qualified_count": 22,
+      "mean_online_frames": 8.05,
+      "total_online_frames": 966,
+      "mean_updates": 2.967,
+      "mean_vlm_calls": 3.167,
+      "median_total_confirmation_ms": 2990.05,
+      "mean_total_confirmation_ms": 2597.25,
+      "stage_wall_seconds": 80.92,
+      "truncated_direct_outputs": 0
+    }
+  },
+  "limitations": [
+    "Same-scene and shared-image train/test; held-out instruction paraphrases only.",
+    "Offline real-curve interpolation, not live camera execution.",
+    "P1 uses oracle task ROI telemetry and nearest captured image.",
+    "Confirmation times combine measured model generation with assumed 240ms/frame and 12ms/command.",
+    "Task pass criteria are brightness/clipping proxies, not measured localization/OCR/SNR task accuracy."
+  ],
+  "lora_training": {
+    "epochs": 2,
+    "train_samples": 180,
+    "train_steps": 720,
+    "optimizer_steps": 180,
+    "train_time_s": 381.35,
+    "loss_history": [
+      {
+        "epoch": 1,
+        "mean_loss": 0.0288
+      },
+      {
+        "epoch": 2,
+        "mean_loss": 0.0001
+      }
+    ]
+  },
+  "experiment_2_by_task": {
+    "T1_DARK_WALL_RECOVERY": {
+      "episodes": 30,
+      "roi_accuracy": 1.0,
+      "policies": {
+        "raw_ratio": 0.8,
+        "shared_offset": 0.8,
+        "secant_offset": 0.8,
+        "shared_offset_selective": 0.8,
+        "secant_offset_selective": 0.8
+      }
+    },
+    "T2_PERFORATION_LOCALIZATION": {
+      "episodes": 30,
+      "roi_accuracy": 1.0,
+      "policies": {
+        "raw_ratio": 0.8,
+        "shared_offset": 0.8,
+        "secant_offset": 0.8,
+        "shared_offset_selective": 0.8,
+        "secant_offset_selective": 0.8
+      }
+    },
+    "T3_JUNCTION_BOX_LABEL": {
+      "episodes": 30,
+      "roi_accuracy": 1.0,
+      "policies": {
+        "raw_ratio": 0.7666666666666667,
+        "shared_offset": 0.7666666666666667,
+        "secant_offset": 0.7666666666666667,
+        "shared_offset_selective": 0.7666666666666667,
+        "secant_offset_selective": 0.7666666666666667
+      }
+    },
+    "T4_CENTER_RADIOMETRIC_300": {
+      "episodes": 30,
+      "roi_accuracy": 1.0,
+      "policies": {
+        "raw_ratio": 1.0,
+        "shared_offset": 1.0,
+        "secant_offset": 1.0,
+        "shared_offset_selective": 1.0,
+        "secant_offset_selective": 1.0
+      }
+    }
+  },
+  "fixed_center": {
+    "model_tag": "fixed_center_300dn_baseline",
+    "episodes": 120,
+    "semantic_task_qualified_rate": 0.6,
+    "semantic_task_qualified_count": 72,
+    "mean_online_frames": 9.467,
+    "total_online_frames": 1136,
+    "mean_updates": 1.733,
+    "median_total_confirmation_ms": 2424.0,
+    "median_true_task_mae_dn": 9.707,
+    "stage_wall_seconds": 0.017,
+    "terminal_qualified_without_controller_confirmation": 0,
+    "qualified_and_controller_confirmed_count": 72,
+    "definition_note": "Original baseline scores terminal true-task brightness/clipping without requiring its own six-frame controller success; original score is retained."
+  }
+}
