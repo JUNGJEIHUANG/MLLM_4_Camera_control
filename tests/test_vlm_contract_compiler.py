@@ -4,11 +4,17 @@ import numpy as np
 from iscas_control.vlm_contract_compiler import (
     SEMANTIC_ROIS,
     SemanticContract,
+    coco_xywh_to_xyxy,
+    compute_bbox_iou_xyxy,
     compute_roi_telemetry,
+    convert_pred_bbox_to_pixel_xyxy,
     parse_vlm_contract_json,
     parse_vlm_direct_lines,
+    parse_vlm_free_bbox,
     render_visual_representation,
     simulate_dual_layer_episode,
+    summarize_rec_evaluation,
+    xyxy_pixel_to_sensor_roi_box,
 )
 
 
@@ -76,6 +82,46 @@ class TestVLMContractCompiler(unittest.TestCase):
         self.assertEqual(res_dir["vlm_calls"], 3)
         # A synthetic replay tests mechanics, not empirical model superiority.
 
+    def test_free_bbox_conversion_and_strict_rec_scoring(self):
+        # 1. Ref-L4 / COCO [x, y, w, h] -> [x1, y1, x2, y2]
+        gt_xyxy = coco_xywh_to_xyxy([580.6, 179.5, 93.6, 112.1])
+        self.assertAlmostEqual(gt_xyxy[2], 674.2)
+        self.assertAlmostEqual(gt_xyxy[3], 291.6)
+
+        # 2. Qwen2.5-VL resized pixel coordinate conversion -> original pixel
+        pred = parse_vlm_free_bbox(
+            '```json\n{"bbox_2d": [290.3, 89.75, 337.1, 145.8], "label": "antique camera"}\n```',
+            orig_width=1024,
+            orig_height=741,
+            resized_width=512,
+            resized_height=370.5,
+            default_coord_space="qwen25_resized_pixel",
+        )
+        self.assertTrue(pred["valid"])
+        iou = compute_bbox_iou_xyxy(pred["bbox_xyxy"], gt_xyxy)
+        self.assertGreater(iou, 0.99)
+
+        # 3. Fixed alias output WITHOUT a 4D bbox must fail strictly (never repaired to CENTER)
+        bad = parse_vlm_free_bbox(
+            '{"roi_code": "DARK_WALL", "grid_cell": "R3C0", "target_dn": 260.0}',
+            orig_width=1024,
+            orig_height=741,
+        )
+        self.assertFalse(bad["valid"])
+        self.assertEqual(compute_bbox_iou_xyxy(bad["bbox_xyxy"], gt_xyxy), 0.0)
+
+        # 4. Sensor ROI mapping and REC summary denominator check
+        roi_box = xyxy_pixel_to_sensor_roi_box(pred["bbox_xyxy"], 1024, 741)
+        self.assertEqual(len(roi_box), 4)
+        summary = summarize_rec_evaluation([
+            {"valid": True, "iou": iou},
+            {"valid": False, "iou": 0.0},
+        ])
+        self.assertEqual(summary["num_samples"], 2)
+        self.assertEqual(summary["valid_bbox_count"], 1)
+        self.assertAlmostEqual(summary["acc_at_iou_050"], 0.5)
+
 
 if __name__ == "__main__":
     unittest.main()
+

@@ -1,0 +1,2993 @@
+{
+  "benchmark": "Ref-L4 Validation-Set Small-Scale Engineering & Generalization Pilot",
+  "split_used": "val_only (ref-l4-val.parquet; ref-l4-test.parquet untouched)",
+  "deduplication_policy": "Strict 1 sample per unique image_id, file_name, and image_sha256",
+  "license_notice": "Ref-L4 annotations CC BY-NC 4.0; underlying COCO / Objects365 image licenses apply; evaluation only, no image redistribution",
+  "pretraining_caveat": "Public COCO / Objects365 images may overlap with base VLM pretraining; evaluated as unseen-from-our-sCMOS-LoRA external REC benchmark",
+  "hardware": {
+    "gpu_name": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+    "vram_gib": 94.97,
+    "torch_version": "2.8.0+cu128"
+  },
+  "pilot_sample_counts": {
+    "total_unique_images": 60,
+    "coco_source_count": 60,
+    "o365_source_count": 0,
+    "rewrite_true_count": 20,
+    "rewrite_false_count": 40
+  },
+  "stages": {
+    "qwen25_vl_3b_base_free_bbox": {
+      "stage_name": "Qwen2.5-VL-3B-Base-FreeBBox",
+      "prompt_mode": "free_bbox",
+      "num_samples": 60,
+      "strict_free_contract_valid_rate": 0.65,
+      "median_latency_ms": 891.03,
+      "p95_latency_ms": 921.63,
+      "primary_summary_qwen25_resized_pixel": {
+        "num_samples": 60,
+        "valid_bbox_count": 60,
+        "valid_bbox_rate": 1.0,
+        "invalid_output_count": 0,
+        "acc_at_iou_050_count": 55,
+        "acc_at_iou_050": 0.9167,
+        "acc_at_iou_075_count": 47,
+        "acc_at_iou_075": 0.7833,
+        "mean_iou": 0.8392,
+        "median_iou": 0.9237
+      },
+      "coordinate_space_audit": {
+        "qwen25_resized_pixel": {
+          "num_samples": 60,
+          "valid_bbox_count": 60,
+          "valid_bbox_rate": 1.0,
+          "invalid_output_count": 0,
+          "acc_at_iou_050_count": 55,
+          "acc_at_iou_050": 0.9167,
+          "acc_at_iou_075_count": 47,
+          "acc_at_iou_075": 0.7833,
+          "mean_iou": 0.8392,
+          "median_iou": 0.9237
+        },
+        "orig_pixel": {
+          "num_samples": 60,
+          "valid_bbox_count": 60,
+          "valid_bbox_rate": 1.0,
+          "invalid_output_count": 0,
+          "acc_at_iou_050_count": 55,
+          "acc_at_iou_050": 0.9167,
+          "acc_at_iou_075_count": 49,
+          "acc_at_iou_075": 0.8167,
+          "mean_iou": 0.8303,
+          "median_iou": 0.892
+        },
+        "norm1000": {
+          "num_samples": 60,
+          "valid_bbox_count": 60,
+          "valid_bbox_rate": 1.0,
+          "invalid_output_count": 0,
+          "acc_at_iou_050_count": 0,
+          "acc_at_iou_050": 0.0,
+          "acc_at_iou_075_count": 0,
+          "acc_at_iou_075": 0.0,
+          "mean_iou": 0.0565,
+          "median_iou": 0.0008
+        }
+      },
+      "breakdown_by_source": {
+        "coco": {
+          "num_samples": 60,
+          "valid_bbox_count": 60,
+          "valid_bbox_rate": 1.0,
+          "invalid_output_count": 0,
+          "acc_at_iou_050_count": 55,
+          "acc_at_iou_050": 0.9167,
+          "acc_at_iou_075_count": 47,
+          "acc_at_iou_075": 0.7833,
+          "mean_iou": 0.8392,
+          "median_iou": 0.9237
+        }
+      },
+      "breakdown_by_rewrite": {
+        "original": {
+          "num_samples": 40,
+          "valid_bbox_count": 40,
+          "valid_bbox_rate": 1.0,
+          "invalid_output_count": 0,
+          "acc_at_iou_050_count": 37,
+          "acc_at_iou_050": 0.925,
+          "acc_at_iou_075_count": 33,
+          "acc_at_iou_075": 0.825,
+          "mean_iou": 0.8537,
+          "median_iou": 0.9337
+        },
+        "rewrite": {
+          "num_samples": 20,
+          "valid_bbox_count": 20,
+          "valid_bbox_rate": 1.0,
+          "invalid_output_count": 0,
+          "acc_at_iou_050_count": 18,
+          "acc_at_iou_050": 0.9,
+          "acc_at_iou_075_count": 14,
+          "acc_at_iou_075": 0.7,
+          "mean_iou": 0.8103,
+          "median_iou": 0.8689
+        }
+      }
+    },
+    "qwen25_vl_3b_base_unified_contract": {
+      "stage_name": "Qwen2.5-VL-3B-Base-UnifiedFreeContract",
+      "prompt_mode": "unified_free_contract",
+      "num_samples": 60,
+      "strict_free_contract_valid_rate": 0.0,
+      "median_latency_ms": 909.25,
+      "p95_latency_ms": 919.66,
+      "primary_summary_qwen25_resized_pixel": {
+        "num_samples": 60,
+        "valid_bbox_count": 60,
+        "valid_bbox_rate": 1.0,
+        "invalid_output_count": 0,
+        "acc_at_iou_050_count": 54,
+        "acc_at_iou_050": 0.9,
+        "acc_at_iou_075_count": 45,
+        "acc_at_iou_075": 0.75,
+        "mean_iou": 0.8145,
+        "median_iou": 0.9181
+      },
+      "coordinate_space_audit": {
+        "qwen25_resized_pixel": {
+          "num_samples": 60,
+          "valid_bbox_count": 60,
+          "valid_bbox_rate": 1.0,
+          "invalid_output_count": 0,
+          "acc_at_iou_050_count": 54,
+          "acc_at_iou_050": 0.9,
+          "acc_at_iou_075_count": 45,
+          "acc_at_iou_075": 0.75,
+          "mean_iou": 0.8145,
+          "median_iou": 0.9181
+        },
+        "orig_pixel": {
+          "num_samples": 60,
+          "valid_bbox_count": 60,
+          "valid_bbox_rate": 1.0,
+          "invalid_output_count": 0,
+          "acc_at_iou_050_count": 54,
+          "acc_at_iou_050": 0.9,
+          "acc_at_iou_075_count": 45,
+          "acc_at_iou_075": 0.75,
+          "mean_iou": 0.8055,
+          "median_iou": 0.8946
+        },
+        "norm1000": {
+          "num_samples": 60,
+          "valid_bbox_count": 60,
+          "valid_bbox_rate": 1.0,
+          "invalid_output_count": 0,
+          "acc_at_iou_050_count": 0,
+          "acc_at_iou_050": 0.0,
+          "acc_at_iou_075_count": 0,
+          "acc_at_iou_075": 0.0,
+          "mean_iou": 0.0591,
+          "median_iou": 0.0005
+        }
+      },
+      "breakdown_by_source": {
+        "coco": {
+          "num_samples": 60,
+          "valid_bbox_count": 60,
+          "valid_bbox_rate": 1.0,
+          "invalid_output_count": 0,
+          "acc_at_iou_050_count": 54,
+          "acc_at_iou_050": 0.9,
+          "acc_at_iou_075_count": 45,
+          "acc_at_iou_075": 0.75,
+          "mean_iou": 0.8145,
+          "median_iou": 0.9181
+        }
+      },
+      "breakdown_by_rewrite": {
+        "original": {
+          "num_samples": 40,
+          "valid_bbox_count": 40,
+          "valid_bbox_rate": 1.0,
+          "invalid_output_count": 0,
+          "acc_at_iou_050_count": 37,
+          "acc_at_iou_050": 0.925,
+          "acc_at_iou_075_count": 32,
+          "acc_at_iou_075": 0.8,
+          "mean_iou": 0.8416,
+          "median_iou": 0.9226
+        },
+        "rewrite": {
+          "num_samples": 20,
+          "valid_bbox_count": 20,
+          "valid_bbox_rate": 1.0,
+          "invalid_output_count": 0,
+          "acc_at_iou_050_count": 17,
+          "acc_at_iou_050": 0.85,
+          "acc_at_iou_075_count": 13,
+          "acc_at_iou_075": 0.65,
+          "mean_iou": 0.7602,
+          "median_iou": 0.8493
+        }
+      }
+    },
+    "qwen25_vl_3b_samescene_lora_legacy_prompt": {
+      "stage_name": "Qwen2.5-VL-3B-SameSceneLoRA-LegacyAliasPrompt",
+      "prompt_mode": "legacy_fixed_alias",
+      "num_samples": 60,
+      "strict_free_contract_valid_rate": 0.0,
+      "median_latency_ms": 1744.1,
+      "p95_latency_ms": 1796.17,
+      "primary_summary_qwen25_resized_pixel": {
+        "num_samples": 60,
+        "valid_bbox_count": 0,
+        "valid_bbox_rate": 0.0,
+        "invalid_output_count": 60,
+        "acc_at_iou_050_count": 0,
+        "acc_at_iou_050": 0.0,
+        "acc_at_iou_075_count": 0,
+        "acc_at_iou_075": 0.0,
+        "mean_iou": 0.0,
+        "median_iou": 0.0
+      },
+      "coordinate_space_audit": {
+        "qwen25_resized_pixel": {
+          "num_samples": 60,
+          "valid_bbox_count": 0,
+          "valid_bbox_rate": 0.0,
+          "invalid_output_count": 60,
+          "acc_at_iou_050_count": 0,
+          "acc_at_iou_050": 0.0,
+          "acc_at_iou_075_count": 0,
+          "acc_at_iou_075": 0.0,
+          "mean_iou": 0.0,
+          "median_iou": 0.0
+        },
+        "orig_pixel": {
+          "num_samples": 60,
+          "valid_bbox_count": 0,
+          "valid_bbox_rate": 0.0,
+          "invalid_output_count": 60,
+          "acc_at_iou_050_count": 0,
+          "acc_at_iou_050": 0.0,
+          "acc_at_iou_075_count": 0,
+          "acc_at_iou_075": 0.0,
+          "mean_iou": 0.0,
+          "median_iou": 0.0
+        },
+        "norm1000": {
+          "num_samples": 60,
+          "valid_bbox_count": 0,
+          "valid_bbox_rate": 0.0,
+          "invalid_output_count": 60,
+          "acc_at_iou_050_count": 0,
+          "acc_at_iou_050": 0.0,
+          "acc_at_iou_075_count": 0,
+          "acc_at_iou_075": 0.0,
+          "mean_iou": 0.0,
+          "median_iou": 0.0
+        }
+      },
+      "breakdown_by_source": {
+        "coco": {
+          "num_samples": 60,
+          "valid_bbox_count": 0,
+          "valid_bbox_rate": 0.0,
+          "invalid_output_count": 60,
+          "acc_at_iou_050_count": 0,
+          "acc_at_iou_050": 0.0,
+          "acc_at_iou_075_count": 0,
+          "acc_at_iou_075": 0.0,
+          "mean_iou": 0.0,
+          "median_iou": 0.0
+        }
+      },
+      "breakdown_by_rewrite": {
+        "original": {
+          "num_samples": 40,
+          "valid_bbox_count": 0,
+          "valid_bbox_rate": 0.0,
+          "invalid_output_count": 40,
+          "acc_at_iou_050_count": 0,
+          "acc_at_iou_050": 0.0,
+          "acc_at_iou_075_count": 0,
+          "acc_at_iou_075": 0.0,
+          "mean_iou": 0.0,
+          "median_iou": 0.0
+        },
+        "rewrite": {
+          "num_samples": 20,
+          "valid_bbox_count": 0,
+          "valid_bbox_rate": 0.0,
+          "invalid_output_count": 20,
+          "acc_at_iou_050_count": 0,
+          "acc_at_iou_050": 0.0,
+          "acc_at_iou_075_count": 0,
+          "acc_at_iou_075": 0.0,
+          "mean_iou": 0.0,
+          "median_iou": 0.0
+        }
+      }
+    },
+    "qwen25_vl_3b_samescene_lora_free_bbox_prompt": {
+      "stage_name": "Qwen2.5-VL-3B-SameSceneLoRA-FreeBBoxPrompt",
+      "prompt_mode": "free_bbox",
+      "num_samples": 60,
+      "strict_free_contract_valid_rate": 0.9333,
+      "median_latency_ms": 1007.57,
+      "p95_latency_ms": 1912.93,
+      "primary_summary_qwen25_resized_pixel": {
+        "num_samples": 60,
+        "valid_bbox_count": 60,
+        "valid_bbox_rate": 1.0,
+        "invalid_output_count": 0,
+        "acc_at_iou_050_count": 55,
+        "acc_at_iou_050": 0.9167,
+        "acc_at_iou_075_count": 48,
+        "acc_at_iou_075": 0.8,
+        "mean_iou": 0.8436,
+        "median_iou": 0.9146
+      },
+      "coordinate_space_audit": {
+        "qwen25_resized_pixel": {
+          "num_samples": 60,
+          "valid_bbox_count": 60,
+          "valid_bbox_rate": 1.0,
+          "invalid_output_count": 0,
+          "acc_at_iou_050_count": 55,
+          "acc_at_iou_050": 0.9167,
+          "acc_at_iou_075_count": 48,
+          "acc_at_iou_075": 0.8,
+          "mean_iou": 0.8436,
+          "median_iou": 0.9146
+        },
+        "orig_pixel": {
+          "num_samples": 60,
+          "valid_bbox_count": 60,
+          "valid_bbox_rate": 1.0,
+          "invalid_output_count": 0,
+          "acc_at_iou_050_count": 55,
+          "acc_at_iou_050": 0.9167,
+          "acc_at_iou_075_count": 49,
+          "acc_at_iou_075": 0.8167,
+          "mean_iou": 0.8301,
+          "median_iou": 0.8924
+        },
+        "norm1000": {
+          "num_samples": 60,
+          "valid_bbox_count": 60,
+          "valid_bbox_rate": 1.0,
+          "invalid_output_count": 0,
+          "acc_at_iou_050_count": 0,
+          "acc_at_iou_050": 0.0,
+          "acc_at_iou_075_count": 0,
+          "acc_at_iou_075": 0.0,
+          "mean_iou": 0.0562,
+          "median_iou": 0.0
+        }
+      },
+      "breakdown_by_source": {
+        "coco": {
+          "num_samples": 60,
+          "valid_bbox_count": 60,
+          "valid_bbox_rate": 1.0,
+          "invalid_output_count": 0,
+          "acc_at_iou_050_count": 55,
+          "acc_at_iou_050": 0.9167,
+          "acc_at_iou_075_count": 48,
+          "acc_at_iou_075": 0.8,
+          "mean_iou": 0.8436,
+          "median_iou": 0.9146
+        }
+      },
+      "breakdown_by_rewrite": {
+        "original": {
+          "num_samples": 40,
+          "valid_bbox_count": 40,
+          "valid_bbox_rate": 1.0,
+          "invalid_output_count": 0,
+          "acc_at_iou_050_count": 38,
+          "acc_at_iou_050": 0.95,
+          "acc_at_iou_075_count": 34,
+          "acc_at_iou_075": 0.85,
+          "mean_iou": 0.8697,
+          "median_iou": 0.9328
+        },
+        "rewrite": {
+          "num_samples": 20,
+          "valid_bbox_count": 20,
+          "valid_bbox_rate": 1.0,
+          "invalid_output_count": 0,
+          "acc_at_iou_050_count": 17,
+          "acc_at_iou_050": 0.85,
+          "acc_at_iou_075_count": 14,
+          "acc_at_iou_075": 0.7,
+          "mean_iou": 0.7915,
+          "median_iou": 0.8423
+        }
+      }
+    },
+    "qwen25_vl_7b_base_free_bbox": {
+      "stage_name": "Qwen2.5-VL-7B-Base-FreeBBox",
+      "prompt_mode": "free_bbox",
+      "num_samples": 60,
+      "strict_free_contract_valid_rate": 1.0,
+      "median_latency_ms": 571.34,
+      "p95_latency_ms": 609.7,
+      "primary_summary_qwen25_resized_pixel": {
+        "num_samples": 60,
+        "valid_bbox_count": 60,
+        "valid_bbox_rate": 1.0,
+        "invalid_output_count": 0,
+        "acc_at_iou_050_count": 54,
+        "acc_at_iou_050": 0.9,
+        "acc_at_iou_075_count": 45,
+        "acc_at_iou_075": 0.75,
+        "mean_iou": 0.8044,
+        "median_iou": 0.9098
+      },
+      "coordinate_space_audit": {
+        "qwen25_resized_pixel": {
+          "num_samples": 60,
+          "valid_bbox_count": 60,
+          "valid_bbox_rate": 1.0,
+          "invalid_output_count": 0,
+          "acc_at_iou_050_count": 54,
+          "acc_at_iou_050": 0.9,
+          "acc_at_iou_075_count": 45,
+          "acc_at_iou_075": 0.75,
+          "mean_iou": 0.8044,
+          "median_iou": 0.9098
+        },
+        "orig_pixel": {
+          "num_samples": 60,
+          "valid_bbox_count": 60,
+          "valid_bbox_rate": 1.0,
+          "invalid_output_count": 0,
+          "acc_at_iou_050_count": 54,
+          "acc_at_iou_050": 0.9,
+          "acc_at_iou_075_count": 44,
+          "acc_at_iou_075": 0.7333,
+          "mean_iou": 0.7882,
+          "median_iou": 0.8743
+        },
+        "norm1000": {
+          "num_samples": 60,
+          "valid_bbox_count": 60,
+          "valid_bbox_rate": 1.0,
+          "invalid_output_count": 0,
+          "acc_at_iou_050_count": 0,
+          "acc_at_iou_050": 0.0,
+          "acc_at_iou_075_count": 0,
+          "acc_at_iou_075": 0.0,
+          "mean_iou": 0.0529,
+          "median_iou": 0.0005
+        }
+      },
+      "breakdown_by_source": {
+        "coco": {
+          "num_samples": 60,
+          "valid_bbox_count": 60,
+          "valid_bbox_rate": 1.0,
+          "invalid_output_count": 0,
+          "acc_at_iou_050_count": 54,
+          "acc_at_iou_050": 0.9,
+          "acc_at_iou_075_count": 45,
+          "acc_at_iou_075": 0.75,
+          "mean_iou": 0.8044,
+          "median_iou": 0.9098
+        }
+      },
+      "breakdown_by_rewrite": {
+        "original": {
+          "num_samples": 40,
+          "valid_bbox_count": 40,
+          "valid_bbox_rate": 1.0,
+          "invalid_output_count": 0,
+          "acc_at_iou_050_count": 36,
+          "acc_at_iou_050": 0.9,
+          "acc_at_iou_075_count": 33,
+          "acc_at_iou_075": 0.825,
+          "mean_iou": 0.8206,
+          "median_iou": 0.9223
+        },
+        "rewrite": {
+          "num_samples": 20,
+          "valid_bbox_count": 20,
+          "valid_bbox_rate": 1.0,
+          "invalid_output_count": 0,
+          "acc_at_iou_050_count": 18,
+          "acc_at_iou_050": 0.9,
+          "acc_at_iou_075_count": 12,
+          "acc_at_iou_075": 0.6,
+          "mean_iou": 0.7719,
+          "median_iou": 0.8193
+        }
+      }
+    },
+    "qwen25_vl_7b_base_unified_contract": {
+      "stage_name": "Qwen2.5-VL-7B-Base-UnifiedFreeContract",
+      "prompt_mode": "unified_free_contract",
+      "num_samples": 60,
+      "strict_free_contract_valid_rate": 0.0,
+      "median_latency_ms": 941.52,
+      "p95_latency_ms": 948.39,
+      "primary_summary_qwen25_resized_pixel": {
+        "num_samples": 60,
+        "valid_bbox_count": 59,
+        "valid_bbox_rate": 0.9833,
+        "invalid_output_count": 1,
+        "acc_at_iou_050_count": 53,
+        "acc_at_iou_050": 0.8833,
+        "acc_at_iou_075_count": 44,
+        "acc_at_iou_075": 0.7333,
+        "mean_iou": 0.7971,
+        "median_iou": 0.9115
+      },
+      "coordinate_space_audit": {
+        "qwen25_resized_pixel": {
+          "num_samples": 60,
+          "valid_bbox_count": 59,
+          "valid_bbox_rate": 0.9833,
+          "invalid_output_count": 1,
+          "acc_at_iou_050_count": 53,
+          "acc_at_iou_050": 0.8833,
+          "acc_at_iou_075_count": 44,
+          "acc_at_iou_075": 0.7333,
+          "mean_iou": 0.7971,
+          "median_iou": 0.9115
+        },
+        "orig_pixel": {
+          "num_samples": 60,
+          "valid_bbox_count": 59,
+          "valid_bbox_rate": 0.9833,
+          "invalid_output_count": 1,
+          "acc_at_iou_050_count": 53,
+          "acc_at_iou_050": 0.8833,
+          "acc_at_iou_075_count": 44,
+          "acc_at_iou_075": 0.7333,
+          "mean_iou": 0.7808,
+          "median_iou": 0.8818
+        },
+        "norm1000": {
+          "num_samples": 60,
+          "valid_bbox_count": 59,
+          "valid_bbox_rate": 0.9833,
+          "invalid_output_count": 1,
+          "acc_at_iou_050_count": 0,
+          "acc_at_iou_050": 0.0,
+          "acc_at_iou_075_count": 0,
+          "acc_at_iou_075": 0.0,
+          "mean_iou": 0.056,
+          "median_iou": 0.0006
+        }
+      },
+      "breakdown_by_source": {
+        "coco": {
+          "num_samples": 60,
+          "valid_bbox_count": 59,
+          "valid_bbox_rate": 0.9833,
+          "invalid_output_count": 1,
+          "acc_at_iou_050_count": 53,
+          "acc_at_iou_050": 0.8833,
+          "acc_at_iou_075_count": 44,
+          "acc_at_iou_075": 0.7333,
+          "mean_iou": 0.7971,
+          "median_iou": 0.9115
+        }
+      },
+      "breakdown_by_rewrite": {
+        "original": {
+          "num_samples": 40,
+          "valid_bbox_count": 39,
+          "valid_bbox_rate": 0.975,
+          "invalid_output_count": 1,
+          "acc_at_iou_050_count": 35,
+          "acc_at_iou_050": 0.875,
+          "acc_at_iou_075_count": 32,
+          "acc_at_iou_075": 0.8,
+          "mean_iou": 0.8064,
+          "median_iou": 0.9251
+        },
+        "rewrite": {
+          "num_samples": 20,
+          "valid_bbox_count": 20,
+          "valid_bbox_rate": 1.0,
+          "invalid_output_count": 0,
+          "acc_at_iou_050_count": 18,
+          "acc_at_iou_050": 0.9,
+          "acc_at_iou_075_count": 12,
+          "acc_at_iou_075": 0.6,
+          "mean_iou": 0.7785,
+          "median_iou": 0.8403
+        }
+      }
+    }
+  },
+  "sample_records_7b_free": [
+    {
+      "id": 34015,
+      "image_id": "coco_154",
+      "file_name": "COCO_train2014_000000000154.jpg",
+      "source_prefix": "coco",
+      "is_rewrite": false,
+      "caption": "The zebra grazing in the grassland, centered between another zebra in the background and one in the foreground, distinguished by its tail sticking out to the left.",
+      "orig_size": [
+        427,
+        640
+      ],
+      "resized_size": [
+        420,
+        644
+      ],
+      "gt_bbox_xyxy": [
+        40.46,
+        192.98,
+        314.08,
+        332.15
+      ],
+      "vlm_raw_output": "```json\n[\n\t{\"bbox_2d\": [40, 193, 308, 336], \"label\": \"target\"}\n]\n```",
+      "latency_ms": 602.14,
+      "valid": true,
+      "error": null,
+      "raw_bbox": [
+        40.0,
+        193.0,
+        308.0,
+        336.0
+      ],
+      "pred_bbox_xyxy": [
+        40.67,
+        191.8,
+        313.13,
+        333.91
+      ],
+      "iou": 0.9753
+    },
+    {
+      "id": 38883,
+      "image_id": "coco_309",
+      "file_name": "COCO_train2014_000000000309.jpg",
+      "source_prefix": "coco",
+      "is_rewrite": false,
+      "caption": "The torso of a stuffed teddy bear with brown fur, is adorned with a red ribbon, lying on the green grass.",
+      "orig_size": [
+        600,
+        600
+      ],
+      "resized_size": [
+        588,
+        588
+      ],
+      "gt_bbox_xyxy": [
+        153.18,
+        213.25,
+        287.75,
+        426.27
+      ],
+      "vlm_raw_output": "```json\n[\n\t{\"bbox_2d\": [73, 206, 384, 495], \"label\": \"target\"}\n]\n```",
+      "latency_ms": 607.79,
+      "valid": true,
+      "error": null,
+      "raw_bbox": [
+        73.0,
+        206.0,
+        384.0,
+        495.0
+      ],
+      "pred_bbox_xyxy": [
+        74.49,
+        210.2,
+        391.84,
+        505.1
+      ],
+      "iou": 0.3063
+    },
+    {
+      "id": 28547,
+      "image_id": "coco_605",
+      "file_name": "COCO_train2014_000000000605.jpg",
+      "source_prefix": "coco",
+      "is_rewrite": false,
+      "caption": "The cup of coffee with a white leaf design on the tan-colored beverage is placed on a blue saucer to the right side of the table, near a glass of water and diagonally across from a plate with a pastry.",
+      "orig_size": [
+        640,
+        480
+      ],
+      "resized_size": [
+        644,
+        476
+      ],
+      "gt_bbox_xyxy": [
+        290.81,
+        123.78,
+        515.68,
+        298.92
+      ],
+      "vlm_raw_output": "```json\n[\n\t{\"bbox_2d\": [295, 120, 516, 300], \"label\": \"target\"}\n]\n```",
+      "latency_ms": 614.22,
+      "valid": true,
+      "error": null,
+      "raw_bbox": [
+        295.0,
+        120.0,
+        516.0,
+        300.0
+      ],
+      "pred_bbox_xyxy": [
+        293.17,
+        121.01,
+        512.8,
+        302.52
+      ],
+      "iou": 0.9432
+    },
+    {
+      "id": 31181,
+      "image_id": "coco_656",
+      "file_name": "COCO_train2014_000000000656.jpg",
+      "source_prefix": "coco",
+      "is_rewrite": false,
+      "caption": "A green car is parked behind the bronze motorcycle, featuring a glossy finish and visible through the motorcycle's rear section.",
+      "orig_size": [
+        640,
+        472
+      ],
+      "resized_size": [
+        644,
+        476
+      ],
+      "gt_bbox_xyxy": [
+        461.85,
+        1.02,
+        640.0,
+        190.83
+      ],
+      "vlm_raw_output": "```json\n{\"bbox_2d\": [465, 0, 644, 237], \"label\": \"target\"}\n```",
+      "latency_ms": 544.43,
+      "valid": true,
+      "error": null,
+      "raw_bbox": [
+        465.0,
+        0.0,
+        644.0,
+        237.0
+      ],
+      "pred_bbox_xyxy": [
+        462.11,
+        0.0,
+        640.0,
+        235.01
+      ],
+      "iou": 0.8067
+    },
+    {
+      "id": 23010,
+      "image_id": "coco_716",
+      "file_name": "COCO_train2014_000000000716.jpg",
+      "source_prefix": "coco",
+      "is_rewrite": true,
+      "caption": "The person is positioned close to the expansive sky blue wall, bathed in the cozy radiance of a wall-fixed light.",
+      "orig_size": [
+        640,
+        480
+      ],
+      "resized_size": [
+        644,
+        476
+      ],
+      "gt_bbox_xyxy": [
+        455.63,
+        2.16,
+        563.06,
+        204.62
+      ],
+      "vlm_raw_output": "```json\n{\"bbox_2d\": [408, 63, 579, 300], \"label\": \"target\"}\n```",
+      "latency_ms": 556.5,
+      "valid": true,
+      "error": null,
+      "raw_bbox": [
+        408.0,
+        63.0,
+        579.0,
+        300.0
+      ],
+      "pred_bbox_xyxy": [
+        405.47,
+        63.53,
+        575.4,
+        302.52
+      ],
+      "iou": 0.3211
+    },
+    {
+      "id": 33336,
+      "image_id": "coco_735",
+      "file_name": "COCO_train2014_000000000735.jpg",
+      "source_prefix": "coco",
+      "is_rewrite": true,
+      "caption": "A table draped in a white cloth is positioned in the lower right corner of the image, partly hidden by a table with a blue top, which is decorated with an array of food items.",
+      "orig_size": [
+        640,
+        361
+      ],
+      "resized_size": [
+        644,
+        364
+      ],
+      "gt_bbox_xyxy": [
+        428.99,
+        221.78,
+        637.82,
+        356.14
+      ],
+      "vlm_raw_output": "```json\n{\"bbox_2d\": [430, 195, 644, 364], \"label\": \"target\"}\n```",
+      "latency_ms": 564.94,
+      "valid": true,
+      "error": null,
+      "raw_bbox": [
+        430.0,
+        195.0,
+        644.0,
+        364.0
+      ],
+      "pred_bbox_xyxy": [
+        427.33,
+        193.39,
+        640.0,
+        361.0
+      ],
+      "iou": 0.7872
+    },
+    {
+      "id": 21236,
+      "image_id": "coco_797",
+      "file_name": "COCO_train2014_000000000797.jpg",
+      "source_prefix": "coco",
+      "is_rewrite": true,
+      "caption": "The elephant on the left is making contact with its trunk and the trunk of another elephant to its right.",
+      "orig_size": [
+        640,
+        360
+      ],
+      "resized_size": [
+        644,
+        364
+      ],
+      "gt_bbox_xyxy": [
+        0.0,
+        83.75,
+        481.73,
+        299.35
+      ],
+      "vlm_raw_output": "```json\n[\n\t{\"bbox_2d\": [0, 86, 345, 347], \"label\": \"target\"}\n]\n```",
+      "latency_ms": 562.35,
+      "valid": true,
+      "error": null,
+      "raw_bbox": [
+        0.0,
+        86.0,
+        345.0,
+        347.0
+      ],
+      "pred_bbox_xyxy": [
+        0.0,
+        85.05,
+        342.86,
+        343.19
+      ],
+      "iou": 0.618
+    },
+    {
+      "id": 37856,
+      "image_id": "coco_909",
+      "file_name": "COCO_train2014_000000000909.jpg",
+      "source_prefix": "coco",
+      "is_rewrite": true,
+      "caption": "The computer monitor, displaying text and graphics on a visible screen, is situated on a desk adorned with snacks and a bottle of water.",
+      "orig_size": [
+        327,
+        500
+      ],
+      "resized_size": [
+        336,
+        504
+      ],
+      "gt_bbox_xyxy": [
+        0.0,
+        18.08,
+        257.23,
+        318.7
+      ],
+      "vlm_raw_output": "```json\n{\"bbox_2d\": [0, 15, 267, 324], \"label\": \"target\"}\n```",
+      "latency_ms": 512.91,
+      "valid": true,
+      "error": null,
+      "raw_bbox": [
+        0.0,
+        15.0,
+        267.0,
+        324.0
+      ],
+      "pred_bbox_xyxy": [
+        0.0,
+        14.88,
+        259.85,
+        321.43
+      ],
+      "iou": 0.9708
+    },
+    {
+      "id": 33817,
+      "image_id": "coco_1261",
+      "file_name": "COCO_train2014_000000001261.jpg",
+      "source_prefix": "coco",
+      "is_rewrite": false,
+      "caption": "A glass bowl filled with a creamy mixture and dotted with purple and blue berries is placed on a wicker circle holder to the right of a loaf of bread.",
+      "orig_size": [
+        640,
+        480
+      ],
+      "resized_size": [
+        644,
+        476
+      ],
+      "gt_bbox_xyxy": [
+        278.29,
+        99.99,
+        640.0,
+        434.37
+      ],
+      "vlm_raw_output": "```json\n{\"bbox_2d\": [278, 96, 644, 430], \"label\": \"target\"}\n```",
+      "latency_ms": 555.94,
+      "valid": true,
+      "error": null,
+      "raw_bbox": [
+        278.0,
+        96.0,
+        644.0,
+        430.0
+      ],
+      "pred_bbox_xyxy": [
+        276.27,
+        96.81,
+        640.0,
+        433.61
+      ],
+      "iou": 0.9829
+    },
+    {
+      "id": 40446,
+      "image_id": "coco_1298",
+      "file_name": "COCO_train2014_000000001298.jpg",
+      "source_prefix": "coco",
+      "is_rewrite": true,
+      "caption": "The man standing in the background, partly hidden by the seated individual, is dressed in a dark short-sleeved shirt and light-colored jeans.",
+      "orig_size": [
+        640,
+        428
+      ],
+      "resized_size": [
+        644,
+        420
+      ],
+      "gt_bbox_xyxy": [
+        368.5,
+        2.03,
+        456.79,
+        169.01
+      ],
+      "vlm_raw_output": "```json\n[\n\t{\"bbox_2d\": [370, 0, 465, 180], \"label\": \"target\"}\n]\n```",
+      "latency_ms": 574.26,
+      "valid": true,
+      "error": null,
+      "raw_bbox": [
+        370.0,
+        0.0,
+        465.0,
+        180.0
+      ],
+      "pred_bbox_xyxy": [
+        367.7,
+        0.0,
+        462.11,
+        183.43
+      ],
+      "iou": 0.8513
+    },
+    {
+      "id": 43721,
+      "image_id": "coco_1407",
+      "file_name": "COCO_train2014_000000001407.jpg",
+      "source_prefix": "coco",
+      "is_rewrite": false,
+      "caption": "The man in a black suit sitting at the far left beyond the tennis court, behind the player preparing to serve, with his hands clasped together on his lap.",
+      "orig_size": [
+        428,
+        640
+      ],
+      "resized_size": [
+        420,
+        644
+      ],
+      "gt_bbox_xyxy": [
+        123.69,
+        4.07,
+        241.62,
+        142.14
+      ],
+      "vlm_raw_output": "```json\n[\n\t{\"bbox_2d\": [137, 0, 224, 145], \"label\": \"target\"}\n]\n```",
+      "latency_ms": 574.5,
+      "valid": true,
+      "error": null,
+      "raw_bbox": [
+        137.0,
+        0.0,
+        224.0,
+        145.0
+      ],
+      "pred_bbox_xyxy": [
+        139.61,
+        0.0,
+        228.27,
+        144.1
+      ],
+      "iou": 0.7279
+    },
+    {
+      "id": 34487,
+      "image_id": "coco_1488",
+      "file_name": "COCO_train2014_000000001488.jpg",
+      "source_prefix": "coco",
+      "is_rewrite": false,
+      "caption": "The skateboarder wearing a black helmet and dark jacket is riding his skateboard down the ramp.",
+      "orig_size": [
+        640,
+        427
+      ],
+      "resized_size": [
+        644,
+        420
+      ],
+      "gt_bbox_xyxy": [
+        320.97,
+        92.29,
+        497.36,
+        283.14
+      ],
+      "vlm_raw_output": "```json\n{\"bbox_2d\": [329, 87, 504, 282], \"label\": \"target\"}\n```",
+      "latency_ms": 547.14,
+      "valid": true,
+      "error": null,
+      "raw_bbox": [
+        329.0,
+        87.0,
+        504.0,
+        282.0
+      ],
+      "pred_bbox_xyxy": [
+        326.96,
+        88.45,
+        500.87,
+        286.7
+      ],
+      "iou": 0.913
+    },
+    {
+      "id": 42511,
+      "image_id": "coco_1507",
+      "file_name": "COCO_train2014_000000001507.jpg",
+      "source_prefix": "coco",
+      "is_rewrite": false,
+      "caption": "The triangular sandwich half with a visible interior of greens and tomato, placed on the upper right side of the plate, adjacent to the bowl of soup.",
+      "orig_size": [
+        612,
+        612
+      ],
+      "resized_size": [
+        616,
+        616
+      ],
+      "gt_bbox_xyxy": [
+        370.22,
+        136.0,
+        612.0,
+        414.04
+      ],
+      "vlm_raw_output": "```json\n{\"bbox_2d\": [389, 124, 616, 375], \"label\": \"target\"}\n```",
+      "latency_ms": 589.35,
+      "valid": true,
+      "error": null,
+      "raw_bbox": [
+        389.0,
+        124.0,
+        616.0,
+        375.0
+      ],
+      "pred_bbox_xyxy": [
+        386.47,
+        123.19,
+        612.0,
+        372.56
+      ],
+      "iou": 0.7609
+    },
+    {
+      "id": 18957,
+      "image_id": "coco_1822",
+      "file_name": "COCO_train2014_000000001822.jpg",
+      "source_prefix": "coco",
+      "is_rewrite": false,
+      "caption": "The chair of interest is situated to the far right of the couch set, featuring golden trim and oriented towards the television.",
+      "orig_size": [
+        640,
+        480
+      ],
+      "resized_size": [
+        644,
+        476
+      ],
+      "gt_bbox_xyxy": [
+        466.29,
+        180.78,
+        604.68,
+        330.39
+      ],
+      "vlm_raw_output": "```json\n{\"bbox_2d\": [470, 180, 605, 326], \"label\": \"target\"}\n```",
+      "latency_ms": 567.51,
+      "valid": true,
+      "error": null,
+      "raw_bbox": [
+        470.0,
+        180.0,
+        605.0,
+        326.0
+      ],
+      "pred_bbox_xyxy": [
+        467.08,
+        181.51,
+        601.24,
+        328.74
+      ],
+      "iou": 0.954
+    },
+    {
+      "id": 27430,
+      "image_id": "coco_1947",
+      "file_name": "COCO_train2014_000000001947.jpg",
+      "source_prefix": "coco",
+      "is_rewrite": true,
+      "caption": "The man with gray hair and glasses, wearing a white shirt and seated at the left end of the table, is preoccupied with his smartphone.",
+      "orig_size": [
+        500,
+        375
+      ],
+      "resized_size": [
+        504,
+        364
+      ],
+      "gt_bbox_xyxy": [
+        0.0,
+        79.02,
+        138.42,
+        311.4
+      ],
+      "vlm_raw_output": "```json\n[\n\t{\"bbox_2d\": [0, 75, 143, 364], \"label\": \"target\"}\n]\n```",
+      "latency_ms": 556.46,
+      "valid": true,
+      "error": null,
+      "raw_bbox": [
+        0.0,
+        75.0,
+        143.0,
+        364.0
+      ],
+      "pred_bbox_xyxy": [
+        0.0,
+        77.27,
+        141.87,
+        375.0
+      ],
+      "iou": 0.7615
+    },
+    {
+      "id": 21909,
+      "image_id": "coco_1958",
+      "file_name": "COCO_train2014_000000001958.jpg",
+      "source_prefix": "coco",
+      "is_rewrite": false,
+      "caption": "The woman with long hair, dressed entirely in black, is positioned on the left side of the room, facing a television screen while engaged in a playful activity.",
+      "orig_size": [
+        640,
+        480
+      ],
+      "resized_size": [
+        644,
+        476
+      ],
+      "gt_bbox_xyxy": [
+        78.15,
+        139.39,
+        273.92,
+        471.06
+      ],
+      "vlm_raw_output": "```json\n[\n\t{\"bbox_2d\": [76, 138, 279, 465], \"label\": \"target\"}\n]\n```",
+      "latency_ms": 594.86,
+      "valid": true,
+      "error": null,
+      "raw_bbox": [
+        76.0,
+        138.0,
+        279.0,
+        465.0
+      ],
+      "pred_bbox_xyxy": [
+        75.53,
+        139.16,
+        277.27,
+        468.91
+      ],
+      "iou": 0.9636
+    },
+    {
+      "id": 18123,
+      "image_id": "coco_1966",
+      "file_name": "COCO_train2014_000000001966.jpg",
+      "source_prefix": "coco",
+      "is_rewrite": false,
+      "caption": "A man in a neon green top and black shorts, with white Nike shoes, is preparing to serve a tennis ball on the blue court.",
+      "orig_size": [
+        640,
+        480
+      ],
+      "resized_size": [
+        644,
+        476
+      ],
+      "gt_bbox_xyxy": [
+        126.49,
+        70.81,
+        344.86,
+        440.54
+      ],
+      "vlm_raw_output": "```json\n{\n    \"bbox_2d\": [130, 69, 345, 437],\n    \"label\": \"target\"\n}\n```",
+      "latency_ms": 609.1,
+      "valid": true,
+      "error": null,
+      "raw_bbox": [
+        130.0,
+        69.0,
+        345.0,
+        437.0
+      ],
+      "pred_bbox_xyxy": [
+        129.19,
+        69.58,
+        342.86,
+        440.67
+      ],
+      "iou": 0.9749
+    },
+    {
+      "id": 23749,
+      "image_id": "coco_1994",
+      "file_name": "COCO_train2014_000000001994.jpg",
+      "source_prefix": "coco",
+      "is_rewrite": false,
+      "caption": "A man standing on the right side of the image with grey hair, wearing a vertical striped shirt, beige shorts, and black sandals, is holding a camera around his neck.",
+      "orig_size": [
+        640,
+        480
+      ],
+      "resized_size": [
+        644,
+        476
+      ],
+      "gt_bbox_xyxy": [
+        485.29,
+        22.37,
+        606.34,
+        459.95
+      ],
+      "vlm_raw_output": "```json\n{\n    \"bbox_2d\": [490, 23, 608, 457],\n    \"label\": \"target\"\n}\n```",
+      "latency_ms": 608.8,
+      "valid": true,
+      "error": null,
+      "raw_bbox": [
+        490.0,
+        23.0,
+        608.0,
+        457.0
+      ],
+      "pred_bbox_xyxy": [
+        486.96,
+        23.19,
+        604.22,
+        460.84
+      ],
+      "iou": 0.965
+    },
+    {
+      "id": 17680,
+      "image_id": "coco_2083",
+      "file_name": "COCO_train2014_000000002083.jpg",
+      "source_prefix": "coco",
+      "is_rewrite": true,
+      "caption": "The girl adorned with a headband and a black shirt is positioned on the kitchen's right side, with her back towards the camera and seemingly engaging with the countertop.",
+      "orig_size": [
+        640,
+        428
+      ],
+      "resized_size": [
+        644,
+        420
+      ],
+      "gt_bbox_xyxy": [
+        435.69,
+        166.39,
+        639.6,
+        423.19
+      ],
+      "vlm_raw_output": "```json\n[\n\t{\"bbox_2d\": [460, 159, 644, 413], \"label\": \"target\"}\n]\n```",
+      "latency_ms": 600.97,
+      "valid": true,
+      "error": null,
+      "raw_bbox": [
+        460.0,
+        159.0,
+        644.0,
+        413.0
+      ],
+      "pred_bbox_xyxy": [
+        457.14,
+        162.03,
+        640.0,
+        420.87
+      ],
+      "iou": 0.8717
+    },
+    {
+      "id": 22970,
+      "image_id": "coco_2281",
+      "file_name": "COCO_train2014_000000002281.jpg",
+      "source_prefix": "coco",
+      "is_rewrite": true,
+      "caption": "The rear end of a beige van, being the leftmost vehicle in the image, is seen closest to us with its back facing the snowy street and partially concealed by an off-white refrigerator.",
+      "orig_size": [
+        640,
+        480
+      ],
+      "resized_size": [
+        644,
+        476
+      ],
+      "gt_bbox_xyxy": [
+        0.0,
+        0.0,
+        189.74,
+        474.35
+      ],
+      "vlm_raw_output": "```json\n{\"bbox_2d\": [0, 3, 184, 476], \"label\": \"target\"}\n```",
+      "latency_ms": 512.87,
+      "valid": true,
+      "error": null,
+      "raw_bbox": [
+        0.0,
+        3.0,
+        184.0,
+        476.0
+      ],
+      "pred_bbox_xyxy": [
+        0.0,
+        3.03,
+        182.86,
+        480.0
+      ],
+      "iou": 0.9467
+    }
+  ],
+  "sample_records_3b_free": [
+    {
+      "id": 34015,
+      "image_id": "coco_154",
+      "file_name": "COCO_train2014_000000000154.jpg",
+      "source_prefix": "coco",
+      "is_rewrite": false,
+      "caption": "The zebra grazing in the grassland, centered between another zebra in the background and one in the foreground, distinguished by its tail sticking out to the left.",
+      "orig_size": [
+        427,
+        640
+      ],
+      "resized_size": [
+        420,
+        644
+      ],
+      "gt_bbox_xyxy": [
+        40.46,
+        192.98,
+        314.08,
+        332.15
+      ],
+      "vlm_raw_output": "```json\n{\n    \"bbox_2d\": [38, 194, 307, 335],\n    \"label\": \"The zebra grazing in the grassland, centered between another zebra in the background and one in the foreground, distinguished by its tail sticking out",
+      "latency_ms": 2014.5,
+      "valid": true,
+      "error": null,
+      "raw_bbox": [
+        38.0,
+        194.0,
+        307.0,
+        335.0
+      ],
+      "pred_bbox_xyxy": [
+        38.63,
+        192.8,
+        312.12,
+        332.92
+      ],
+      "iou": 0.9796
+    },
+    {
+      "id": 38883,
+      "image_id": "coco_309",
+      "file_name": "COCO_train2014_000000000309.jpg",
+      "source_prefix": "coco",
+      "is_rewrite": false,
+      "caption": "The torso of a stuffed teddy bear with brown fur, is adorned with a red ribbon, lying on the green grass.",
+      "orig_size": [
+        600,
+        600
+      ],
+      "resized_size": [
+        588,
+        588
+      ],
+      "gt_bbox_xyxy": [
+        153.18,
+        213.25,
+        287.75,
+        426.27
+      ],
+      "vlm_raw_output": "{\"bbox_2d\": [74, 208, 385, 496], \"label\": \"The torso of a stuffed teddy bear with brown fur, is adorned with a red ribbon, lying on the green grass.\"}",
+      "latency_ms": 820.37,
+      "valid": true,
+      "error": null,
+      "raw_bbox": [
+        74.0,
+        208.0,
+        385.0,
+        496.0
+      ],
+      "pred_bbox_xyxy": [
+        75.51,
+        212.24,
+        392.86,
+        506.12
+      ],
+      "iou": 0.3074
+    },
+    {
+      "id": 28547,
+      "image_id": "coco_605",
+      "file_name": "COCO_train2014_000000000605.jpg",
+      "source_prefix": "coco",
+      "is_rewrite": false,
+      "caption": "The cup of coffee with a white leaf design on the tan-colored beverage is placed on a blue saucer to the right side of the table, near a glass of water and diagonally across from a plate with a pastry.",
+      "orig_size": [
+        640,
+        480
+      ],
+      "resized_size": [
+        644,
+        476
+      ],
+      "gt_bbox_xyxy": [
+        290.81,
+        123.78,
+        515.68,
+        298.92
+      ],
+      "vlm_raw_output": "```json\n{\n    \"bbox_2d\": [298, 120, 517, 296],\n    \"label\": \"The cup of coffee with a white leaf design on the tan-colored beverage is placed on a blue saucer to the right side of the table",
+      "latency_ms": 927.5,
+      "valid": true,
+      "error": null,
+      "raw_bbox": [
+        298.0,
+        120.0,
+        517.0,
+        296.0
+      ],
+      "pred_bbox_xyxy": [
+        296.15,
+        121.01,
+        513.79,
+        298.49
+      ],
+      "iou": 0.9509
+    },
+    {
+      "id": 31181,
+      "image_id": "coco_656",
+      "file_name": "COCO_train2014_000000000656.jpg",
+      "source_prefix": "coco",
+      "is_rewrite": false,
+      "caption": "A green car is parked behind the bronze motorcycle, featuring a glossy finish and visible through the motorcycle's rear section.",
+      "orig_size": [
+        640,
+        472
+      ],
+      "resized_size": [
+        644,
+        476
+      ],
+      "gt_bbox_xyxy": [
+        461.85,
+        1.02,
+        640.0,
+        190.83
+      ],
+      "vlm_raw_output": "```json\n{\n    \"bbox_2d\": [467, 0, 644, 259],\n    \"label\": \"A green car is parked behind the bronze motorcycle, featuring a glossy finish and visible through the motorcycle's rear section.\"\n}\n```",
+      "latency_ms": 864.71,
+      "valid": true,
+      "error": null,
+      "raw_bbox": [
+        467.0,
+        0.0,
+        644.0,
+        259.0
+      ],
+      "pred_bbox_xyxy": [
+        464.1,
+        0.0,
+        640.0,
+        256.82
+      ],
+      "iou": 0.7321
+    },
+    {
+      "id": 23010,
+      "image_id": "coco_716",
+      "file_name": "COCO_train2014_000000000716.jpg",
+      "source_prefix": "coco",
+      "is_rewrite": true,
+      "caption": "The person is positioned close to the expansive sky blue wall, bathed in the cozy radiance of a wall-fixed light.",
+      "orig_size": [
+        640,
+        480
+      ],
+      "resized_size": [
+        644,
+        476
+      ],
+      "gt_bbox_xyxy": [
+        455.63,
+        2.16,
+        563.06,
+        204.62
+      ],
+      "vlm_raw_output": "```json\n{\n    \"bbox_2d\": [405, 1, 644, 308],\n    \"label\": \"The person is positioned close to the expansive sky blue wall, bathed in the cozy radiance of a wall-fixed light.\"\n}\n```",
+      "latency_ms": 878.47,
+      "valid": true,
+      "error": null,
+      "raw_bbox": [
+        405.0,
+        1.0,
+        644.0,
+        308.0
+      ],
+      "pred_bbox_xyxy": [
+        402.48,
+        1.01,
+        640.0,
+        310.59
+      ],
+      "iou": 0.2958
+    },
+    {
+      "id": 33336,
+      "image_id": "coco_735",
+      "file_name": "COCO_train2014_000000000735.jpg",
+      "source_prefix": "coco",
+      "is_rewrite": true,
+      "caption": "A table draped in a white cloth is positioned in the lower right corner of the image, partly hidden by a table with a blue top, which is decorated with an array of food items.",
+      "orig_size": [
+        640,
+        361
+      ],
+      "resized_size": [
+        644,
+        364
+      ],
+      "gt_bbox_xyxy": [
+        428.99,
+        221.78,
+        637.82,
+        356.14
+      ],
+      "vlm_raw_output": "```json\n{\n    \"bbox_2d\": [430, 195, 644, 364], \"label\": \"A table draped in a white cloth is positioned in the lower right corner of the image, partly hidden by a table with a blue top, which",
+      "latency_ms": 898.55,
+      "valid": true,
+      "error": null,
+      "raw_bbox": [
+        430.0,
+        195.0,
+        644.0,
+        364.0
+      ],
+      "pred_bbox_xyxy": [
+        427.33,
+        193.39,
+        640.0,
+        361.0
+      ],
+      "iou": 0.7872
+    },
+    {
+      "id": 21236,
+      "image_id": "coco_797",
+      "file_name": "COCO_train2014_000000000797.jpg",
+      "source_prefix": "coco",
+      "is_rewrite": true,
+      "caption": "The elephant on the left is making contact with its trunk and the trunk of another elephant to its right.",
+      "orig_size": [
+        640,
+        360
+      ],
+      "resized_size": [
+        644,
+        364
+      ],
+      "gt_bbox_xyxy": [
+        0.0,
+        83.75,
+        481.73,
+        299.35
+      ],
+      "vlm_raw_output": "{\"bbox_2d\": [0, 85, 431, 336], \"label\": \"The elephant on the left is making contact with its trunk and the trunk of another elephant to its right.\"}",
+      "latency_ms": 713.25,
+      "valid": true,
+      "error": null,
+      "raw_bbox": [
+        0.0,
+        85.0,
+        431.0,
+        336.0
+      ],
+      "pred_bbox_xyxy": [
+        0.0,
+        84.07,
+        428.32,
+        332.31
+      ],
+      "iou": 0.7816
+    },
+    {
+      "id": 37856,
+      "image_id": "coco_909",
+      "file_name": "COCO_train2014_000000000909.jpg",
+      "source_prefix": "coco",
+      "is_rewrite": true,
+      "caption": "The computer monitor, displaying text and graphics on a visible screen, is situated on a desk adorned with snacks and a bottle of water.",
+      "orig_size": [
+        327,
+        500
+      ],
+      "resized_size": [
+        336,
+        504
+      ],
+      "gt_bbox_xyxy": [
+        0.0,
+        18.08,
+        257.23,
+        318.7
+      ],
+      "vlm_raw_output": "{\"bbox_2d\": [0, 17, 268, 324], \"label\": \"computer monitor, displaying text and graphics on a visible screen, is situated on a desk adorned with snacks and a bottle of water.\"}",
+      "latency_ms": 784.55,
+      "valid": true,
+      "error": null,
+      "raw_bbox": [
+        0.0,
+        17.0,
+        268.0,
+        324.0
+      ],
+      "pred_bbox_xyxy": [
+        0.0,
+        16.87,
+        260.82,
+        321.43
+      ],
+      "iou": 0.9735
+    },
+    {
+      "id": 33817,
+      "image_id": "coco_1261",
+      "file_name": "COCO_train2014_000000001261.jpg",
+      "source_prefix": "coco",
+      "is_rewrite": false,
+      "caption": "A glass bowl filled with a creamy mixture and dotted with purple and blue berries is placed on a wicker circle holder to the right of a loaf of bread.",
+      "orig_size": [
+        640,
+        480
+      ],
+      "resized_size": [
+        644,
+        476
+      ],
+      "gt_bbox_xyxy": [
+        278.29,
+        99.99,
+        640.0,
+        434.37
+      ],
+      "vlm_raw_output": "{\"bbox_2d\": [279, 98, 644, 430], \"label\": \"A glass bowl filled with a creamy mixture and dotted with purple and blue berries is placed on a wicker circle holder to the right of a loaf of bread.\"}",
+      "latency_ms": 895.42,
+      "valid": true,
+      "error": null,
+      "raw_bbox": [
+        279.0,
+        98.0,
+        644.0,
+        430.0
+      ],
+      "pred_bbox_xyxy": [
+        277.27,
+        98.82,
+        640.0,
+        433.61
+      ],
+      "iou": 0.9915
+    },
+    {
+      "id": 40446,
+      "image_id": "coco_1298",
+      "file_name": "COCO_train2014_000000001298.jpg",
+      "source_prefix": "coco",
+      "is_rewrite": true,
+      "caption": "The man standing in the background, partly hidden by the seated individual, is dressed in a dark short-sleeved shirt and light-colored jeans.",
+      "orig_size": [
+        640,
+        428
+      ],
+      "resized_size": [
+        644,
+        420
+      ],
+      "gt_bbox_xyxy": [
+        368.5,
+        2.03,
+        456.79,
+        169.01
+      ],
+      "vlm_raw_output": "```json\n{\n    \"bbox_2d\": [374, 0, 458, 176],\n    \"label\": \"The man standing in the background, partly hidden by the seated individual, is dressed in a dark short-sleeved shirt and light-colored jeans.\"\n}",
+      "latency_ms": 890.07,
+      "valid": true,
+      "error": null,
+      "raw_bbox": [
+        374.0,
+        0.0,
+        458.0,
+        176.0
+      ],
+      "pred_bbox_xyxy": [
+        371.68,
+        0.0,
+        455.16,
+        179.35
+      ],
+      "iou": 0.8836
+    },
+    {
+      "id": 43721,
+      "image_id": "coco_1407",
+      "file_name": "COCO_train2014_000000001407.jpg",
+      "source_prefix": "coco",
+      "is_rewrite": false,
+      "caption": "The man in a black suit sitting at the far left beyond the tennis court, behind the player preparing to serve, with his hands clasped together on his lap.",
+      "orig_size": [
+        428,
+        640
+      ],
+      "resized_size": [
+        420,
+        644
+      ],
+      "gt_bbox_xyxy": [
+        123.69,
+        4.07,
+        241.62,
+        142.14
+      ],
+      "vlm_raw_output": "```json\n{\n    \"bbox_2d\": [130, 0, 234, 145],\n    \"label\": \"The man in a black suit sitting at the far left beyond the tennis court, behind the player preparing to serve, with his hands clasped together on",
+      "latency_ms": 900.13,
+      "valid": true,
+      "error": null,
+      "raw_bbox": [
+        130.0,
+        0.0,
+        234.0,
+        145.0
+      ],
+      "pred_bbox_xyxy": [
+        132.48,
+        0.0,
+        238.46,
+        144.1
+      ],
+      "iou": 0.8647
+    },
+    {
+      "id": 34487,
+      "image_id": "coco_1488",
+      "file_name": "COCO_train2014_000000001488.jpg",
+      "source_prefix": "coco",
+      "is_rewrite": false,
+      "caption": "The skateboarder wearing a black helmet and dark jacket is riding his skateboard down the ramp.",
+      "orig_size": [
+        640,
+        427
+      ],
+      "resized_size": [
+        644,
+        420
+      ],
+      "gt_bbox_xyxy": [
+        320.97,
+        92.29,
+        497.36,
+        283.14
+      ],
+      "vlm_raw_output": "{\"bbox_2d\": [330, 89, 504, 282], \"label\": \"The skateboarder wearing a black helmet and dark jacket is riding his skateboard down the ramp.\"}",
+      "latency_ms": 697.96,
+      "valid": true,
+      "error": null,
+      "raw_bbox": [
+        330.0,
+        89.0,
+        504.0,
+        282.0
+      ],
+      "pred_bbox_xyxy": [
+        327.95,
+        90.48,
+        500.87,
+        286.7
+      ],
+      "iou": 0.9169
+    },
+    {
+      "id": 42511,
+      "image_id": "coco_1507",
+      "file_name": "COCO_train2014_000000001507.jpg",
+      "source_prefix": "coco",
+      "is_rewrite": false,
+      "caption": "The triangular sandwich half with a visible interior of greens and tomato, placed on the upper right side of the plate, adjacent to the bowl of soup.",
+      "orig_size": [
+        612,
+        612
+      ],
+      "resized_size": [
+        616,
+        616
+      ],
+      "gt_bbox_xyxy": [
+        370.22,
+        136.0,
+        612.0,
+        414.04
+      ],
+      "vlm_raw_output": "{\"bbox_2d\": [370, 125, 616, 418], \"label\": \"The triangular sandwich half with a visible interior of greens and tomato, placed on the upper right side of the plate, adjacent to the bowl of soup.\"}",
+      "latency_ms": 904.67,
+      "valid": true,
+      "error": null,
+      "raw_bbox": [
+        370.0,
+        125.0,
+        616.0,
+        418.0
+      ],
+      "pred_bbox_xyxy": [
+        367.6,
+        124.19,
+        612.0,
+        415.29
+      ],
+      "iou": 0.9449
+    },
+    {
+      "id": 18957,
+      "image_id": "coco_1822",
+      "file_name": "COCO_train2014_000000001822.jpg",
+      "source_prefix": "coco",
+      "is_rewrite": false,
+      "caption": "The chair of interest is situated to the far right of the couch set, featuring golden trim and oriented towards the television.",
+      "orig_size": [
+        640,
+        480
+      ],
+      "resized_size": [
+        644,
+        476
+      ],
+      "gt_bbox_xyxy": [
+        466.29,
+        180.78,
+        604.68,
+        330.39
+      ],
+      "vlm_raw_output": "```json\n{\n    \"bbox_2d\": [470, 183, 605, 326], \"label\": \"The chair of interest is situated to the far right of the couch set, featuring golden trim and oriented towards the television.\"\n}\n```",
+      "latency_ms": 888.25,
+      "valid": true,
+      "error": null,
+      "raw_bbox": [
+        470.0,
+        183.0,
+        605.0,
+        326.0
+      ],
+      "pred_bbox_xyxy": [
+        467.08,
+        184.54,
+        601.24,
+        328.74
+      ],
+      "iou": 0.9344
+    },
+    {
+      "id": 27430,
+      "image_id": "coco_1947",
+      "file_name": "COCO_train2014_000000001947.jpg",
+      "source_prefix": "coco",
+      "is_rewrite": true,
+      "caption": "The man with gray hair and glasses, wearing a white shirt and seated at the left end of the table, is preoccupied with his smartphone.",
+      "orig_size": [
+        500,
+        375
+      ],
+      "resized_size": [
+        504,
+        364
+      ],
+      "gt_bbox_xyxy": [
+        0.0,
+        79.02,
+        138.42,
+        311.4
+      ],
+      "vlm_raw_output": "{\"bbox_2d\": [0, 75, 146, 364], \"label\": \"The man with gray hair and glasses, wearing a white shirt and seated at the left end of the table, is preoccupied with his smartphone.\"}",
+      "latency_ms": 812.17,
+      "valid": true,
+      "error": null,
+      "raw_bbox": [
+        0.0,
+        75.0,
+        146.0,
+        364.0
+      ],
+      "pred_bbox_xyxy": [
+        0.0,
+        77.27,
+        144.84,
+        375.0
+      ],
+      "iou": 0.7459
+    },
+    {
+      "id": 21909,
+      "image_id": "coco_1958",
+      "file_name": "COCO_train2014_000000001958.jpg",
+      "source_prefix": "coco",
+      "is_rewrite": false,
+      "caption": "The woman with long hair, dressed entirely in black, is positioned on the left side of the room, facing a television screen while engaged in a playful activity.",
+      "orig_size": [
+        640,
+        480
+      ],
+      "resized_size": [
+        644,
+        476
+      ],
+      "gt_bbox_xyxy": [
+        78.15,
+        139.39,
+        273.92,
+        471.06
+      ],
+      "vlm_raw_output": "{\"bbox_2d\": [78, 139, 276, 465], \"label\": \"The woman with long hair, dressed entirely in black, is positioned on the left side of the room, facing a television screen while engaged in a playful activity.\"}",
+      "latency_ms": 891.19,
+      "valid": true,
+      "error": null,
+      "raw_bbox": [
+        78.0,
+        139.0,
+        276.0,
+        465.0
+      ],
+      "pred_bbox_xyxy": [
+        77.52,
+        140.17,
+        274.29,
+        468.91
+      ],
+      "iou": 0.9862
+    },
+    {
+      "id": 18123,
+      "image_id": "coco_1966",
+      "file_name": "COCO_train2014_000000001966.jpg",
+      "source_prefix": "coco",
+      "is_rewrite": false,
+      "caption": "A man in a neon green top and black shorts, with white Nike shoes, is preparing to serve a tennis ball on the blue court.",
+      "orig_size": [
+        640,
+        480
+      ],
+      "resized_size": [
+        644,
+        476
+      ],
+      "gt_bbox_xyxy": [
+        126.49,
+        70.81,
+        344.86,
+        440.54
+      ],
+      "vlm_raw_output": "{\"bbox_2d\": [130, 68, 345, 437], \"label\": \"A man in a neon green top and black shorts, with white Nike shoes, is preparing to serve a tennis ball on the blue court.\"}",
+      "latency_ms": 837.85,
+      "valid": true,
+      "error": null,
+      "raw_bbox": [
+        130.0,
+        68.0,
+        345.0,
+        437.0
+      ],
+      "pred_bbox_xyxy": [
+        129.19,
+        68.57,
+        342.86,
+        440.67
+      ],
+      "iou": 0.9724
+    },
+    {
+      "id": 23749,
+      "image_id": "coco_1994",
+      "file_name": "COCO_train2014_000000001994.jpg",
+      "source_prefix": "coco",
+      "is_rewrite": false,
+      "caption": "A man standing on the right side of the image with grey hair, wearing a vertical striped shirt, beige shorts, and black sandals, is holding a camera around his neck.",
+      "orig_size": [
+        640,
+        480
+      ],
+      "resized_size": [
+        644,
+        476
+      ],
+      "gt_bbox_xyxy": [
+        485.29,
+        22.37,
+        606.34,
+        459.95
+      ],
+      "vlm_raw_output": "```json\n{\n    \"bbox_2d\": [489, 23, 607, 459],\n    \"label\": \"A man standing on the right side of the image with grey hair, wearing a vertical striped shirt, beige shorts, and black sandals, is holding",
+      "latency_ms": 906.35,
+      "valid": true,
+      "error": null,
+      "raw_bbox": [
+        489.0,
+        23.0,
+        607.0,
+        459.0
+      ],
+      "pred_bbox_xyxy": [
+        485.96,
+        23.19,
+        603.23,
+        462.86
+      ],
+      "iou": 0.9607
+    },
+    {
+      "id": 17680,
+      "image_id": "coco_2083",
+      "file_name": "COCO_train2014_000000002083.jpg",
+      "source_prefix": "coco",
+      "is_rewrite": true,
+      "caption": "The girl adorned with a headband and a black shirt is positioned on the kitchen's right side, with her back towards the camera and seemingly engaging with the countertop.",
+      "orig_size": [
+        640,
+        428
+      ],
+      "resized_size": [
+        644,
+        420
+      ],
+      "gt_bbox_xyxy": [
+        435.69,
+        166.39,
+        639.6,
+        423.19
+      ],
+      "vlm_raw_output": "{\"bbox_2d\": [450, 163, 644, 415], \"label\": \"The girl adorned with a headband and a black shirt is positioned on the kitchen's right side, with her back towards the camera and seemingly engaging with the countertop.\"",
+      "latency_ms": 894.85,
+      "valid": true,
+      "error": null,
+      "raw_bbox": [
+        450.0,
+        163.0,
+        644.0,
+        415.0
+      ],
+      "pred_bbox_xyxy": [
+        447.2,
+        166.1,
+        640.0,
+        422.9
+      ],
+      "iou": 0.9397
+    },
+    {
+      "id": 22970,
+      "image_id": "coco_2281",
+      "file_name": "COCO_train2014_000000002281.jpg",
+      "source_prefix": "coco",
+      "is_rewrite": true,
+      "caption": "The rear end of a beige van, being the leftmost vehicle in the image, is seen closest to us with its back facing the snowy street and partially concealed by an off-white refrigerator.",
+      "orig_size": [
+        640,
+        480
+      ],
+      "resized_size": [
+        644,
+        476
+      ],
+      "gt_bbox_xyxy": [
+        0.0,
+        0.0,
+        189.74,
+        474.35
+      ],
+      "vlm_raw_output": "{\"bbox_2d\": [0, 0, 184, 476], \"label\": \"The rear end of a beige van, being the leftmost vehicle in the image, is seen closest to us with its back facing the snowy street and partially concealed by an off-white refrigerator.\"",
+      "latency_ms": 901.39,
+      "valid": true,
+      "error": null,
+      "raw_bbox": [
+        0.0,
+        0.0,
+        184.0,
+        476.0
+      ],
+      "pred_bbox_xyxy": [
+        0.0,
+        0.0,
+        182.86,
+        480.0
+      ],
+      "iou": 0.9528
+    }
+  ],
+  "sample_records_3b_samescene_lora": [
+    {
+      "id": 34015,
+      "image_id": "coco_154",
+      "file_name": "COCO_train2014_000000000154.jpg",
+      "source_prefix": "coco",
+      "is_rewrite": false,
+      "caption": "The zebra grazing in the grassland, centered between another zebra in the background and one in the foreground, distinguished by its tail sticking out to the left.",
+      "orig_size": [
+        427,
+        640
+      ],
+      "resized_size": [
+        420,
+        644
+      ],
+      "gt_bbox_xyxy": [
+        40.46,
+        192.98,
+        314.08,
+        332.15
+      ],
+      "vlm_raw_output": "{\"bbox_2d\": [36, 194, 308, 335], \"label\": \"target\"}",
+      "latency_ms": 985.55,
+      "valid": true,
+      "error": null,
+      "raw_bbox": [
+        36.0,
+        194.0,
+        308.0,
+        335.0
+      ],
+      "pred_bbox_xyxy": [
+        36.6,
+        192.8,
+        313.13,
+        332.92
+      ],
+      "iou": 0.976
+    },
+    {
+      "id": 38883,
+      "image_id": "coco_309",
+      "file_name": "COCO_train2014_000000000309.jpg",
+      "source_prefix": "coco",
+      "is_rewrite": false,
+      "caption": "The torso of a stuffed teddy bear with brown fur, is adorned with a red ribbon, lying on the green grass.",
+      "orig_size": [
+        600,
+        600
+      ],
+      "resized_size": [
+        588,
+        588
+      ],
+      "gt_bbox_xyxy": [
+        153.18,
+        213.25,
+        287.75,
+        426.27
+      ],
+      "vlm_raw_output": "{\"bbox_2d\": [76, 208, 384, 495], \"label\": \"target\"}",
+      "latency_ms": 993.72,
+      "valid": true,
+      "error": null,
+      "raw_bbox": [
+        76.0,
+        208.0,
+        384.0,
+        495.0
+      ],
+      "pred_bbox_xyxy": [
+        77.55,
+        212.24,
+        391.84,
+        505.1
+      ],
+      "iou": 0.3114
+    },
+    {
+      "id": 28547,
+      "image_id": "coco_605",
+      "file_name": "COCO_train2014_000000000605.jpg",
+      "source_prefix": "coco",
+      "is_rewrite": false,
+      "caption": "The cup of coffee with a white leaf design on the tan-colored beverage is placed on a blue saucer to the right side of the table, near a glass of water and diagonally across from a plate with a pastry.",
+      "orig_size": [
+        640,
+        480
+      ],
+      "resized_size": [
+        644,
+        476
+      ],
+      "gt_bbox_xyxy": [
+        290.81,
+        123.78,
+        515.68,
+        298.92
+      ],
+      "vlm_raw_output": "{\"bbox_2d\": [300, 121, 518, 296], \"label\": \"target\"}",
+      "latency_ms": 1012.26,
+      "valid": true,
+      "error": null,
+      "raw_bbox": [
+        300.0,
+        121.0,
+        518.0,
+        296.0
+      ],
+      "pred_bbox_xyxy": [
+        298.14,
+        122.02,
+        514.78,
+        298.49
+      ],
+      "iou": 0.9518
+    },
+    {
+      "id": 31181,
+      "image_id": "coco_656",
+      "file_name": "COCO_train2014_000000000656.jpg",
+      "source_prefix": "coco",
+      "is_rewrite": false,
+      "caption": "A green car is parked behind the bronze motorcycle, featuring a glossy finish and visible through the motorcycle's rear section.",
+      "orig_size": [
+        640,
+        472
+      ],
+      "resized_size": [
+        644,
+        476
+      ],
+      "gt_bbox_xyxy": [
+        461.85,
+        1.02,
+        640.0,
+        190.83
+      ],
+      "vlm_raw_output": "{\"bbox_2d\": [465, 0, 643, 263], \"label\": \"green car\"}",
+      "latency_ms": 978.59,
+      "valid": true,
+      "error": null,
+      "raw_bbox": [
+        465.0,
+        0.0,
+        643.0,
+        263.0
+      ],
+      "pred_bbox_xyxy": [
+        462.11,
+        0.0,
+        639.01,
+        260.79
+      ],
+      "iou": 0.7241
+    },
+    {
+      "id": 23010,
+      "image_id": "coco_716",
+      "file_name": "COCO_train2014_000000000716.jpg",
+      "source_prefix": "coco",
+      "is_rewrite": true,
+      "caption": "The person is positioned close to the expansive sky blue wall, bathed in the cozy radiance of a wall-fixed light.",
+      "orig_size": [
+        640,
+        480
+      ],
+      "resized_size": [
+        644,
+        476
+      ],
+      "gt_bbox_xyxy": [
+        455.63,
+        2.16,
+        563.06,
+        204.62
+      ],
+      "vlm_raw_output": "{\"bbox_2d\": [396, 0, 574, 286], \"label\": \"target\"}",
+      "latency_ms": 948.99,
+      "valid": true,
+      "error": null,
+      "raw_bbox": [
+        396.0,
+        0.0,
+        574.0,
+        286.0
+      ],
+      "pred_bbox_xyxy": [
+        393.54,
+        0.0,
+        570.43,
+        288.4
+      ],
+      "iou": 0.4263
+    },
+    {
+      "id": 33336,
+      "image_id": "coco_735",
+      "file_name": "COCO_train2014_000000000735.jpg",
+      "source_prefix": "coco",
+      "is_rewrite": true,
+      "caption": "A table draped in a white cloth is positioned in the lower right corner of the image, partly hidden by a table with a blue top, which is decorated with an array of food items.",
+      "orig_size": [
+        640,
+        361
+      ],
+      "resized_size": [
+        644,
+        364
+      ],
+      "gt_bbox_xyxy": [
+        428.99,
+        221.78,
+        637.82,
+        356.14
+      ],
+      "vlm_raw_output": "{\"bbox_2d\": [306, 265, 546, 364], \"label\": \"target\"}",
+      "latency_ms": 1004.08,
+      "valid": true,
+      "error": null,
+      "raw_bbox": [
+        306.0,
+        265.0,
+        546.0,
+        364.0
+      ],
+      "pred_bbox_xyxy": [
+        304.1,
+        262.82,
+        542.61,
+        361.0
+      ],
+      "iou": 0.2594
+    },
+    {
+      "id": 21236,
+      "image_id": "coco_797",
+      "file_name": "COCO_train2014_000000000797.jpg",
+      "source_prefix": "coco",
+      "is_rewrite": true,
+      "caption": "The elephant on the left is making contact with its trunk and the trunk of another elephant to its right.",
+      "orig_size": [
+        640,
+        360
+      ],
+      "resized_size": [
+        644,
+        364
+      ],
+      "gt_bbox_xyxy": [
+        0.0,
+        83.75,
+        481.73,
+        299.35
+      ],
+      "vlm_raw_output": "{\"bbox_2d\": [0, 86, 433, 335], \"label\": \"target\"}",
+      "latency_ms": 914.45,
+      "valid": true,
+      "error": null,
+      "raw_bbox": [
+        0.0,
+        86.0,
+        433.0,
+        335.0
+      ],
+      "pred_bbox_xyxy": [
+        0.0,
+        85.05,
+        430.31,
+        331.32
+      ],
+      "iou": 0.784
+    },
+    {
+      "id": 37856,
+      "image_id": "coco_909",
+      "file_name": "COCO_train2014_000000000909.jpg",
+      "source_prefix": "coco",
+      "is_rewrite": true,
+      "caption": "The computer monitor, displaying text and graphics on a visible screen, is situated on a desk adorned with snacks and a bottle of water.",
+      "orig_size": [
+        327,
+        500
+      ],
+      "resized_size": [
+        336,
+        504
+      ],
+      "gt_bbox_xyxy": [
+        0.0,
+        18.08,
+        257.23,
+        318.7
+      ],
+      "vlm_raw_output": "{\"bbox_2d\": [0, 16, 267, 324], \"label\": \"computer monitor, displaying text and graphics on a visible screen\"}",
+      "latency_ms": 1212.31,
+      "valid": true,
+      "error": null,
+      "raw_bbox": [
+        0.0,
+        16.0,
+        267.0,
+        324.0
+      ],
+      "pred_bbox_xyxy": [
+        0.0,
+        15.87,
+        259.85,
+        321.43
+      ],
+      "iou": 0.9739
+    },
+    {
+      "id": 33817,
+      "image_id": "coco_1261",
+      "file_name": "COCO_train2014_000000001261.jpg",
+      "source_prefix": "coco",
+      "is_rewrite": false,
+      "caption": "A glass bowl filled with a creamy mixture and dotted with purple and blue berries is placed on a wicker circle holder to the right of a loaf of bread.",
+      "orig_size": [
+        640,
+        480
+      ],
+      "resized_size": [
+        644,
+        476
+      ],
+      "gt_bbox_xyxy": [
+        278.29,
+        99.99,
+        640.0,
+        434.37
+      ],
+      "vlm_raw_output": "{\"bbox_2d\": [276, 95, 643, 430], \"label\": \"target\"}",
+      "latency_ms": 983.72,
+      "valid": true,
+      "error": null,
+      "raw_bbox": [
+        276.0,
+        95.0,
+        643.0,
+        430.0
+      ],
+      "pred_bbox_xyxy": [
+        274.29,
+        95.8,
+        639.01,
+        433.61
+      ],
+      "iou": 0.972
+    },
+    {
+      "id": 40446,
+      "image_id": "coco_1298",
+      "file_name": "COCO_train2014_000000001298.jpg",
+      "source_prefix": "coco",
+      "is_rewrite": true,
+      "caption": "The man standing in the background, partly hidden by the seated individual, is dressed in a dark short-sleeved shirt and light-colored jeans.",
+      "orig_size": [
+        640,
+        428
+      ],
+      "resized_size": [
+        644,
+        420
+      ],
+      "gt_bbox_xyxy": [
+        368.5,
+        2.03,
+        456.79,
+        169.01
+      ],
+      "vlm_raw_output": "{\"bbox_2d\": [374, 0, 460, 185], \"label\": \"The man standing in the background, partly hidden by the seated individual, is dressed in a dark short-sleeved shirt and light-colored jeans.\"}",
+      "latency_ms": 1791.2,
+      "valid": true,
+      "error": null,
+      "raw_bbox": [
+        374.0,
+        0.0,
+        460.0,
+        185.0
+      ],
+      "pred_bbox_xyxy": [
+        371.68,
+        0.0,
+        457.14,
+        188.52
+      ],
+      "iou": 0.854
+    },
+    {
+      "id": 43721,
+      "image_id": "coco_1407",
+      "file_name": "COCO_train2014_000000001407.jpg",
+      "source_prefix": "coco",
+      "is_rewrite": false,
+      "caption": "The man in a black suit sitting at the far left beyond the tennis court, behind the player preparing to serve, with his hands clasped together on his lap.",
+      "orig_size": [
+        428,
+        640
+      ],
+      "resized_size": [
+        420,
+        644
+      ],
+      "gt_bbox_xyxy": [
+        123.69,
+        4.07,
+        241.62,
+        142.14
+      ],
+      "vlm_raw_output": "{\"bbox_2d\": [130, 0, 236, 145], \"label\": \"man in a black suit\"}",
+      "latency_ms": 1086.23,
+      "valid": true,
+      "error": null,
+      "raw_bbox": [
+        130.0,
+        0.0,
+        236.0,
+        145.0
+      ],
+      "pred_bbox_xyxy": [
+        132.48,
+        0.0,
+        240.5,
+        144.1
+      ],
+      "iou": 0.8807
+    },
+    {
+      "id": 34487,
+      "image_id": "coco_1488",
+      "file_name": "COCO_train2014_000000001488.jpg",
+      "source_prefix": "coco",
+      "is_rewrite": false,
+      "caption": "The skateboarder wearing a black helmet and dark jacket is riding his skateboard down the ramp.",
+      "orig_size": [
+        640,
+        427
+      ],
+      "resized_size": [
+        644,
+        420
+      ],
+      "gt_bbox_xyxy": [
+        320.97,
+        92.29,
+        497.36,
+        283.14
+      ],
+      "vlm_raw_output": "{\"bbox_2d\": [330, 89, 504, 283], \"label\": \"target\"}",
+      "latency_ms": 993.82,
+      "valid": true,
+      "error": null,
+      "raw_bbox": [
+        330.0,
+        89.0,
+        504.0,
+        283.0
+      ],
+      "pred_bbox_xyxy": [
+        327.95,
+        90.48,
+        500.87,
+        287.72
+      ],
+      "iou": 0.9124
+    },
+    {
+      "id": 42511,
+      "image_id": "coco_1507",
+      "file_name": "COCO_train2014_000000001507.jpg",
+      "source_prefix": "coco",
+      "is_rewrite": false,
+      "caption": "The triangular sandwich half with a visible interior of greens and tomato, placed on the upper right side of the plate, adjacent to the bowl of soup.",
+      "orig_size": [
+        612,
+        612
+      ],
+      "resized_size": [
+        616,
+        616
+      ],
+      "gt_bbox_xyxy": [
+        370.22,
+        136.0,
+        612.0,
+        414.04
+      ],
+      "vlm_raw_output": "{\"bbox_2d\": [369, 125, 616, 418], \"label\": \"target\"}",
+      "latency_ms": 1046.23,
+      "valid": true,
+      "error": null,
+      "raw_bbox": [
+        369.0,
+        125.0,
+        616.0,
+        418.0
+      ],
+      "pred_bbox_xyxy": [
+        366.6,
+        124.19,
+        612.0,
+        415.29
+      ],
+      "iou": 0.9411
+    },
+    {
+      "id": 18957,
+      "image_id": "coco_1822",
+      "file_name": "COCO_train2014_000000001822.jpg",
+      "source_prefix": "coco",
+      "is_rewrite": false,
+      "caption": "The chair of interest is situated to the far right of the couch set, featuring golden trim and oriented towards the television.",
+      "orig_size": [
+        640,
+        480
+      ],
+      "resized_size": [
+        644,
+        476
+      ],
+      "gt_bbox_xyxy": [
+        466.29,
+        180.78,
+        604.68,
+        330.39
+      ],
+      "vlm_raw_output": "{\"bbox_2d\": [469, 183, 605, 327], \"label\": \"target\"}",
+      "latency_ms": 1023.21,
+      "valid": true,
+      "error": null,
+      "raw_bbox": [
+        469.0,
+        183.0,
+        605.0,
+        327.0
+      ],
+      "pred_bbox_xyxy": [
+        466.09,
+        184.54,
+        601.24,
+        329.75
+      ],
+      "iou": 0.9451
+    },
+    {
+      "id": 27430,
+      "image_id": "coco_1947",
+      "file_name": "COCO_train2014_000000001947.jpg",
+      "source_prefix": "coco",
+      "is_rewrite": true,
+      "caption": "The man with gray hair and glasses, wearing a white shirt and seated at the left end of the table, is preoccupied with his smartphone.",
+      "orig_size": [
+        500,
+        375
+      ],
+      "resized_size": [
+        504,
+        364
+      ],
+      "gt_bbox_xyxy": [
+        0.0,
+        79.02,
+        138.42,
+        311.4
+      ],
+      "vlm_raw_output": "{\"bbox_2d\": [0, 76, 145, 364], \"label\": \"The man with gray hair and glasses, wearing a white shirt and seated at the left end of the table, is preoccupied with his smartphone.\"}",
+      "latency_ms": 1755.24,
+      "valid": true,
+      "error": null,
+      "raw_bbox": [
+        0.0,
+        76.0,
+        145.0,
+        364.0
+      ],
+      "pred_bbox_xyxy": [
+        0.0,
+        78.3,
+        143.85,
+        375.0
+      ],
+      "iou": 0.7536
+    },
+    {
+      "id": 21909,
+      "image_id": "coco_1958",
+      "file_name": "COCO_train2014_000000001958.jpg",
+      "source_prefix": "coco",
+      "is_rewrite": false,
+      "caption": "The woman with long hair, dressed entirely in black, is positioned on the left side of the room, facing a television screen while engaged in a playful activity.",
+      "orig_size": [
+        640,
+        480
+      ],
+      "resized_size": [
+        644,
+        476
+      ],
+      "gt_bbox_xyxy": [
+        78.15,
+        139.39,
+        273.92,
+        471.06
+      ],
+      "vlm_raw_output": "{\"bbox_2d\": [76, 138, 279, 465], \"label\": \"The woman with long hair, dressed entirely in black, is positioned on the left side of the room, facing a television screen while engaged in a playful activity.\"}",
+      "latency_ms": 1896.79,
+      "valid": true,
+      "error": null,
+      "raw_bbox": [
+        76.0,
+        138.0,
+        279.0,
+        465.0
+      ],
+      "pred_bbox_xyxy": [
+        75.53,
+        139.16,
+        277.27,
+        468.91
+      ],
+      "iou": 0.9636
+    },
+    {
+      "id": 18123,
+      "image_id": "coco_1966",
+      "file_name": "COCO_train2014_000000001966.jpg",
+      "source_prefix": "coco",
+      "is_rewrite": false,
+      "caption": "A man in a neon green top and black shorts, with white Nike shoes, is preparing to serve a tennis ball on the blue court.",
+      "orig_size": [
+        640,
+        480
+      ],
+      "resized_size": [
+        644,
+        476
+      ],
+      "gt_bbox_xyxy": [
+        126.49,
+        70.81,
+        344.86,
+        440.54
+      ],
+      "vlm_raw_output": "{\"bbox_2d\": [130, 68, 345, 436], \"label\": \"target\"}",
+      "latency_ms": 984.74,
+      "valid": true,
+      "error": null,
+      "raw_bbox": [
+        130.0,
+        68.0,
+        345.0,
+        436.0
+      ],
+      "pred_bbox_xyxy": [
+        129.19,
+        68.57,
+        342.86,
+        439.66
+      ],
+      "iou": 0.9704
+    },
+    {
+      "id": 23749,
+      "image_id": "coco_1994",
+      "file_name": "COCO_train2014_000000001994.jpg",
+      "source_prefix": "coco",
+      "is_rewrite": false,
+      "caption": "A man standing on the right side of the image with grey hair, wearing a vertical striped shirt, beige shorts, and black sandals, is holding a camera around his neck.",
+      "orig_size": [
+        640,
+        480
+      ],
+      "resized_size": [
+        644,
+        476
+      ],
+      "gt_bbox_xyxy": [
+        485.29,
+        22.37,
+        606.34,
+        459.95
+      ],
+      "vlm_raw_output": "{\"bbox_2d\": [489, 23, 605, 460], \"label\": \"target\"}",
+      "latency_ms": 981.07,
+      "valid": true,
+      "error": null,
+      "raw_bbox": [
+        489.0,
+        23.0,
+        605.0,
+        460.0
+      ],
+      "pred_bbox_xyxy": [
+        485.96,
+        23.19,
+        601.24,
+        463.87
+      ],
+      "iou": 0.9425
+    },
+    {
+      "id": 17680,
+      "image_id": "coco_2083",
+      "file_name": "COCO_train2014_000000002083.jpg",
+      "source_prefix": "coco",
+      "is_rewrite": true,
+      "caption": "The girl adorned with a headband and a black shirt is positioned on the kitchen's right side, with her back towards the camera and seemingly engaging with the countertop.",
+      "orig_size": [
+        640,
+        428
+      ],
+      "resized_size": [
+        644,
+        420
+      ],
+      "gt_bbox_xyxy": [
+        435.69,
+        166.39,
+        639.6,
+        423.19
+      ],
+      "vlm_raw_output": "{\"bbox_2d\": [453, 160, 644, 415], \"label\": \"The girl adorned with a headband and a black shirt is positioned on the kitchen's right side, with her back towards the camera and seemingly engaging with the countertop.\"",
+      "latency_ms": 1920.48,
+      "valid": true,
+      "error": null,
+      "raw_bbox": [
+        453.0,
+        160.0,
+        644.0,
+        415.0
+      ],
+      "pred_bbox_xyxy": [
+        450.19,
+        163.05,
+        640.0,
+        422.9
+      ],
+      "iou": 0.915
+    },
+    {
+      "id": 22970,
+      "image_id": "coco_2281",
+      "file_name": "COCO_train2014_000000002281.jpg",
+      "source_prefix": "coco",
+      "is_rewrite": true,
+      "caption": "The rear end of a beige van, being the leftmost vehicle in the image, is seen closest to us with its back facing the snowy street and partially concealed by an off-white refrigerator.",
+      "orig_size": [
+        640,
+        480
+      ],
+      "resized_size": [
+        644,
+        476
+      ],
+      "gt_bbox_xyxy": [
+        0.0,
+        0.0,
+        189.74,
+        474.35
+      ],
+      "vlm_raw_output": "{\"bbox_2d\": [0, 0, 186, 476], \"label\": \"target\"}",
+      "latency_ms": 899.0,
+      "valid": true,
+      "error": null,
+      "raw_bbox": [
+        0.0,
+        0.0,
+        186.0,
+        476.0
+      ],
+      "pred_bbox_xyxy": [
+        0.0,
+        0.0,
+        184.84,
+        480.0
+      ],
+      "iou": 0.963
+    }
+  ],
+  "baselines": {
+    "fixed_center_50pct_box": {
+      "num_samples": 60,
+      "valid_bbox_count": 60,
+      "valid_bbox_rate": 1.0,
+      "invalid_output_count": 0,
+      "acc_at_iou_050_count": 1,
+      "acc_at_iou_050": 0.0167,
+      "acc_at_iou_075_count": 0,
+      "acc_at_iou_075": 0.0,
+      "mean_iou": 0.2028,
+      "median_iou": 0.1822
+    },
+    "fixed_camera_center_512_proportional_box": {
+      "num_samples": 60,
+      "valid_bbox_count": 60,
+      "valid_bbox_rate": 1.0,
+      "invalid_output_count": 0,
+      "acc_at_iou_050_count": 0,
+      "acc_at_iou_050": 0.0,
+      "acc_at_iou_075_count": 0,
+      "acc_at_iou_075": 0.0,
+      "mean_iou": 0.0839,
+      "median_iou": 0.0588
+    },
+    "full_frame_global_box": {
+      "num_samples": 60,
+      "valid_bbox_count": 60,
+      "valid_bbox_rate": 1.0,
+      "invalid_output_count": 0,
+      "acc_at_iou_050_count": 3,
+      "acc_at_iou_050": 0.05,
+      "acc_at_iou_075_count": 1,
+      "acc_at_iou_075": 0.0167,
+      "mean_iou": 0.1961,
+      "median_iou": 0.1404
+    }
+  }
+}

@@ -1,0 +1,1622 @@
+[
+  {
+    "id": 34015,
+    "image_id": "coco_154",
+    "file_name": "COCO_train2014_000000000154.jpg",
+    "source_prefix": "coco",
+    "is_rewrite": false,
+    "ori_category_id": "refcoco_24",
+    "caption": "The zebra grazing in the grassland, centered between another zebra in the background and one in the foreground, distinguished by its tail sticking out to the left.",
+    "width": 427,
+    "height": 640,
+    "meta_width": 427,
+    "meta_height": 640,
+    "bbox_xywh": [
+      40.46,
+      192.98,
+      273.62,
+      139.17
+    ],
+    "gt_bbox_xyxy": [
+      40.46,
+      192.98,
+      314.08,
+      332.15
+    ],
+    "bbox_area": 38079.6954,
+    "image_sha256": "0c726be74f7b08dc54fd021adc50a74643de87179d26df743a3689d7b1343d51"
+  },
+  {
+    "id": 38883,
+    "image_id": "coco_309",
+    "file_name": "COCO_train2014_000000000309.jpg",
+    "source_prefix": "coco",
+    "is_rewrite": false,
+    "ori_category_id": "refcoco_88",
+    "caption": "The torso of a stuffed teddy bear with brown fur, is adorned with a red ribbon, lying on the green grass.",
+    "width": 600,
+    "height": 600,
+    "meta_width": 600,
+    "meta_height": 600,
+    "bbox_xywh": [
+      153.18,
+      213.25,
+      134.57,
+      213.02
+    ],
+    "gt_bbox_xyxy": [
+      153.18,
+      213.25,
+      287.75,
+      426.27
+    ],
+    "bbox_area": 28666.1014,
+    "image_sha256": "5f4434c5e4d114c7d5103894fd3dadfc09d1c9b125413094cd3f6fc357577a3b"
+  },
+  {
+    "id": 28547,
+    "image_id": "coco_605",
+    "file_name": "COCO_train2014_000000000605.jpg",
+    "source_prefix": "coco",
+    "is_rewrite": false,
+    "ori_category_id": "refcoco_47",
+    "caption": "The cup of coffee with a white leaf design on the tan-colored beverage is placed on a blue saucer to the right side of the table, near a glass of water and diagonally across from a plate with a pastry.",
+    "width": 640,
+    "height": 480,
+    "meta_width": 640,
+    "meta_height": 480,
+    "bbox_xywh": [
+      290.81,
+      123.78,
+      224.87,
+      175.14
+    ],
+    "gt_bbox_xyxy": [
+      290.81,
+      123.78,
+      515.6800000000001,
+      298.91999999999996
+    ],
+    "bbox_area": 39383.731799999994,
+    "image_sha256": "0b8536bdcdd80f4147ecd115e8dda984055b93e866d1a2deb7973e90884188fc"
+  },
+  {
+    "id": 31181,
+    "image_id": "coco_656",
+    "file_name": "COCO_train2014_000000000656.jpg",
+    "source_prefix": "coco",
+    "is_rewrite": false,
+    "ori_category_id": "refcoco_3",
+    "caption": "A green car is parked behind the bronze motorcycle, featuring a glossy finish and visible through the motorcycle's rear section.",
+    "width": 640,
+    "height": 472,
+    "meta_width": 640,
+    "meta_height": 472,
+    "bbox_xywh": [
+      461.85,
+      1.02,
+      178.15,
+      189.81
+    ],
+    "gt_bbox_xyxy": [
+      461.85,
+      1.02,
+      640.0,
+      190.83
+    ],
+    "bbox_area": 33814.6515,
+    "image_sha256": "04cc22de55b31cb8ca28052a8f1b01b1a4d03099a640044c45c9029a5471db69"
+  },
+  {
+    "id": 23010,
+    "image_id": "coco_716",
+    "file_name": "COCO_train2014_000000000716.jpg",
+    "source_prefix": "coco",
+    "is_rewrite": true,
+    "ori_category_id": "refcoco_1",
+    "caption": "The person is positioned close to the expansive sky blue wall, bathed in the cozy radiance of a wall-fixed light.",
+    "width": 640,
+    "height": 480,
+    "meta_width": 640,
+    "meta_height": 480,
+    "bbox_xywh": [
+      455.63,
+      2.16,
+      107.43,
+      202.46
+    ],
+    "gt_bbox_xyxy": [
+      455.63,
+      2.16,
+      563.06,
+      204.62
+    ],
+    "bbox_area": 21750.277800000003,
+    "image_sha256": "ffb968a2df7bb39df6aed322b9243e5ee4955f8bd7df3cc43705b520ce43a7cb"
+  },
+  {
+    "id": 33336,
+    "image_id": "coco_735",
+    "file_name": "COCO_train2014_000000000735.jpg",
+    "source_prefix": "coco",
+    "is_rewrite": true,
+    "ori_category_id": "refcoco_67",
+    "caption": "A table draped in a white cloth is positioned in the lower right corner of the image, partly hidden by a table with a blue top, which is decorated with an array of food items.",
+    "width": 640,
+    "height": 361,
+    "meta_width": 640,
+    "meta_height": 361,
+    "bbox_xywh": [
+      428.99,
+      221.78,
+      208.83,
+      134.36
+    ],
+    "gt_bbox_xyxy": [
+      428.99,
+      221.78,
+      637.82,
+      356.14
+    ],
+    "bbox_area": 28058.398800000006,
+    "image_sha256": "229cbbde3199e3f55055e9830bebd5ac203084d9d3bc29ad38b2e2a2dd447f91"
+  },
+  {
+    "id": 21236,
+    "image_id": "coco_797",
+    "file_name": "COCO_train2014_000000000797.jpg",
+    "source_prefix": "coco",
+    "is_rewrite": true,
+    "ori_category_id": "refcoco_22",
+    "caption": "The elephant on the left is making contact with its trunk and the trunk of another elephant to its right.",
+    "width": 640,
+    "height": 360,
+    "meta_width": 640,
+    "meta_height": 360,
+    "bbox_xywh": [
+      0.0,
+      83.75,
+      481.73,
+      215.6
+    ],
+    "gt_bbox_xyxy": [
+      0.0,
+      83.75,
+      481.73,
+      299.35
+    ],
+    "bbox_area": 103860.988,
+    "image_sha256": "046a59a2d874df223bbd20a931489cd909e5d15dc7f061b5c9cd3f7016232d99"
+  },
+  {
+    "id": 37856,
+    "image_id": "coco_909",
+    "file_name": "COCO_train2014_000000000909.jpg",
+    "source_prefix": "coco",
+    "is_rewrite": true,
+    "ori_category_id": "refcoco_72",
+    "caption": "The computer monitor, displaying text and graphics on a visible screen, is situated on a desk adorned with snacks and a bottle of water.",
+    "width": 327,
+    "height": 500,
+    "meta_width": 327,
+    "meta_height": 500,
+    "bbox_xywh": [
+      0.0,
+      18.08,
+      257.23,
+      300.62
+    ],
+    "gt_bbox_xyxy": [
+      0.0,
+      18.08,
+      257.23,
+      318.7
+    ],
+    "bbox_area": 77328.4826,
+    "image_sha256": "6f69228b4ad8744707f7fd3dbeccb951f2ea5c394ff01f2a9ba1d06cc71c5787"
+  },
+  {
+    "id": 33817,
+    "image_id": "coco_1261",
+    "file_name": "COCO_train2014_000000001261.jpg",
+    "source_prefix": "coco",
+    "is_rewrite": false,
+    "ori_category_id": "refcoco_51",
+    "caption": "A glass bowl filled with a creamy mixture and dotted with purple and blue berries is placed on a wicker circle holder to the right of a loaf of bread.",
+    "width": 640,
+    "height": 480,
+    "meta_width": 640,
+    "meta_height": 480,
+    "bbox_xywh": [
+      278.29,
+      99.99,
+      361.71,
+      334.38
+    ],
+    "gt_bbox_xyxy": [
+      278.29,
+      99.99,
+      640.0,
+      434.37
+    ],
+    "bbox_area": 120948.58979999999,
+    "image_sha256": "55765ec7c3888c9fcea5698942539bc0a00429e16a734a7457ac570477093352"
+  },
+  {
+    "id": 40446,
+    "image_id": "coco_1298",
+    "file_name": "COCO_train2014_000000001298.jpg",
+    "source_prefix": "coco",
+    "is_rewrite": true,
+    "ori_category_id": "refcoco_1",
+    "caption": "The man standing in the background, partly hidden by the seated individual, is dressed in a dark short-sleeved shirt and light-colored jeans.",
+    "width": 640,
+    "height": 428,
+    "meta_width": 640,
+    "meta_height": 428,
+    "bbox_xywh": [
+      368.5,
+      2.03,
+      88.29,
+      166.98
+    ],
+    "gt_bbox_xyxy": [
+      368.5,
+      2.03,
+      456.79,
+      169.01
+    ],
+    "bbox_area": 14742.6642,
+    "image_sha256": "cf076485afb04950815965f55d436f5cedff9d7b008403cfe273264eef05ebd0"
+  },
+  {
+    "id": 43721,
+    "image_id": "coco_1407",
+    "file_name": "COCO_train2014_000000001407.jpg",
+    "source_prefix": "coco",
+    "is_rewrite": false,
+    "ori_category_id": "refcoco_1",
+    "caption": "The man in a black suit sitting at the far left beyond the tennis court, behind the player preparing to serve, with his hands clasped together on his lap.",
+    "width": 428,
+    "height": 640,
+    "meta_width": 428,
+    "meta_height": 640,
+    "bbox_xywh": [
+      123.69,
+      4.07,
+      117.93,
+      138.07
+    ],
+    "gt_bbox_xyxy": [
+      123.69,
+      4.07,
+      241.62,
+      142.14
+    ],
+    "bbox_area": 16282.5951,
+    "image_sha256": "5d05722df3223822ffcb5d8016750329a550921f3fc7f4c967a27dac74d438d5"
+  },
+  {
+    "id": 34487,
+    "image_id": "coco_1488",
+    "file_name": "COCO_train2014_000000001488.jpg",
+    "source_prefix": "coco",
+    "is_rewrite": false,
+    "ori_category_id": "refcoco_1",
+    "caption": "The skateboarder wearing a black helmet and dark jacket is riding his skateboard down the ramp.",
+    "width": 640,
+    "height": 427,
+    "meta_width": 640,
+    "meta_height": 427,
+    "bbox_xywh": [
+      320.97,
+      92.29,
+      176.39,
+      190.85
+    ],
+    "gt_bbox_xyxy": [
+      320.97,
+      92.29,
+      497.36,
+      283.14
+    ],
+    "bbox_area": 33664.0315,
+    "image_sha256": "2c7079f98740848daac62ba6ea7b3eec95ca3d6e8a98a35cf69039324d1c19ca"
+  },
+  {
+    "id": 42511,
+    "image_id": "coco_1507",
+    "file_name": "COCO_train2014_000000001507.jpg",
+    "source_prefix": "coco",
+    "is_rewrite": false,
+    "ori_category_id": "refcoco_54",
+    "caption": "The triangular sandwich half with a visible interior of greens and tomato, placed on the upper right side of the plate, adjacent to the bowl of soup.",
+    "width": 612,
+    "height": 612,
+    "meta_width": 612,
+    "meta_height": 612,
+    "bbox_xywh": [
+      370.22,
+      136.0,
+      241.78,
+      278.04
+    ],
+    "gt_bbox_xyxy": [
+      370.22,
+      136.0,
+      612.0,
+      414.04
+    ],
+    "bbox_area": 67224.51120000001,
+    "image_sha256": "5f265d3d50420888fbf11b4234a293f43d65ec28c38d8910c5e133f6b94cac34"
+  },
+  {
+    "id": 18957,
+    "image_id": "coco_1822",
+    "file_name": "COCO_train2014_000000001822.jpg",
+    "source_prefix": "coco",
+    "is_rewrite": false,
+    "ori_category_id": "refcoco_62",
+    "caption": "The chair of interest is situated to the far right of the couch set, featuring golden trim and oriented towards the television.",
+    "width": 640,
+    "height": 480,
+    "meta_width": 640,
+    "meta_height": 480,
+    "bbox_xywh": [
+      466.29,
+      180.78,
+      138.39,
+      149.61
+    ],
+    "gt_bbox_xyxy": [
+      466.29,
+      180.78,
+      604.6800000000001,
+      330.39
+    ],
+    "bbox_area": 20704.5279,
+    "image_sha256": "d4d10e93ee66499a7bac6def5cb1f1cafd9fb6536f5593a1b2a7fcb7f11306f3"
+  },
+  {
+    "id": 27430,
+    "image_id": "coco_1947",
+    "file_name": "COCO_train2014_000000001947.jpg",
+    "source_prefix": "coco",
+    "is_rewrite": true,
+    "ori_category_id": "refcoco_1",
+    "caption": "The man with gray hair and glasses, wearing a white shirt and seated at the left end of the table, is preoccupied with his smartphone.",
+    "width": 500,
+    "height": 375,
+    "meta_width": 500,
+    "meta_height": 375,
+    "bbox_xywh": [
+      0.0,
+      79.02,
+      138.42,
+      232.38
+    ],
+    "gt_bbox_xyxy": [
+      0.0,
+      79.02,
+      138.42,
+      311.4
+    ],
+    "bbox_area": 32166.039599999996,
+    "image_sha256": "8144659fa766b59c29d15db345f96f17ad6548e8f8032edad05bfed3f888be07"
+  },
+  {
+    "id": 21909,
+    "image_id": "coco_1958",
+    "file_name": "COCO_train2014_000000001958.jpg",
+    "source_prefix": "coco",
+    "is_rewrite": false,
+    "ori_category_id": "refcoco_1",
+    "caption": "The woman with long hair, dressed entirely in black, is positioned on the left side of the room, facing a television screen while engaged in a playful activity.",
+    "width": 640,
+    "height": 480,
+    "meta_width": 640,
+    "meta_height": 480,
+    "bbox_xywh": [
+      78.15,
+      139.39,
+      195.77,
+      331.67
+    ],
+    "gt_bbox_xyxy": [
+      78.15,
+      139.39,
+      273.92,
+      471.06
+    ],
+    "bbox_area": 64931.03590000001,
+    "image_sha256": "d80b1011f5e102616fe57941dc4ba9100f60f55841e905bb36d1b5bb18b8aef2"
+  },
+  {
+    "id": 18123,
+    "image_id": "coco_1966",
+    "file_name": "COCO_train2014_000000001966.jpg",
+    "source_prefix": "coco",
+    "is_rewrite": false,
+    "ori_category_id": "refcoco_1",
+    "caption": "A man in a neon green top and black shorts, with white Nike shoes, is preparing to serve a tennis ball on the blue court.",
+    "width": 640,
+    "height": 480,
+    "meta_width": 640,
+    "meta_height": 480,
+    "bbox_xywh": [
+      126.49,
+      70.81,
+      218.37,
+      369.73
+    ],
+    "gt_bbox_xyxy": [
+      126.49,
+      70.81,
+      344.86,
+      440.54
+    ],
+    "bbox_area": 80737.9401,
+    "image_sha256": "70c3dc4d2abcc1e68c3bea3bea44177b9f19b47cca790aee410949d46bca74c7"
+  },
+  {
+    "id": 23749,
+    "image_id": "coco_1994",
+    "file_name": "COCO_train2014_000000001994.jpg",
+    "source_prefix": "coco",
+    "is_rewrite": false,
+    "ori_category_id": "refcoco_1",
+    "caption": "A man standing on the right side of the image with grey hair, wearing a vertical striped shirt, beige shorts, and black sandals, is holding a camera around his neck.",
+    "width": 640,
+    "height": 480,
+    "meta_width": 640,
+    "meta_height": 480,
+    "bbox_xywh": [
+      485.29,
+      22.37,
+      121.05,
+      437.58
+    ],
+    "gt_bbox_xyxy": [
+      485.29,
+      22.37,
+      606.34,
+      459.95
+    ],
+    "bbox_area": 52969.058999999994,
+    "image_sha256": "7f0154a61551d8cc175bd62885ca14682f7ca7ab6e91a17215994fec34454a5f"
+  },
+  {
+    "id": 17680,
+    "image_id": "coco_2083",
+    "file_name": "COCO_train2014_000000002083.jpg",
+    "source_prefix": "coco",
+    "is_rewrite": true,
+    "ori_category_id": "refcoco_1",
+    "caption": "The girl adorned with a headband and a black shirt is positioned on the kitchen's right side, with her back towards the camera and seemingly engaging with the countertop.",
+    "width": 640,
+    "height": 428,
+    "meta_width": 640,
+    "meta_height": 428,
+    "bbox_xywh": [
+      435.69,
+      166.39,
+      203.91,
+      256.8
+    ],
+    "gt_bbox_xyxy": [
+      435.69,
+      166.39,
+      639.6,
+      423.19
+    ],
+    "bbox_area": 52364.088,
+    "image_sha256": "e50e6f6fd8fbf537627bac629bd2746ac572c2b03ba3c9c7d1a195c2a4a023ac"
+  },
+  {
+    "id": 22970,
+    "image_id": "coco_2281",
+    "file_name": "COCO_train2014_000000002281.jpg",
+    "source_prefix": "coco",
+    "is_rewrite": true,
+    "ori_category_id": "refcoco_3",
+    "caption": "The rear end of a beige van, being the leftmost vehicle in the image, is seen closest to us with its back facing the snowy street and partially concealed by an off-white refrigerator.",
+    "width": 640,
+    "height": 480,
+    "meta_width": 640,
+    "meta_height": 480,
+    "bbox_xywh": [
+      0.0,
+      0.0,
+      189.74,
+      474.35
+    ],
+    "gt_bbox_xyxy": [
+      0.0,
+      0.0,
+      189.74,
+      474.35
+    ],
+    "bbox_area": 90003.16900000001,
+    "image_sha256": "f35b69dc4426b70f7333c85d7e633c61f88cebe059db3aa9e03a23422124bdcc"
+  },
+  {
+    "id": 30605,
+    "image_id": "coco_2400",
+    "file_name": "COCO_train2014_000000002400.jpg",
+    "source_prefix": "coco",
+    "is_rewrite": false,
+    "ori_category_id": "refcoco_18",
+    "caption": "The black and white dog with its tongue out is standing to the right of the bench, behind the seated brown dog.",
+    "width": 640,
+    "height": 427,
+    "meta_width": 640,
+    "meta_height": 427,
+    "bbox_xywh": [
+      465.66,
+      72.29,
+      156.37,
+      225.96
+    ],
+    "gt_bbox_xyxy": [
+      465.66,
+      72.29,
+      622.03,
+      298.25
+    ],
+    "bbox_area": 35333.3652,
+    "image_sha256": "e3fc6ad584010ddc77b4695cc16d8418ed241aa1c4d5d88695ea00e2bd813e0a"
+  },
+  {
+    "id": 23915,
+    "image_id": "coco_2411",
+    "file_name": "COCO_train2014_000000002411.jpg",
+    "source_prefix": "coco",
+    "is_rewrite": false,
+    "ori_category_id": "refcoco_61",
+    "caption": "The white piece of cake garnished with nuts on top, placed on a disposable plate to the left of the chocolate cake slice on a floral ceramic plate.",
+    "width": 640,
+    "height": 478,
+    "meta_width": 640,
+    "meta_height": 478,
+    "bbox_xywh": [
+      23.58,
+      132.9,
+      160.76,
+      242.21
+    ],
+    "gt_bbox_xyxy": [
+      23.58,
+      132.9,
+      184.33999999999997,
+      375.11
+    ],
+    "bbox_area": 38937.679599999996,
+    "image_sha256": "41b402d36fbc42261521b258a434ebd7ff154bc6cfaf710c5ac6ba6f83648b46"
+  },
+  {
+    "id": 36559,
+    "image_id": "coco_2448",
+    "file_name": "COCO_train2014_000000002448.jpg",
+    "source_prefix": "coco",
+    "is_rewrite": false,
+    "ori_category_id": "refcoco_62",
+    "caption": "The kitchen chair with a black frame and backrest, positioned on the right side in the foreground of the kitchen island.",
+    "width": 640,
+    "height": 480,
+    "meta_width": 640,
+    "meta_height": 480,
+    "bbox_xywh": [
+      249.77,
+      362.52,
+      154.17,
+      115.18
+    ],
+    "gt_bbox_xyxy": [
+      249.77,
+      362.52,
+      403.94,
+      477.7
+    ],
+    "bbox_area": 17757.3006,
+    "image_sha256": "e2506c1009a42afba767a82bbd7b01b4518cb32e991e1363a23313a6f61e89d8"
+  },
+  {
+    "id": 37777,
+    "image_id": "coco_2567",
+    "file_name": "COCO_train2014_000000002567.jpg",
+    "source_prefix": "coco",
+    "is_rewrite": false,
+    "ori_category_id": "refcoco_1",
+    "caption": "A woman in a gray hoodie is in the process of throwing a frisbee, captured mid-swing with her right arm extended forward.",
+    "width": 427,
+    "height": 640,
+    "meta_width": 427,
+    "meta_height": 640,
+    "bbox_xywh": [
+      75.29,
+      112.94,
+      146.25,
+      351.86
+    ],
+    "gt_bbox_xyxy": [
+      75.29,
+      112.94,
+      221.54000000000002,
+      464.8
+    ],
+    "bbox_area": 51459.525,
+    "image_sha256": "9a0c9e5c3ef0d5955f13c559e727c3844eff790242f1322625f438996af69889"
+  },
+  {
+    "id": 27439,
+    "image_id": "coco_2823",
+    "file_name": "COCO_train2014_000000002823.jpg",
+    "source_prefix": "coco",
+    "is_rewrite": false,
+    "ori_category_id": "refcoco_4",
+    "caption": "The motorcycle of interest is the farthest to the left, exhibiting an all-red color scheme and positioned higher than the other bikes in the scene, with its left side visible to the viewer.",
+    "width": 640,
+    "height": 383,
+    "meta_width": 640,
+    "meta_height": 383,
+    "bbox_xywh": [
+      0.0,
+      4.97,
+      248.99,
+      263.69
+    ],
+    "gt_bbox_xyxy": [
+      0.0,
+      4.97,
+      248.99,
+      268.66
+    ],
+    "bbox_area": 65656.1731,
+    "image_sha256": "ee6848e5484c61253178f0087f037aab1aa1afcc3835dd1bf6c23ef42754295d"
+  },
+  {
+    "id": 39095,
+    "image_id": "coco_2843",
+    "file_name": "COCO_train2014_000000002843.jpg",
+    "source_prefix": "coco",
+    "is_rewrite": false,
+    "ori_category_id": "refcoco_59",
+    "caption": "The food on the plate that is out of focus and located in the background behind the glass of beer and the half-eaten pizza in the foreground.",
+    "width": 640,
+    "height": 428,
+    "meta_width": 640,
+    "meta_height": 428,
+    "bbox_xywh": [
+      320.69,
+      109.71,
+      269.53,
+      85.08
+    ],
+    "gt_bbox_xyxy": [
+      320.69,
+      109.71,
+      590.22,
+      194.79
+    ],
+    "bbox_area": 22931.612399999998,
+    "image_sha256": "c12908f6fc3281364a7e3c310de6908d9ad07883544c3d8adbf0e6066e754df6"
+  },
+  {
+    "id": 26513,
+    "image_id": "coco_2892",
+    "file_name": "COCO_train2014_000000002892.jpg",
+    "source_prefix": "coco",
+    "is_rewrite": false,
+    "ori_category_id": "refcoco_1",
+    "caption": "A girl in a blue shirt is holding a partially eaten peach.",
+    "width": 640,
+    "height": 426,
+    "meta_width": 640,
+    "meta_height": 426,
+    "bbox_xywh": [
+      0.96,
+      0.48,
+      459.58,
+      421.2
+    ],
+    "gt_bbox_xyxy": [
+      0.96,
+      0.48,
+      460.53999999999996,
+      421.68
+    ],
+    "bbox_area": 193575.096,
+    "image_sha256": "115688b5354a23638a0b4a2bcf240fde94de71be68537ada3c09118092967ac9"
+  },
+  {
+    "id": 31309,
+    "image_id": "coco_2964",
+    "file_name": "COCO_train2014_000000002964.jpg",
+    "source_prefix": "coco",
+    "is_rewrite": false,
+    "ori_category_id": "refcoco_44",
+    "caption": "The bottle on the left with a silhouette of a cowboy on its label, named Wily Jack, is situated next to a kitchen appliance and is part of a lineup of various wine bottles on the counter.",
+    "width": 640,
+    "height": 383,
+    "meta_width": 640,
+    "meta_height": 383,
+    "bbox_xywh": [
+      146.62,
+      11.63,
+      95.22,
+      358.24
+    ],
+    "gt_bbox_xyxy": [
+      146.62,
+      11.63,
+      241.84,
+      369.87
+    ],
+    "bbox_area": 34111.6128,
+    "image_sha256": "536ca721ed123b2317df034cb5f576c10fed597e7d56d3a5f78d8de02b66a2da"
+  },
+  {
+    "id": 32855,
+    "image_id": "coco_3178",
+    "file_name": "COCO_train2014_000000003178.jpg",
+    "source_prefix": "coco",
+    "is_rewrite": false,
+    "ori_category_id": "refcoco_25",
+    "caption": "A baby giraffe, distinguishable by its smaller stature and the fact that it is nursing, stands close to its mother, who is positioned to the right of the young giraffe.",
+    "width": 640,
+    "height": 443,
+    "meta_width": 640,
+    "meta_height": 443,
+    "bbox_xywh": [
+      29.59,
+      42.81,
+      308.88,
+      369.33
+    ],
+    "gt_bbox_xyxy": [
+      29.59,
+      42.81,
+      338.46999999999997,
+      412.14
+    ],
+    "bbox_area": 114078.6504,
+    "image_sha256": "8951ffd516153e5369e7930ec032aca35fb7e525933daf1a9a03aebd03271c62"
+  },
+  {
+    "id": 42807,
+    "image_id": "coco_3293",
+    "file_name": "COCO_train2014_000000003293.jpg",
+    "source_prefix": "coco",
+    "is_rewrite": false,
+    "ori_category_id": "refcoco_1",
+    "caption": "The woman standing to the left in the image, who appears to be younger, is wearing a dark skirt, white apron, and dark shoes, and is engaged in washing dishes at the sink.",
+    "width": 512,
+    "height": 640,
+    "meta_width": 512,
+    "meta_height": 640,
+    "bbox_xywh": [
+      145.47,
+      200.92,
+      142.48,
+      362.9
+    ],
+    "gt_bbox_xyxy": [
+      145.47,
+      200.92,
+      287.95,
+      563.8199999999999
+    ],
+    "bbox_area": 51705.99199999999,
+    "image_sha256": "d4a05d95ea12cf2d0c50998b1a6c0da04fcc775fd95c9a5782d5e4e5d2d958fd"
+  },
+  {
+    "id": 40299,
+    "image_id": "coco_3320",
+    "file_name": "COCO_train2014_000000003320.jpg",
+    "source_prefix": "coco",
+    "is_rewrite": false,
+    "ori_category_id": "refcoco_1",
+    "caption": "A man wearing a black jacket, pants, and shoes, stands on the left side of the image with a black backpack strapped to his front, facing the camera, near the entrance to a ferry.",
+    "width": 640,
+    "height": 480,
+    "meta_width": 640,
+    "meta_height": 480,
+    "bbox_xywh": [
+      171.16,
+      229.46,
+      85.41,
+      249.73
+    ],
+    "gt_bbox_xyxy": [
+      171.16,
+      229.46,
+      256.57,
+      479.19
+    ],
+    "bbox_area": 21329.4393,
+    "image_sha256": "755948ba8106ea22954c9762135c1dcb3bb7ba05bbfc94ad9c07d6e17f95d9e7"
+  },
+  {
+    "id": 38765,
+    "image_id": "coco_3518",
+    "file_name": "COCO_train2014_000000003518.jpg",
+    "source_prefix": "coco",
+    "is_rewrite": false,
+    "ori_category_id": "refcoco_52",
+    "caption": "The smaller banana positioned directly below the red heart-shaped object against a dark background.",
+    "width": 640,
+    "height": 427,
+    "meta_width": 640,
+    "meta_height": 427,
+    "bbox_xywh": [
+      186.03,
+      279.28,
+      258.32,
+      98.32
+    ],
+    "gt_bbox_xyxy": [
+      186.03,
+      279.28,
+      444.35,
+      377.59999999999997
+    ],
+    "bbox_area": 25398.022399999998,
+    "image_sha256": "63acfd820811d655d56e32c2fac4d3b4445fbe2313885ed952bf808cb4594376"
+  },
+  {
+    "id": 21509,
+    "image_id": "coco_3751",
+    "file_name": "COCO_train2014_000000003751.jpg",
+    "source_prefix": "coco",
+    "is_rewrite": false,
+    "ori_category_id": "refcoco_33",
+    "caption": "The black suitcase situated on the right side of the image, directly behind the pair of sandals and closest to the camera, is the item in question.",
+    "width": 480,
+    "height": 640,
+    "meta_width": 480,
+    "meta_height": 640,
+    "bbox_xywh": [
+      310.51,
+      114.43,
+      113.18,
+      259.97
+    ],
+    "gt_bbox_xyxy": [
+      310.51,
+      114.43,
+      423.69,
+      374.40000000000003
+    ],
+    "bbox_area": 29423.404600000005,
+    "image_sha256": "f2abc5fe6795456cf275580b0c3bf4b27a4f9335da83431bfb179ac9ca295375"
+  },
+  {
+    "id": 27034,
+    "image_id": "coco_4032",
+    "file_name": "COCO_train2014_000000004032.jpg",
+    "source_prefix": "coco",
+    "is_rewrite": true,
+    "ori_category_id": "refcoco_6",
+    "caption": "The yellow school bus is situated second from the right, displaying the most space on both its sides in comparison to the others.",
+    "width": 640,
+    "height": 133,
+    "meta_width": 640,
+    "meta_height": 133,
+    "bbox_xywh": [
+      299.49,
+      22.53,
+      191.03,
+      104.15
+    ],
+    "gt_bbox_xyxy": [
+      299.49,
+      22.53,
+      490.52,
+      126.68
+    ],
+    "bbox_area": 19895.7745,
+    "image_sha256": "a6a6fcf0eb624ab2004e0aca98bffb0f39b2f826e12426d8c4291e24543a8316"
+  },
+  {
+    "id": 17716,
+    "image_id": "coco_4424",
+    "file_name": "COCO_train2014_000000004424.jpg",
+    "source_prefix": "coco",
+    "is_rewrite": true,
+    "ori_category_id": "refcoco_77",
+    "caption": "In the right hand, the left phone case is held, displaying solid blue and solid red hues, accompanied by a white strap and an Olympic rings emblem in a circular shape at the bottom.",
+    "width": 438,
+    "height": 640,
+    "meta_width": 438,
+    "meta_height": 640,
+    "bbox_xywh": [
+      44.88,
+      332.47,
+      189.51,
+      256.0
+    ],
+    "gt_bbox_xyxy": [
+      44.88,
+      332.47,
+      234.39,
+      588.47
+    ],
+    "bbox_area": 48514.56,
+    "image_sha256": "ce501b6ff179fea0598bc78d0b151519aaffe53c4d8011853585c54162c8f379"
+  },
+  {
+    "id": 41636,
+    "image_id": "coco_4477",
+    "file_name": "COCO_train2014_000000004477.jpg",
+    "source_prefix": "coco",
+    "is_rewrite": true,
+    "ori_category_id": "refcoco_22",
+    "caption": "The elephant, with only its eye and a portion of its face visible, is concealed behind the raised trunk of the foreground elephant.",
+    "width": 640,
+    "height": 506,
+    "meta_width": 640,
+    "meta_height": 506,
+    "bbox_xywh": [
+      442.32,
+      187.62,
+      196.72,
+      168.29
+    ],
+    "gt_bbox_xyxy": [
+      442.32,
+      187.62,
+      639.04,
+      355.90999999999997
+    ],
+    "bbox_area": 33106.008799999996,
+    "image_sha256": "50e21af013da0874259976f28bb1acdfbcccb3b575bc7a479c439391cf4b005b"
+  },
+  {
+    "id": 44143,
+    "image_id": "coco_4587",
+    "file_name": "COCO_train2014_000000004587.jpg",
+    "source_prefix": "coco",
+    "is_rewrite": false,
+    "ori_category_id": "refcoco_51",
+    "caption": "A white square bowl filled with noodles, accompanied by a pair of silver serving tongs, is positioned in front of the buffet platter on the serving table.",
+    "width": 640,
+    "height": 480,
+    "meta_width": 640,
+    "meta_height": 480,
+    "bbox_xywh": [
+      275.29,
+      380.84,
+      166.44,
+      99.16
+    ],
+    "gt_bbox_xyxy": [
+      275.29,
+      380.84,
+      441.73,
+      480.0
+    ],
+    "bbox_area": 16504.1904,
+    "image_sha256": "0b3417d167faed6fc15bca5c31ccb8c47134a2cceb880118106d4d6c0e7f38f8"
+  },
+  {
+    "id": 20362,
+    "image_id": "coco_4704",
+    "file_name": "COCO_train2014_000000004704.jpg",
+    "source_prefix": "coco",
+    "is_rewrite": true,
+    "ori_category_id": "refcoco_1",
+    "caption": "A snowboarder dressed in white is depicted in mid-air, performing a leap on a snow-covered incline, while their board noticeably exhibits shades of blue and red.",
+    "width": 427,
+    "height": 640,
+    "meta_width": 427,
+    "meta_height": 640,
+    "bbox_xywh": [
+      111.68,
+      20.18,
+      163.22,
+      240.54
+    ],
+    "gt_bbox_xyxy": [
+      111.68,
+      20.18,
+      274.9,
+      260.71999999999997
+    ],
+    "bbox_area": 39260.938799999996,
+    "image_sha256": "3a9b087683c26bd9f6f98bc597cbc477fe3a9fab456eaa4f90b4e896a7459d31"
+  },
+  {
+    "id": 38488,
+    "image_id": "coco_4830",
+    "file_name": "COCO_train2014_000000004830.jpg",
+    "source_prefix": "coco",
+    "is_rewrite": true,
+    "ori_category_id": "refcoco_81",
+    "caption": "The sink situated on the left side of the bathroom vanity, being the furthest left when looking at the mirror, is equipped with a silver faucet and accompanied by a soap dispenser and a pair of glasses on the shelf above.",
+    "width": 640,
+    "height": 480,
+    "meta_width": 640,
+    "meta_height": 480,
+    "bbox_xywh": [
+      46.25,
+      132.4,
+      262.6,
+      124.54
+    ],
+    "gt_bbox_xyxy": [
+      46.25,
+      132.4,
+      308.85,
+      256.94
+    ],
+    "bbox_area": 32704.204000000005,
+    "image_sha256": "35b3f512f8b37fc814f7b8815353e5f5cb81b27a303a34cf3bd5cc922a296d36"
+  },
+  {
+    "id": 19762,
+    "image_id": "coco_5215",
+    "file_name": "COCO_train2014_000000005215.jpg",
+    "source_prefix": "coco",
+    "is_rewrite": true,
+    "ori_category_id": "refcoco_1",
+    "caption": "The legs, covered in dark blue jeans and black shoes, are crossed at the ankle and positioned on the left side of the picture, and they belong to a person who is sitting and looking towards the gravel ground.",
+    "width": 640,
+    "height": 474,
+    "meta_width": 640,
+    "meta_height": 474,
+    "bbox_xywh": [
+      1.07,
+      109.71,
+      368.54,
+      363.22
+    ],
+    "gt_bbox_xyxy": [
+      1.07,
+      109.71,
+      369.61,
+      472.93
+    ],
+    "bbox_area": 133861.0988,
+    "image_sha256": "6fd828d078d96df300d1843822849693f9872bfc2e4ea5195e8f732d9e9a912f"
+  },
+  {
+    "id": 39031,
+    "image_id": "coco_5377",
+    "file_name": "COCO_train2014_000000005377.jpg",
+    "source_prefix": "coco",
+    "is_rewrite": false,
+    "ori_category_id": "refcoco_1",
+    "caption": "A baby wearing a white top is perched atop a man's shoulders, facing away from the camera towards the sea.",
+    "width": 333,
+    "height": 500,
+    "meta_width": 333,
+    "meta_height": 500,
+    "bbox_xywh": [
+      224.72,
+      246.07,
+      85.39,
+      130.33
+    ],
+    "gt_bbox_xyxy": [
+      224.72,
+      246.07,
+      310.11,
+      376.4
+    ],
+    "bbox_area": 11128.878700000001,
+    "image_sha256": "b3815eab8d48014bd156883df5c098775099543dda6cfc9403733512cb00d94f"
+  },
+  {
+    "id": 25178,
+    "image_id": "coco_5424",
+    "file_name": "COCO_train2014_000000005424.jpg",
+    "source_prefix": "coco",
+    "is_rewrite": true,
+    "ori_category_id": "refcoco_1",
+    "caption": "The young child, who has a bare chest and dark hair and is seated on a patterned blanket, is holding a yellow object and attentively looking down at it.",
+    "width": 640,
+    "height": 480,
+    "meta_width": 640,
+    "meta_height": 480,
+    "bbox_xywh": [
+      197.39,
+      153.17,
+      195.24,
+      238.38
+    ],
+    "gt_bbox_xyxy": [
+      197.39,
+      153.17,
+      392.63,
+      391.54999999999995
+    ],
+    "bbox_area": 46541.311200000004,
+    "image_sha256": "a4ff288f69d7022a9c1842023ff77a1b3dc0e333697857335de232be0310c124"
+  },
+  {
+    "id": 34557,
+    "image_id": "coco_5587",
+    "file_name": "COCO_train2014_000000005587.jpg",
+    "source_prefix": "coco",
+    "is_rewrite": false,
+    "ori_category_id": "refcoco_67",
+    "caption": "The square table occupied by patrons is positioned in the middle ground of the image, with its surface partially visible just beyond the tiered serving tray filled with sandwiches and scones in the foreground.",
+    "width": 612,
+    "height": 612,
+    "meta_width": 612,
+    "meta_height": 612,
+    "bbox_xywh": [
+      88.49,
+      262.05,
+      124.58,
+      153.58
+    ],
+    "gt_bbox_xyxy": [
+      88.49,
+      262.05,
+      213.07,
+      415.63
+    ],
+    "bbox_area": 19132.9964,
+    "image_sha256": "c7ced449b8f78650756c5865f63efaaaf09c4e40dc6297d80338f70596fb0501"
+  },
+  {
+    "id": 34345,
+    "image_id": "coco_5614",
+    "file_name": "COCO_train2014_000000005614.jpg",
+    "source_prefix": "coco",
+    "is_rewrite": false,
+    "ori_category_id": "refcoco_1",
+    "caption": "A catcher is crouched behind home plate, wearing black protective gear, including a helmet, and a mitt ready to receive a pitch in a baseball game.",
+    "width": 640,
+    "height": 426,
+    "meta_width": 640,
+    "meta_height": 426,
+    "bbox_xywh": [
+      187.2,
+      199.2,
+      153.78,
+      167.76
+    ],
+    "gt_bbox_xyxy": [
+      187.2,
+      199.2,
+      340.98,
+      366.96
+    ],
+    "bbox_area": 25798.1328,
+    "image_sha256": "c2b851cbb48de20e7db987b5748042a17f0cd6c7bf9205b8df216195e773175b"
+  },
+  {
+    "id": 24344,
+    "image_id": "coco_5632",
+    "file_name": "COCO_train2014_000000005632.jpg",
+    "source_prefix": "coco",
+    "is_rewrite": true,
+    "ori_category_id": "refcoco_1",
+    "caption": "The man donning a green cap is occupied with his laptop to the left of the black couch.",
+    "width": 640,
+    "height": 480,
+    "meta_width": 640,
+    "meta_height": 480,
+    "bbox_xywh": [
+      19.42,
+      53.93,
+      543.64,
+      420.68
+    ],
+    "gt_bbox_xyxy": [
+      19.42,
+      53.93,
+      563.06,
+      474.61
+    ],
+    "bbox_area": 228698.4752,
+    "image_sha256": "3c6346e9783c073e11327b99ff002753b36e0ca28289ad141912d5d2a7bdbf8d"
+  },
+  {
+    "id": 23645,
+    "image_id": "coco_5638",
+    "file_name": "COCO_train2014_000000005638.jpg",
+    "source_prefix": "coco",
+    "is_rewrite": false,
+    "ori_category_id": "refcoco_1",
+    "caption": "The person wearing a black shirt and pants stands behind the metal barrier, to the right of the woman in the pink shirt seated on the motorcycle.",
+    "width": 640,
+    "height": 480,
+    "meta_width": 640,
+    "meta_height": 480,
+    "bbox_xywh": [
+      389.58,
+      0.27,
+      103.55,
+      271.82
+    ],
+    "gt_bbox_xyxy": [
+      389.58,
+      0.27,
+      493.13,
+      272.09
+    ],
+    "bbox_area": 28146.961,
+    "image_sha256": "9824cbb439d89ab938d5facdd3bd5ddca92c1abfca4a450c207eff67493c552b"
+  },
+  {
+    "id": 43481,
+    "image_id": "coco_5962",
+    "file_name": "COCO_train2014_000000005962.jpg",
+    "source_prefix": "coco",
+    "is_rewrite": false,
+    "ori_category_id": "refcoco_1",
+    "caption": "The woman seated on the wooden bench, wearing a blue top and dark shorts, is enjoying a meal on a plate.",
+    "width": 640,
+    "height": 427,
+    "meta_width": 640,
+    "meta_height": 427,
+    "bbox_xywh": [
+      116.11,
+      159.13,
+      211.1,
+      261.95
+    ],
+    "gt_bbox_xyxy": [
+      116.11,
+      159.13,
+      327.21,
+      421.08
+    ],
+    "bbox_area": 55297.645,
+    "image_sha256": "e991a5b88d1626605d6fdb259d58bc4c803d74477efbd0d77dec188baabc9026"
+  },
+  {
+    "id": 42217,
+    "image_id": "coco_6026",
+    "file_name": "COCO_train2014_000000006026.jpg",
+    "source_prefix": "coco",
+    "is_rewrite": false,
+    "ori_category_id": "refcoco_1",
+    "caption": "The baby girl with brown hair, clad in a pink shirt, is cradled in the arms of an adult male against the backdrop of a serene lake.",
+    "width": 640,
+    "height": 480,
+    "meta_width": 640,
+    "meta_height": 480,
+    "bbox_xywh": [
+      146.7,
+      262.11,
+      257.79,
+      212.5
+    ],
+    "gt_bbox_xyxy": [
+      146.7,
+      262.11,
+      404.49,
+      474.61
+    ],
+    "bbox_area": 54780.37500000001,
+    "image_sha256": "914665cd5b2de27d23b8ce003b0cf34d34a162e917791e0163116510f1e0a8be"
+  },
+  {
+    "id": 32391,
+    "image_id": "coco_6051",
+    "file_name": "COCO_train2014_000000006051.jpg",
+    "source_prefix": "coco",
+    "is_rewrite": false,
+    "ori_category_id": "refcoco_1",
+    "caption": "The person wearing jeans and a white jacket who is seated in the white chair, near a dog.",
+    "width": 640,
+    "height": 459,
+    "meta_width": 640,
+    "meta_height": 459,
+    "bbox_xywh": [
+      1.03,
+      1.03,
+      401.24,
+      354.82
+    ],
+    "gt_bbox_xyxy": [
+      1.03,
+      1.03,
+      402.27,
+      355.84999999999997
+    ],
+    "bbox_area": 142367.9768,
+    "image_sha256": "5a23174042b4975356ca0387b91e9cf1ac17bdcc7426492577d65697c935533a"
+  },
+  {
+    "id": 18794,
+    "image_id": "coco_6068",
+    "file_name": "COCO_train2014_000000006068.jpg",
+    "source_prefix": "coco",
+    "is_rewrite": true,
+    "ori_category_id": "refcoco_7",
+    "caption": "The stationary gray, solitary train car on the left track is soon to be overtaken by the locomotive moving on the adjacent right track.",
+    "width": 640,
+    "height": 361,
+    "meta_width": 640,
+    "meta_height": 361,
+    "bbox_xywh": [
+      113.57,
+      131.62,
+      269.33,
+      105.46
+    ],
+    "gt_bbox_xyxy": [
+      113.57,
+      131.62,
+      382.9,
+      237.07999999999998
+    ],
+    "bbox_area": 28403.541799999995,
+    "image_sha256": "1d3c0977fe03d5e0aa6674708fc805f06de532608583348fa53a27ce9367af51"
+  },
+  {
+    "id": 19822,
+    "image_id": "coco_6338",
+    "file_name": "COCO_train2014_000000006338.jpg",
+    "source_prefix": "coco",
+    "is_rewrite": true,
+    "ori_category_id": "refcoco_19",
+    "caption": "The horse, whose head is nearest to the ocean waves and partially overlaps with another horse in the foreground, is embellished with a white bridle and is captured mid-step on the sandy beach.",
+    "width": 640,
+    "height": 480,
+    "meta_width": 640,
+    "meta_height": 480,
+    "bbox_xywh": [
+      184.77,
+      142.52,
+      108.39,
+      153.81
+    ],
+    "gt_bbox_xyxy": [
+      184.77,
+      142.52,
+      293.16,
+      296.33000000000004
+    ],
+    "bbox_area": 16671.4659,
+    "image_sha256": "a376909051e537115991271cdb2a49d20af3bf5373b51e1962b6d33793835dfb"
+  },
+  {
+    "id": 40959,
+    "image_id": "coco_6352",
+    "file_name": "COCO_train2014_000000006352.jpg",
+    "source_prefix": "coco",
+    "is_rewrite": false,
+    "ori_category_id": "refcoco_19",
+    "caption": "The horse with a predominantly white coat adorned with brown spots, standing to the right of another horse near the wooden fence in the pasture, with red farm buildings visible in the background.",
+    "width": 640,
+    "height": 425,
+    "meta_width": 640,
+    "meta_height": 425,
+    "bbox_xywh": [
+      364.13,
+      194.0,
+      172.93,
+      107.65
+    ],
+    "gt_bbox_xyxy": [
+      364.13,
+      194.0,
+      537.06,
+      301.65
+    ],
+    "bbox_area": 18615.914500000003,
+    "image_sha256": "5129faed5c502132bb8e361ed8e7eabb556f542174f3b9a4d32e890e89f47f48"
+  },
+  {
+    "id": 23257,
+    "image_id": "coco_6407",
+    "file_name": "COCO_train2014_000000006407.jpg",
+    "source_prefix": "coco",
+    "is_rewrite": false,
+    "ori_category_id": "refcoco_52",
+    "caption": "The larger bunch of bananas is positioned directly in front of the seated woman wearing a checkered shirt and a longyi, with a half-cut jackfruit beside her.",
+    "width": 375,
+    "height": 500,
+    "meta_width": 375,
+    "meta_height": 500,
+    "bbox_xywh": [
+      20.17,
+      360.45,
+      238.19,
+      139.55
+    ],
+    "gt_bbox_xyxy": [
+      20.17,
+      360.45,
+      258.36,
+      500.0
+    ],
+    "bbox_area": 33239.4145,
+    "image_sha256": "4dcb87fef24234adee485c18f5d24a22a0cea1910035206c8a49fd9685af28df"
+  },
+  {
+    "id": 22477,
+    "image_id": "coco_6747",
+    "file_name": "COCO_train2014_000000006747.jpg",
+    "source_prefix": "coco",
+    "is_rewrite": false,
+    "ori_category_id": "refcoco_1",
+    "caption": "The girl in the black shirt is extending her arms towards the open pizza box held by another person across the table.",
+    "width": 640,
+    "height": 480,
+    "meta_width": 640,
+    "meta_height": 480,
+    "bbox_xywh": [
+      1.08,
+      220.63,
+      291.66,
+      208.79
+    ],
+    "gt_bbox_xyxy": [
+      1.08,
+      220.63,
+      292.74,
+      429.41999999999996
+    ],
+    "bbox_area": 60895.6914,
+    "image_sha256": "2fb49c12b190092a1c5b198c2020d8ef8ace22a45bb1a8eca431102e7ca297cc"
+  },
+  {
+    "id": 18145,
+    "image_id": "coco_6842",
+    "file_name": "COCO_train2014_000000006842.jpg",
+    "source_prefix": "coco",
+    "is_rewrite": false,
+    "ori_category_id": "refcoco_17",
+    "caption": "The gray cat with its head raised is positioned inside the right basin of the white dual-sink vanity.",
+    "width": 640,
+    "height": 480,
+    "meta_width": 640,
+    "meta_height": 480,
+    "bbox_xywh": [
+      338.01,
+      133.17,
+      273.07,
+      175.38
+    ],
+    "gt_bbox_xyxy": [
+      338.01,
+      133.17,
+      611.0799999999999,
+      308.54999999999995
+    ],
+    "bbox_area": 47891.016599999995,
+    "image_sha256": "c34ded4f48a91a24be7295cf34769a696ea789f2d48e0672ae3b0afd0bd91591"
+  },
+  {
+    "id": 28253,
+    "image_id": "coco_6943",
+    "file_name": "COCO_train2014_000000006943.jpg",
+    "source_prefix": "coco",
+    "is_rewrite": false,
+    "ori_category_id": "refcoco_28",
+    "caption": "The umbrella adorned with a Hello Kitty design, featuring multiple Hello Kitty faces and red bows against a white background, is shared by two individuals on a rainy day.",
+    "width": 640,
+    "height": 425,
+    "meta_width": 640,
+    "meta_height": 425,
+    "bbox_xywh": [
+      135.96,
+      32.42,
+      282.38,
+      90.32
+    ],
+    "gt_bbox_xyxy": [
+      135.96,
+      32.42,
+      418.34000000000003,
+      122.74
+    ],
+    "bbox_area": 25504.561599999997,
+    "image_sha256": "f1126ec5dd5d3bb263f4e39b51f35239ae6e620abb707d764e8d915f0045a099"
+  },
+  {
+    "id": 23162,
+    "image_id": "coco_6964",
+    "file_name": "COCO_train2014_000000006964.jpg",
+    "source_prefix": "coco",
+    "is_rewrite": true,
+    "ori_category_id": "refcoco_1",
+    "caption": "The man in a blue shirt on the left is gripping a wine glass tilted a bit downwards, seemingly examining the drink.",
+    "width": 478,
+    "height": 640,
+    "meta_width": 478,
+    "meta_height": 640,
+    "bbox_xywh": [
+      1.44,
+      67.6,
+      476.56,
+      565.21
+    ],
+    "gt_bbox_xyxy": [
+      1.44,
+      67.6,
+      478.0,
+      632.8100000000001
+    ],
+    "bbox_area": 269356.47760000004,
+    "image_sha256": "8355236a1764a8d9afd23d81cb7b1109d19115037ddf3052830625c3dab10cb6"
+  },
+  {
+    "id": 29205,
+    "image_id": "coco_7028",
+    "file_name": "COCO_train2014_000000007028.jpg",
+    "source_prefix": "coco",
+    "is_rewrite": false,
+    "ori_category_id": "refcoco_56",
+    "caption": "The chopped green vegetables situated at the forefront of the sandwich on the bread, nearest to the viewer.",
+    "width": 640,
+    "height": 427,
+    "meta_width": 640,
+    "meta_height": 427,
+    "bbox_xywh": [
+      314.98,
+      133.09,
+      175.24,
+      220.71
+    ],
+    "gt_bbox_xyxy": [
+      314.98,
+      133.09,
+      490.22,
+      353.8
+    ],
+    "bbox_area": 38677.220400000006,
+    "image_sha256": "0d58e7eb346adcc9e4cb49daf272080856aa10aa180e22aa7d1ab15d47248929"
+  },
+  {
+    "id": 29387,
+    "image_id": "coco_7035",
+    "file_name": "COCO_train2014_000000007035.jpg",
+    "source_prefix": "coco",
+    "is_rewrite": false,
+    "ori_category_id": "refcoco_1",
+    "caption": "A silhouetted rider atop the larger horse positioned in the central foreground of the beach scene, with the ocean horizon in the background.",
+    "width": 640,
+    "height": 379,
+    "meta_width": 640,
+    "meta_height": 379,
+    "bbox_xywh": [
+      286.17,
+      58.77,
+      128.6,
+      228.25
+    ],
+    "gt_bbox_xyxy": [
+      286.17,
+      58.77,
+      414.77,
+      287.02
+    ],
+    "bbox_area": 29352.949999999997,
+    "image_sha256": "b49a236936fb00e53ff4a4a950b89e6cf93f812b4270d5bc5b15c4e982642355"
+  },
+  {
+    "id": 18848,
+    "image_id": "coco_7129",
+    "file_name": "COCO_train2014_000000007129.jpg",
+    "source_prefix": "coco",
+    "is_rewrite": true,
+    "ori_category_id": "refcoco_1",
+    "caption": "A person dressed in a light blue jacket and black pants is outfitted with skis and poles, getting ready to glide down the snow-covered slope.",
+    "width": 480,
+    "height": 640,
+    "meta_width": 480,
+    "meta_height": 640,
+    "bbox_xywh": [
+      316.42,
+      164.79,
+      123.13,
+      386.58
+    ],
+    "gt_bbox_xyxy": [
+      316.42,
+      164.79,
+      439.55,
+      551.37
+    ],
+    "bbox_area": 47599.5954,
+    "image_sha256": "b472674868aa955a94846c71d14b8bb4d20c994fb3ab664a168d56f48e23ccc8"
+  }
+]

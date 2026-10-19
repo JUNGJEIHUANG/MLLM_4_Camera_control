@@ -95,31 +95,85 @@ def parse_vlm_contract_json(
     observation_seq: int = 1,
     task_id: str = "custom",
     offset_floor_dn: float = 166.5,
+    strict_free_bbox: bool = False,
+    orig_width: int = 2176,
+    orig_height: int = 2048,
+    resized_width: int | None = None,
+    resized_height: int | None = None,
+    coord_space: str = "qwen25_resized_pixel",
 ) -> SemanticContract:
-    """Parse VLM JSON output into a validated SemanticContract."""
+    """Parse VLM JSON output into a validated SemanticContract.
+
+    Supports both:
+      - Free-form bounding boxes (`bbox_2d` or `bbox` in `[x1, y1, x2, y2]`), mapped
+        to sensor `(r0, r1, c0, c1)` via `convert_pred_bbox_to_pixel_xyxy` and
+        `xyxy_pixel_to_sensor_roi_box`. When `strict_free_bbox=True`, any output
+        lacking a valid 4D free bounding box raises `ValueError` instead of falling
+        back to a fixed alias or `'CENTER'`.
+      - Legacy fixed ROI aliases (`roi_code` in `SEMANTIC_ROIS`) when `strict_free_bbox=False`.
+    """
     match = re.search(r"\{.*\}", raw_text, flags=re.DOTALL)
-    payload = json.loads(match.group(0)) if match else json.loads(raw_text)
+    payload: dict = {}
+    if match:
+        try:
+            loaded = json.loads(match.group(0))
+            if isinstance(loaded, dict):
+                payload = loaded
+        except Exception:
+            payload = {}
 
-    roi_code = str(payload.get("roi_code", "CENTER")).upper().strip()
-    if roi_code in SEMANTIC_ROIS:
-        roi_box = SEMANTIC_ROIS[roi_code]
-    elif "roi_box" in payload and len(payload["roi_box"]) == 4:
-        r0, r1, c0, c1 = [int(v) for v in payload["roi_box"]]
-        r0 = max(0, min(r0, 2048 - 64))
-        r1 = max(r0 + 64, min(r1, 2048))
-        c0 = max(0, min(c0, 2176 - 64))
-        c1 = max(c0 + 64, min(c1, 2176))
-        roi_box = (r0, r1, c0, c1)
+    has_bbox_key = any(k in payload for k in ("bbox_2d", "bbox", "box")) or bool(
+        re.search(r'"(?:bbox_2d|bbox|box)"\s*:\s*\[', raw_text)
+    )
+
+    if has_bbox_key:
+        b_res = parse_vlm_free_bbox(
+            raw_text,
+            orig_width=orig_width,
+            orig_height=orig_height,
+            resized_width=resized_width,
+            resized_height=resized_height,
+            default_coord_space=coord_space,
+        )
+        if not b_res["valid"] or b_res["bbox_xyxy"] is None:
+            raise ValueError(f"Invalid free bbox in contract: {b_res.get('error')}")
+        roi_box = xyxy_pixel_to_sensor_roi_box(
+            b_res["bbox_xyxy"], orig_width=orig_width, orig_height=orig_height
+        )
+        roi_code = str(payload.get("roi_code", "FREE_BBOX")).upper().strip() or "FREE_BBOX"
+    elif strict_free_bbox:
+        raise ValueError("strict_free_bbox=True requires a 4D free bounding box ('bbox_2d' or 'bbox')")
     else:
-        roi_code = "CENTER"
-        roi_box = SEMANTIC_ROIS["CENTER"]
+        if not payload:
+            loaded = json.loads(raw_text)
+            if isinstance(loaded, dict):
+                payload = loaded
+        roi_code = str(payload.get("roi_code", "CENTER")).upper().strip()
+        if roi_code in SEMANTIC_ROIS:
+            roi_box = SEMANTIC_ROIS[roi_code]
+        elif "roi_box" in payload and len(payload["roi_box"]) == 4:
+            r0, r1, c0, c1 = [int(v) for v in payload["roi_box"]]
+            r0 = max(0, min(r0, 2048 - 64))
+            r1 = max(r0 + 64, min(r1, 2048))
+            c0 = max(0, min(c0, 2176 - 64))
+            c1 = max(c0 + 64, min(c1, 2176))
+            roi_box = (r0, r1, c0, c1)
+        else:
+            roi_code = "CENTER"
+            roi_box = SEMANTIC_ROIS["CENTER"]
 
-    raw_target = float(payload.get("target_dn", 300.0))
+    def _extract_num(key: str, default_val: float) -> float:
+        if key in payload:
+            return float(payload[key])
+        m_num = re.search(rf'"{key}"\s*:\s*(-?\d+(?:\.\d+)?)', raw_text)
+        return float(m_num.group(1)) if m_num else default_val
+
+    raw_target = _extract_num("target_dn", 300.0)
     target_dn = float(np.clip(raw_target, offset_floor_dn + 20.0, 3600.0))
-    raw_tol = float(payload.get("tolerance_dn", max(15.0, round(0.05 * target_dn, 1))))
+    raw_tol = _extract_num("tolerance_dn", max(15.0, round(0.05 * target_dn, 1)))
     tolerance_dn = float(np.clip(raw_tol, 10.0, 80.0))
-    max_clip = float(np.clip(float(payload.get("max_clip_fraction", 0.0)), 0.0, 0.05))
-    confirm = int(np.clip(int(payload.get("confirm_frames", 6)), 2, 10))
+    max_clip = float(np.clip(_extract_num("max_clip_fraction", 0.0), 0.0, 0.05))
+    confirm = int(np.clip(int(_extract_num("confirm_frames", 6.0)), 2, 10))
     rationale = str(payload.get("rationale", ""))[:200]
 
     return SemanticContract(
@@ -415,3 +469,238 @@ def simulate_dual_layer_episode(
         "terminal_grad_snr": trajectory[-1]["grad_snr"] if trajectory else 0.0,
         "trajectory": trajectory,
     }
+
+
+# =============================================================================
+# Free-Form Bounding Box Grounding, Coordinate Conversion & REC Scoring
+# =============================================================================
+
+def coco_xywh_to_xyxy(bbox_xywh: list[float] | tuple[float, ...]) -> tuple[float, float, float, float]:
+    """Convert COCO / Ref-L4 [x, y, w, h] pixel bbox to [x1, y1, x2, y2] pixel coordinates."""
+    if len(bbox_xywh) != 4:
+        raise ValueError(f"Expected 4-element [x, y, w, h], got {bbox_xywh}")
+    x, y, w, h = [float(v) for v in bbox_xywh]
+    if w <= 0.0 or h <= 0.0:
+        raise ValueError(f"Non-positive width/height in [x, y, w, h]: {bbox_xywh}")
+    return (x, y, x + w, y + h)
+
+
+def convert_pred_bbox_to_pixel_xyxy(
+    raw_bbox: list[float] | tuple[float, ...],
+    coord_space: str,
+    orig_width: int,
+    orig_height: int,
+    resized_width: int | None = None,
+    resized_height: int | None = None,
+) -> tuple[float, float, float, float]:
+    """Convert a predicted [x1, y1, x2, y2] bbox from model coordinate space into
+    original image pixel coordinates [x1, y1, x2, y2].
+
+    Supported `coord_space` modes:
+      - 'qwen25_resized_pixel': coordinates relative to Qwen2.5-VL processor's
+        resized input dimensions (`resized_width = grid_w * 14`, `resized_height = grid_h * 14`).
+      - 'norm1000': coordinates normalized to [0, 1000] x [0, 1000].
+      - 'norm1': coordinates normalized to [0, 1] x [0, 1].
+      - 'orig_pixel': already in original image pixel coordinates [0..orig_width, 0..orig_height].
+    """
+    if len(raw_bbox) != 4:
+        raise ValueError(f"Expected 4-element bbox, got {raw_bbox}")
+    x1, y1, x2, y2 = [float(v) for v in raw_bbox]
+    w_orig = float(orig_width)
+    h_orig = float(orig_height)
+
+    if coord_space == "qwen25_resized_pixel":
+        rw = float(resized_width if resized_width is not None else orig_width)
+        rh = float(resized_height if resized_height is not None else orig_height)
+        px1 = x1 * (w_orig / max(rw, 1.0))
+        py1 = y1 * (h_orig / max(rh, 1.0))
+        px2 = x2 * (w_orig / max(rw, 1.0))
+        py2 = y2 * (h_orig / max(rh, 1.0))
+    elif coord_space == "norm1000":
+        px1 = (x1 / 1000.0) * w_orig
+        py1 = (y1 / 1000.0) * h_orig
+        px2 = (x2 / 1000.0) * w_orig
+        py2 = (y2 / 1000.0) * h_orig
+    elif coord_space == "norm1":
+        px1 = x1 * w_orig
+        py1 = y1 * h_orig
+        px2 = x2 * w_orig
+        py2 = y2 * h_orig
+    elif coord_space == "orig_pixel":
+        px1, py1, px2, py2 = x1, y1, x2, y2
+    else:
+        raise ValueError(f"Unknown coord_space: {coord_space}")
+
+    px1 = float(np.clip(px1, 0.0, w_orig))
+    py1 = float(np.clip(py1, 0.0, h_orig))
+    px2 = float(np.clip(px2, 0.0, w_orig))
+    py2 = float(np.clip(py2, 0.0, h_orig))
+    if px2 <= px1 or py2 <= py1:
+        raise ValueError(f"Degenerate converted bbox [{px1}, {py1}, {px2}, {py2}]")
+    return (px1, py1, px2, py2)
+
+
+def xyxy_pixel_to_sensor_roi_box(
+    bbox_xyxy: list[float] | tuple[float, ...],
+    orig_width: int,
+    orig_height: int,
+    sensor_h: int = 2048,
+    sensor_w: int = 2176,
+    min_side: int = 32,
+) -> tuple[int, int, int, int]:
+    """Map an arbitrary [x1, y1, x2, y2] image bounding box into integer sensor
+    ROI coordinates (r0, r1, c0, c1) for the fast physical exposure loop.
+    """
+    x1, y1, x2, y2 = [float(v) for v in bbox_xyxy]
+    c0 = int(round(x1 * sensor_w / max(float(orig_width), 1.0)))
+    c1 = int(round(x2 * sensor_w / max(float(orig_width), 1.0)))
+    r0 = int(round(y1 * sensor_h / max(float(orig_height), 1.0)))
+    r1 = int(round(y2 * sensor_h / max(float(orig_height), 1.0)))
+
+    r0 = max(0, min(r0, sensor_h - min_side))
+    r1 = max(r0 + min_side, min(r1, sensor_h))
+    c0 = max(0, min(c0, sensor_w - min_side))
+    c1 = max(c0 + min_side, min(c1, sensor_w))
+    return (r0, r1, c0, c1)
+
+
+def parse_vlm_free_bbox(
+    raw_text: str,
+    orig_width: int,
+    orig_height: int,
+    resized_width: int | None = None,
+    resized_height: int | None = None,
+    default_coord_space: str = "qwen25_resized_pixel",
+) -> dict:
+    """Strictly parse a free-form bounding box prediction from VLM output.
+
+    Does NOT repair invalid or alias-only outputs into a default 'CENTER' box;
+    any invalid output is marked `valid=False` and receives IoU=0.0 in evaluation.
+    """
+    if not raw_text or not raw_text.strip():
+        return {"valid": False, "error": "empty_output", "raw_bbox": None, "bbox_xyxy": None}
+
+    raw_bbox = None
+    explicit_space = None
+
+    # 1. Try JSON object or JSON array parsing
+    json_candidates = []
+    # Check fenced block first
+    fenced = re.findall(r"```(?:json)?\s*(.*?)```", raw_text, flags=re.DOTALL)
+    json_candidates.extend(fenced)
+    obj_match = re.search(r"\{.*\}", raw_text, flags=re.DOTALL)
+    if obj_match:
+        json_candidates.append(obj_match.group(0))
+    arr_match = re.search(r"\[.*\]", raw_text, flags=re.DOTALL)
+    if arr_match:
+        json_candidates.append(arr_match.group(0))
+
+    for cand in json_candidates:
+        try:
+            parsed = json.loads(cand)
+            if isinstance(parsed, list) and len(parsed) > 0 and isinstance(parsed[0], dict):
+                parsed = parsed[0]
+            if isinstance(parsed, dict):
+                for key in ("bbox_2d", "bbox", "box", "roi_box"):
+                    if key in parsed and isinstance(parsed[key], (list, tuple)) and len(parsed[key]) == 4:
+                        raw_bbox = [float(v) for v in parsed[key]]
+                        break
+                if "coord_space" in parsed:
+                    explicit_space = str(parsed["coord_space"]).strip()
+            elif isinstance(parsed, list) and len(parsed) == 4 and all(isinstance(v, (int, float)) for v in parsed):
+                raw_bbox = [float(v) for v in parsed]
+            if raw_bbox is not None:
+                break
+        except Exception:
+            continue
+
+    # 2. Fallback to Qwen special tag `<box>(x1,y1),(x2,y2)</box>` if present
+    if raw_bbox is None:
+        m_box = re.search(
+            r"\(\s*(\d+(?:\.\d+)?)\s*,\s*(\d+(?:\.\d+)?)\s*\)\s*,\s*\(\s*(\d+(?:\.\d+)?)\s*,\s*(\d+(?:\.\d+)?)\s*\)",
+            raw_text,
+        )
+        if m_box:
+            raw_bbox = [float(m_box.group(i)) for i in range(1, 5)]
+
+    if raw_bbox is None:
+        return {"valid": False, "error": "no_4d_bbox_found", "raw_bbox": None, "bbox_xyxy": None}
+
+    coord_space = explicit_space or default_coord_space
+    try:
+        bbox_xyxy = convert_pred_bbox_to_pixel_xyxy(
+            raw_bbox,
+            coord_space=coord_space,
+            orig_width=orig_width,
+            orig_height=orig_height,
+            resized_width=resized_width,
+            resized_height=resized_height,
+        )
+        return {
+            "valid": True,
+            "error": None,
+            "coord_space": coord_space,
+            "raw_bbox": raw_bbox,
+            "bbox_xyxy": list(bbox_xyxy),
+        }
+    except Exception as exc:
+        return {
+            "valid": False,
+            "error": str(exc),
+            "coord_space": coord_space,
+            "raw_bbox": raw_bbox,
+            "bbox_xyxy": None,
+        }
+
+
+def compute_bbox_iou_xyxy(
+    box_a: list[float] | tuple[float, ...] | None,
+    box_b: list[float] | tuple[float, ...] | None,
+) -> float:
+    """Compute exact continuous 2D Intersection-over-Union (IoU) between two
+    [x1, y1, x2, y2] bounding boxes. Returns 0.0 if either box is None or degenerate.
+    """
+    if box_a is None or box_b is None or len(box_a) != 4 or len(box_b) != 4:
+        return 0.0
+    ax1, ay1, ax2, by2_a = [float(v) for v in box_a]
+    bx1, by1, bx2, by2 = [float(v) for v in box_b]
+    area_a = max(0.0, ax2 - ax1) * max(0.0, by2_a - ay1)
+    area_b = max(0.0, bx2 - bx1) * max(0.0, by2 - by1)
+    if area_a <= 0.0 or area_b <= 0.0:
+        return 0.0
+
+    ix1 = max(ax1, bx1)
+    iy1 = max(ay1, by1)
+    ix2 = min(ax2, bx2)
+    iy2 = min(by2_a, by2)
+    inter = max(0.0, ix2 - ix1) * max(0.0, iy2 - iy1)
+    union = area_a + area_b - inter
+    if union <= 0.0:
+        return 0.0
+    return float(inter / union)
+
+
+def summarize_rec_evaluation(records: list[dict]) -> dict:
+    """Summarize Referring Expression Comprehension (REC) metrics across `records`.
+    Invalid outputs are included in the denominator with IoU = 0.0.
+    """
+    n = len(records)
+    if n == 0:
+        return {"num_samples": 0}
+    valid_cnt = sum(1 for r in records if r.get("valid", False))
+    ious = [float(r.get("iou", 0.0)) if r.get("valid", False) else 0.0 for r in records]
+    acc50 = sum(1 for v in ious if v >= 0.5)
+    acc75 = sum(1 for v in ious if v >= 0.75)
+    return {
+        "num_samples": n,
+        "valid_bbox_count": valid_cnt,
+        "valid_bbox_rate": round(valid_cnt / n, 4),
+        "invalid_output_count": n - valid_cnt,
+        "acc_at_iou_050_count": acc50,
+        "acc_at_iou_050": round(acc50 / n, 4),
+        "acc_at_iou_075_count": acc75,
+        "acc_at_iou_075": round(acc75 / n, 4),
+        "mean_iou": round(float(np.mean(ious)), 4),
+        "median_iou": round(float(np.median(ious)), 4),
+    }
+

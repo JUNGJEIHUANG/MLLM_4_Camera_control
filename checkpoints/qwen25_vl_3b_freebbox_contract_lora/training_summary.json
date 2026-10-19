@@ -1,0 +1,18 @@
+{
+  "adapter_dir": "/root/autodl-tmp/vlm_camera_control/step2_step3_20261019/free_bbox_contract_lora_adapter",
+  "train_unique_images": 120,
+  "epochs": 2,
+  "microsteps": 240,
+  "optimizer_steps": 60,
+  "train_time_s": 34.01,
+  "loss_history": [
+    {
+      "epoch": 1,
+      "mean_loss": 0.17257
+    },
+    {
+      "epoch": 2,
+      "mean_loss": 0.16147
+    }
+  ]
+}

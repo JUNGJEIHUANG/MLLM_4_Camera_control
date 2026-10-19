@@ -1,0 +1,6768 @@
+{
+  "train": [
+    {
+      "ref_id": 5108,
+      "ann_id": 439967,
+      "image_id": "coco_134520",
+      "file_name": "COCO_train2014_000000134520.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000134520.jpg",
+      "coco_url": "http://mscoco.org/images/134520",
+      "width": 640,
+      "height": 418,
+      "caption": "the man in a suit on the right is proppeing his elbow and hand on his mouth",
+      "word_count": 17,
+      "bbox_coco_xywh": [
+        287.43,
+        91.11,
+        304.35,
+        311.86
+      ],
+      "gt_bbox_xyxy": [
+        287.43,
+        91.11,
+        591.78,
+        402.97
+      ],
+      "split": "train",
+      "image_sha256": "106c7c86a91cf6825a7c4dd996f3b3a8421472aaf99d1fc75d85d0c49d0eede0"
+    },
+    {
+      "ref_id": 5142,
+      "ann_id": 318940,
+      "image_id": "coco_335244",
+      "file_name": "COCO_train2014_000000335244.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000335244.jpg",
+      "coco_url": "http://mscoco.org/images/335244",
+      "width": 640,
+      "height": 480,
+      "caption": "a quilt on the bottom part of the bunk bed",
+      "word_count": 10,
+      "bbox_coco_xywh": [
+        83.95,
+        220.57,
+        453.09,
+        254.0
+      ],
+      "gt_bbox_xyxy": [
+        83.95,
+        220.57,
+        537.04,
+        474.57
+      ],
+      "split": "train",
+      "image_sha256": "93f336490642819d867855211d5793882dc283a7620005d6aa4d86c1cb11f32f"
+    },
+    {
+      "ref_id": 5416,
+      "ann_id": 1099430,
+      "image_id": "coco_558401",
+      "file_name": "COCO_train2014_000000558401.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000558401.jpg",
+      "coco_url": "http://mscoco.org/images/558401",
+      "width": 640,
+      "height": 480,
+      "caption": "a white laptop in a black case",
+      "word_count": 7,
+      "bbox_coco_xywh": [
+        162.15,
+        171.45,
+        304.96,
+        302.82
+      ],
+      "gt_bbox_xyxy": [
+        162.15,
+        171.45,
+        467.11,
+        474.27
+      ],
+      "split": "train",
+      "image_sha256": "9f198a2d7167bfffcc6788a8838b443be1b2002dd5705364c4dae71444b4735a"
+    },
+    {
+      "ref_id": 5458,
+      "ann_id": 389939,
+      "image_id": "coco_16015",
+      "file_name": "COCO_train2014_000000016015.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000016015.jpg",
+      "coco_url": "http://mscoco.org/images/16015",
+      "width": 480,
+      "height": 640,
+      "caption": "a yellow patterned table holding two tea kettles",
+      "word_count": 8,
+      "bbox_coco_xywh": [
+        0.0,
+        326.57,
+        425.71,
+        232.99
+      ],
+      "gt_bbox_xyxy": [
+        0.0,
+        326.57,
+        425.71,
+        559.56
+      ],
+      "split": "train",
+      "image_sha256": "b0e59118c370ca7056e74b93fd51cf832ed449d49cda2d28261700d93a2b9c06"
+    },
+    {
+      "ref_id": 5759,
+      "ann_id": 1795729,
+      "image_id": "coco_203312",
+      "file_name": "COCO_train2014_000000203312.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000203312.jpg",
+      "coco_url": "http://mscoco.org/images/203312",
+      "width": 640,
+      "height": 427,
+      "caption": "the front of a red train , making its way through the forest",
+      "word_count": 13,
+      "bbox_coco_xywh": [
+        192.52,
+        187.94,
+        158.49,
+        89.49
+      ],
+      "gt_bbox_xyxy": [
+        192.52,
+        187.94,
+        351.01,
+        277.43
+      ],
+      "split": "train",
+      "image_sha256": "98efa39fa276f1f0bd2614aff8f0bf04a944a0995b993f3c75c12d4dcbd9d029"
+    },
+    {
+      "ref_id": 5804,
+      "ann_id": 591977,
+      "image_id": "coco_312205",
+      "file_name": "COCO_train2014_000000312205.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000312205.jpg",
+      "coco_url": "http://mscoco.org/images/312205",
+      "width": 640,
+      "height": 427,
+      "caption": "second from the left zebra",
+      "word_count": 5,
+      "bbox_coco_xywh": [
+        155.1,
+        151.27,
+        156.05,
+        216.37
+      ],
+      "gt_bbox_xyxy": [
+        155.1,
+        151.27,
+        311.15,
+        367.64
+      ],
+      "split": "train",
+      "image_sha256": "ae6fde4bd63e28a80b6038d04f80a0afda13b34127829c717e61af1f1169c465"
+    },
+    {
+      "ref_id": 5877,
+      "ann_id": 75807,
+      "image_id": "coco_533569",
+      "file_name": "COCO_train2014_000000533569.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000533569.jpg",
+      "coco_url": "http://mscoco.org/images/533569",
+      "width": 640,
+      "height": 480,
+      "caption": "a brown cow laying down on a pile of hay in front of a pole",
+      "word_count": 15,
+      "bbox_coco_xywh": [
+        181.76,
+        175.96,
+        301.61,
+        172.47
+      ],
+      "gt_bbox_xyxy": [
+        181.76,
+        175.96,
+        483.37,
+        348.43
+      ],
+      "split": "train",
+      "image_sha256": "c4cb2f630902003fd31af56b2b23699fb1ea812ed116a88a2ffabd55839ab555"
+    },
+    {
+      "ref_id": 6299,
+      "ann_id": 32958,
+      "image_id": "coco_187379",
+      "file_name": "COCO_train2014_000000187379.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000187379.jpg",
+      "coco_url": "http://mscoco.org/images/187379",
+      "width": 500,
+      "height": 332,
+      "caption": "computer monitor with earth mover on background",
+      "word_count": 7,
+      "bbox_coco_xywh": [
+        181.63,
+        60.74,
+        157.07,
+        150.37
+      ],
+      "gt_bbox_xyxy": [
+        181.63,
+        60.74,
+        338.7,
+        211.11
+      ],
+      "split": "train",
+      "image_sha256": "87b325bcc3f2852ee5f67388b4d70ff650a37261db470765847679fa5d757159"
+    },
+    {
+      "ref_id": 6350,
+      "ann_id": 584509,
+      "image_id": "coco_208850",
+      "file_name": "COCO_train2014_000000208850.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000208850.jpg",
+      "coco_url": "http://mscoco.org/images/208850",
+      "width": 427,
+      "height": 640,
+      "caption": "shows a body if elephant which is not in the frame",
+      "word_count": 11,
+      "bbox_coco_xywh": [
+        0.0,
+        173.85,
+        152.45,
+        340.86
+      ],
+      "gt_bbox_xyxy": [
+        0.0,
+        173.85,
+        152.45,
+        514.71
+      ],
+      "split": "train",
+      "image_sha256": "986cb32020c32d56308825b28dbed6f8380521c6a193adefa09fb0a0621a7517"
+    },
+    {
+      "ref_id": 6472,
+      "ann_id": 442490,
+      "image_id": "coco_181551",
+      "file_name": "COCO_train2014_000000181551.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000181551.jpg",
+      "coco_url": "http://mscoco.org/images/181551",
+      "width": 426,
+      "height": 640,
+      "caption": "a old man hand in the galss",
+      "word_count": 7,
+      "bbox_coco_xywh": [
+        0.0,
+        6.86,
+        156.03,
+        625.56
+      ],
+      "gt_bbox_xyxy": [
+        0.0,
+        6.86,
+        156.03,
+        632.42
+      ],
+      "split": "train",
+      "image_sha256": "c6240a295f157f25fa04b59d125cba75a323bd80ea2669ce76c659754478bef4"
+    },
+    {
+      "ref_id": 6805,
+      "ann_id": 361077,
+      "image_id": "coco_62477",
+      "file_name": "COCO_train2014_000000062477.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000062477.jpg",
+      "coco_url": "http://mscoco.org/images/62477",
+      "width": 640,
+      "height": 427,
+      "caption": "a black car",
+      "word_count": 3,
+      "bbox_coco_xywh": [
+        0.96,
+        252.36,
+        264.84,
+        169.84
+      ],
+      "gt_bbox_xyxy": [
+        0.96,
+        252.36,
+        265.8,
+        422.2
+      ],
+      "split": "train",
+      "image_sha256": "12022e03aaf22f4605904aeb98085a8d55366628715e022d332f1d2c2668fc04"
+    },
+    {
+      "ref_id": 6808,
+      "ann_id": 1673158,
+      "image_id": "coco_118909",
+      "file_name": "COCO_train2014_000000118909.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000118909.jpg",
+      "coco_url": "http://mscoco.org/images/118909",
+      "width": 640,
+      "height": 427,
+      "caption": "the stuffed animal to the far left",
+      "word_count": 7,
+      "bbox_coco_xywh": [
+        28.5,
+        0.0,
+        199.75,
+        425.46
+      ],
+      "gt_bbox_xyxy": [
+        28.5,
+        0.0,
+        228.25,
+        425.46
+      ],
+      "split": "train",
+      "image_sha256": "e9067f6ffa68b469cde57160a53c238896bf5395b9fa8602c566f72ec96df484"
+    },
+    {
+      "ref_id": 6951,
+      "ann_id": 220765,
+      "image_id": "coco_96421",
+      "file_name": "COCO_train2014_000000096421.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000096421.jpg",
+      "coco_url": "http://mscoco.org/images/96421",
+      "width": 640,
+      "height": 427,
+      "caption": "a woman in a white sweater",
+      "word_count": 6,
+      "bbox_coco_xywh": [
+        0.96,
+        1.92,
+        81.56,
+        424.12
+      ],
+      "gt_bbox_xyxy": [
+        0.96,
+        1.92,
+        82.52,
+        426.04
+      ],
+      "split": "train",
+      "image_sha256": "0f36e390d91dbe2deb35edfb3d25e3e235c80804c977edf628f0e0d16ad367ed"
+    },
+    {
+      "ref_id": 7270,
+      "ann_id": 491896,
+      "image_id": "coco_446726",
+      "file_name": "COCO_train2014_000000446726.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000446726.jpg",
+      "coco_url": "http://mscoco.org/images/446726",
+      "width": 640,
+      "height": 427,
+      "caption": "a woman in a purple plaid shirt whose face is blocked by something",
+      "word_count": 13,
+      "bbox_coco_xywh": [
+        7.71,
+        187.48,
+        314.23,
+        238.07
+      ],
+      "gt_bbox_xyxy": [
+        7.71,
+        187.48,
+        321.94,
+        425.55
+      ],
+      "split": "train",
+      "image_sha256": "54dea4b68ddd35376a8575c104e363514726aac871621aef78fb9f8ee351af02"
+    },
+    {
+      "ref_id": 7855,
+      "ann_id": 432180,
+      "image_id": "coco_142098",
+      "file_name": "COCO_train2014_000000142098.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000142098.jpg",
+      "coco_url": "http://mscoco.org/images/142098",
+      "width": 640,
+      "height": 429,
+      "caption": "a baseball player in white dress standing after hitting the ball with bat",
+      "word_count": 13,
+      "bbox_coco_xywh": [
+        300.45,
+        118.79,
+        187.09,
+        241.82
+      ],
+      "gt_bbox_xyxy": [
+        300.45,
+        118.79,
+        487.54,
+        360.61
+      ],
+      "split": "train",
+      "image_sha256": "889ce6e1b91ff661bd65b502720e927b97448821772c286012ce106c41f7b99a"
+    },
+    {
+      "ref_id": 8210,
+      "ann_id": 371156,
+      "image_id": "coco_373219",
+      "file_name": "COCO_train2014_000000373219.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000373219.jpg",
+      "coco_url": "http://mscoco.org/images/373219",
+      "width": 614,
+      "height": 640,
+      "caption": "liquor bottle on the left",
+      "word_count": 5,
+      "bbox_coco_xywh": [
+        212.37,
+        66.12,
+        97.03,
+        239.13
+      ],
+      "gt_bbox_xyxy": [
+        212.37,
+        66.12,
+        309.4,
+        305.25
+      ],
+      "split": "train",
+      "image_sha256": "50896869df409c62e2661b84f9a13e003436d19840a7188c54406de9e063a1c6"
+    },
+    {
+      "ref_id": 8276,
+      "ann_id": 56575,
+      "image_id": "coco_517579",
+      "file_name": "COCO_train2014_000000517579.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000517579.jpg",
+      "coco_url": "http://mscoco.org/images/517579",
+      "width": 612,
+      "height": 612,
+      "caption": "a brown horse carrying a police officer in between two other horses",
+      "word_count": 12,
+      "bbox_coco_xywh": [
+        244.54,
+        245.11,
+        103.92,
+        269.83
+      ],
+      "gt_bbox_xyxy": [
+        244.54,
+        245.11,
+        348.46,
+        514.94
+      ],
+      "split": "train",
+      "image_sha256": "6a182cb6b58da2e49e4f2046b109edfcb07f3dc0da8120c35ad56a872b674492"
+    },
+    {
+      "ref_id": 8288,
+      "ann_id": 2162662,
+      "image_id": "coco_91707",
+      "file_name": "COCO_train2014_000000091707.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000091707.jpg",
+      "coco_url": "http://mscoco.org/images/91707",
+      "width": 426,
+      "height": 640,
+      "caption": "a boy in a orange shirt standing next to a sitting child",
+      "word_count": 12,
+      "bbox_coco_xywh": [
+        242.54,
+        59.47,
+        126.05,
+        457.01
+      ],
+      "gt_bbox_xyxy": [
+        242.54,
+        59.47,
+        368.59,
+        516.48
+      ],
+      "split": "train",
+      "image_sha256": "d3259645b0d912fabb05d07d1cada5088c1a318359650f4d5a92077ef0be0909"
+    },
+    {
+      "ref_id": 8364,
+      "ann_id": 209679,
+      "image_id": "coco_92420",
+      "file_name": "COCO_train2014_000000092420.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000092420.jpg",
+      "coco_url": "http://mscoco.org/images/92420",
+      "width": 640,
+      "height": 533,
+      "caption": "a woman playing a wii",
+      "word_count": 5,
+      "bbox_coco_xywh": [
+        15.54,
+        135.76,
+        307.13,
+        390.79
+      ],
+      "gt_bbox_xyxy": [
+        15.54,
+        135.76,
+        322.67,
+        526.55
+      ],
+      "split": "train",
+      "image_sha256": "33e7cdefcff3058aa1a969b3349e707d02f1f36b66aed12563937c5330955db2"
+    },
+    {
+      "ref_id": 8659,
+      "ann_id": 1626894,
+      "image_id": "coco_425117",
+      "file_name": "COCO_train2014_000000425117.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000425117.jpg",
+      "coco_url": "http://mscoco.org/images/425117",
+      "width": 640,
+      "height": 360,
+      "caption": "a laptop displaying graphs sitting on top of another electronic",
+      "word_count": 10,
+      "bbox_coco_xywh": [
+        1.62,
+        41.97,
+        159.37,
+        127.01
+      ],
+      "gt_bbox_xyxy": [
+        1.62,
+        41.97,
+        160.99,
+        168.98
+      ],
+      "split": "train",
+      "image_sha256": "5cb1ab033f3f9d2b7f7fbe8c5e1533276c810bcbc13277e687f5d660246bf65c"
+    },
+    {
+      "ref_id": 8809,
+      "ann_id": 597558,
+      "image_id": "coco_20018",
+      "file_name": "COCO_train2014_000000020018.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000020018.jpg",
+      "coco_url": "http://mscoco.org/images/20018",
+      "width": 426,
+      "height": 640,
+      "caption": "a giraffe outside with another one",
+      "word_count": 6,
+      "bbox_coco_xywh": [
+        13.0,
+        50.2,
+        378.51,
+        573.55
+      ],
+      "gt_bbox_xyxy": [
+        13.0,
+        50.2,
+        391.51,
+        623.75
+      ],
+      "split": "train",
+      "image_sha256": "0a9072edba4489cb6989dc2abd7c02668c1aa7bd3084a09c34554acac8372ee2"
+    },
+    {
+      "ref_id": 9052,
+      "ann_id": 152362,
+      "image_id": "coco_579865",
+      "file_name": "COCO_train2014_000000579865.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000579865.jpg",
+      "coco_url": "http://mscoco.org/images/579865",
+      "width": 480,
+      "height": 640,
+      "caption": "a white motorcycle behind the brown dog",
+      "word_count": 7,
+      "bbox_coco_xywh": [
+        7.19,
+        2.97,
+        421.39,
+        330.79
+      ],
+      "gt_bbox_xyxy": [
+        7.19,
+        2.97,
+        428.58,
+        333.76
+      ],
+      "split": "train",
+      "image_sha256": "1a1936f2df3b8eb2aadfbc20628190cfa1105a96907bea39ea2c45fe5940eca3"
+    },
+    {
+      "ref_id": 9115,
+      "ann_id": 381672,
+      "image_id": "coco_69661",
+      "file_name": "COCO_train2014_000000069661.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000069661.jpg",
+      "coco_url": "http://mscoco.org/images/69661",
+      "width": 632,
+      "height": 640,
+      "caption": "the legs of a chair where a man in jeans is sitting",
+      "word_count": 12,
+      "bbox_coco_xywh": [
+        4.27,
+        439.4,
+        140.57,
+        196.45
+      ],
+      "gt_bbox_xyxy": [
+        4.27,
+        439.4,
+        144.84,
+        635.85
+      ],
+      "split": "train",
+      "image_sha256": "304d19f7c5f443806a373e030c90623fd19064458e59c0aab4f8f99a9a0a8cfe"
+    },
+    {
+      "ref_id": 9122,
+      "ann_id": 1383928,
+      "image_id": "coco_250243",
+      "file_name": "COCO_train2014_000000250243.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000250243.jpg",
+      "coco_url": "http://mscoco.org/images/250243",
+      "width": 640,
+      "height": 428,
+      "caption": "a traffic light",
+      "word_count": 3,
+      "bbox_coco_xywh": [
+        532.72,
+        0.0,
+        106.89,
+        148.0
+      ],
+      "gt_bbox_xyxy": [
+        532.72,
+        0.0,
+        639.61,
+        148.0
+      ],
+      "split": "train",
+      "image_sha256": "00e4c4f0248a3a8ebe9473786a0ea77af4dd3d1fab489febeff1c814bc69df22"
+    },
+    {
+      "ref_id": 9384,
+      "ann_id": 40795,
+      "image_id": "coco_540265",
+      "file_name": "COCO_train2014_000000540265.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000540265.jpg",
+      "coco_url": "http://mscoco.org/images/540265",
+      "width": 640,
+      "height": 417,
+      "caption": "an adult white swan standing by the lake to the right of another swan",
+      "word_count": 14,
+      "bbox_coco_xywh": [
+        388.3,
+        80.71,
+        202.67,
+        288.76
+      ],
+      "gt_bbox_xyxy": [
+        388.3,
+        80.71,
+        590.97,
+        369.47
+      ],
+      "split": "train",
+      "image_sha256": "571942dc2bf29b7df6030649bacaae6a827de1bfdda4c30d8c4de4c8a7164d4e"
+    },
+    {
+      "ref_id": 9438,
+      "ann_id": 396738,
+      "image_id": "coco_379766",
+      "file_name": "COCO_train2014_000000379766.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000379766.jpg",
+      "coco_url": "http://mscoco.org/images/379766",
+      "width": 640,
+      "height": 425,
+      "caption": "the back of a pick up truck painted white with red writing and flower designs on it",
+      "word_count": 17,
+      "bbox_coco_xywh": [
+        349.08,
+        61.92,
+        290.92,
+        312.16
+      ],
+      "gt_bbox_xyxy": [
+        349.08,
+        61.92,
+        640.0,
+        374.08
+      ],
+      "split": "train",
+      "image_sha256": "911cbf90ed0470a6afd8802d074ce8fc7d8b45c1d6c6b76af44000aa1ff4c575"
+    },
+    {
+      "ref_id": 9469,
+      "ann_id": 1909837,
+      "image_id": "coco_309720",
+      "file_name": "COCO_train2014_000000309720.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000309720.jpg",
+      "coco_url": "http://mscoco.org/images/309720",
+      "width": 612,
+      "height": 612,
+      "caption": "a taco that has beef , lettuce , onions , and something white inside",
+      "word_count": 14,
+      "bbox_coco_xywh": [
+        227.31,
+        109.68,
+        335.41,
+        453.04
+      ],
+      "gt_bbox_xyxy": [
+        227.31,
+        109.68,
+        562.72,
+        562.72
+      ],
+      "split": "train",
+      "image_sha256": "57d3837ecc63a97c83008231d3a599f4320a3e0067e726864850320a9129cda1"
+    },
+    {
+      "ref_id": 9593,
+      "ann_id": 2172014,
+      "image_id": "coco_470516",
+      "file_name": "COCO_train2014_000000470516.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000470516.jpg",
+      "coco_url": "http://mscoco.org/images/470516",
+      "width": 640,
+      "height": 480,
+      "caption": "a large tall object being covered by a blue tarp",
+      "word_count": 10,
+      "bbox_coco_xywh": [
+        0.0,
+        170.87,
+        394.67,
+        71.37
+      ],
+      "gt_bbox_xyxy": [
+        0.0,
+        170.87,
+        394.67,
+        242.24
+      ],
+      "split": "train",
+      "image_sha256": "d17fd2709b4196911cd7be9f7ea6fa3244fd4990f61dd5a695d204e24be039fc"
+    },
+    {
+      "ref_id": 9655,
+      "ann_id": 424344,
+      "image_id": "coco_87987",
+      "file_name": "COCO_train2014_000000087987.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000087987.jpg",
+      "coco_url": "http://mscoco.org/images/87987",
+      "width": 640,
+      "height": 480,
+      "caption": "a woman in a black and white shirt about to swing a baseball bat",
+      "word_count": 14,
+      "bbox_coco_xywh": [
+        180.4,
+        137.65,
+        154.63,
+        342.35
+      ],
+      "gt_bbox_xyxy": [
+        180.4,
+        137.65,
+        335.03,
+        480.0
+      ],
+      "split": "train",
+      "image_sha256": "4c4bcf22701a357d12c1a9474e3c3dec4b4510c707cfbfad82aa1bdb8ae30574"
+    },
+    {
+      "ref_id": 10042,
+      "ann_id": 487220,
+      "image_id": "coco_446688",
+      "file_name": "COCO_train2014_000000446688.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000446688.jpg",
+      "coco_url": "http://mscoco.org/images/446688",
+      "width": 640,
+      "height": 480,
+      "caption": "little girl with blond hair sitting on grass",
+      "word_count": 8,
+      "bbox_coco_xywh": [
+        84.13,
+        163.96,
+        231.91,
+        261.03
+      ],
+      "gt_bbox_xyxy": [
+        84.13,
+        163.96,
+        316.04,
+        424.99
+      ],
+      "split": "train",
+      "image_sha256": "247b52cdec0a7851d1a1f1c73c8342c035b1f8808cfe0b40885acd985e717f5a"
+    },
+    {
+      "ref_id": 10283,
+      "ann_id": 556190,
+      "image_id": "coco_65162",
+      "file_name": "COCO_train2014_000000065162.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000065162.jpg",
+      "coco_url": "http://mscoco.org/images/65162",
+      "width": 640,
+      "height": 480,
+      "caption": "a black man in a baseball uniform with the letters nge on his shirt",
+      "word_count": 14,
+      "bbox_coco_xywh": [
+        293.86,
+        176.38,
+        133.81,
+        260.43
+      ],
+      "gt_bbox_xyxy": [
+        293.86,
+        176.38,
+        427.67,
+        436.81
+      ],
+      "split": "train",
+      "image_sha256": "cafc6e498532eaa09bcce9f6a64a6a594e8c2d23ae6b847c8d2b5f2bd90494cf"
+    },
+    {
+      "ref_id": 10478,
+      "ann_id": 1622951,
+      "image_id": "coco_360870",
+      "file_name": "COCO_train2014_000000360870.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000360870.jpg",
+      "coco_url": "http://mscoco.org/images/360870",
+      "width": 640,
+      "height": 480,
+      "caption": "a countertop containing dishes with restaurant food on them",
+      "word_count": 9,
+      "bbox_coco_xywh": [
+        170.43,
+        224.03,
+        469.57,
+        245.93
+      ],
+      "gt_bbox_xyxy": [
+        170.43,
+        224.03,
+        640.0,
+        469.96
+      ],
+      "split": "train",
+      "image_sha256": "3d02db65e3f6f23c7fad525aa760b26009cb529ad9cd4c9e478cee9c5b12e0dc"
+    },
+    {
+      "ref_id": 10567,
+      "ann_id": 472632,
+      "image_id": "coco_231801",
+      "file_name": "COCO_train2014_000000231801.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000231801.jpg",
+      "coco_url": "http://mscoco.org/images/231801",
+      "width": 640,
+      "height": 480,
+      "caption": "a woman is opening a bottle of wine",
+      "word_count": 8,
+      "bbox_coco_xywh": [
+        278.29,
+        18.34,
+        242.7,
+        322.51
+      ],
+      "gt_bbox_xyxy": [
+        278.29,
+        18.34,
+        520.99,
+        340.85
+      ],
+      "split": "train",
+      "image_sha256": "b69b8dd55902c3eeb81d560b83441b27089168ca69a9012b27a2f01f4fbbd5fc"
+    },
+    {
+      "ref_id": 10589,
+      "ann_id": 273438,
+      "image_id": "coco_53113",
+      "file_name": "COCO_train2014_000000053113.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000053113.jpg",
+      "coco_url": "http://mscoco.org/images/53113",
+      "width": 500,
+      "height": 375,
+      "caption": "the refletion of the cat under the ladder",
+      "word_count": 8,
+      "bbox_coco_xywh": [
+        209.83,
+        259.55,
+        150.84,
+        100.28
+      ],
+      "gt_bbox_xyxy": [
+        209.83,
+        259.55,
+        360.67,
+        359.83
+      ],
+      "split": "train",
+      "image_sha256": "63496c2a0c9cb604c1e3bac8722f5793d381e19e4849e090ead266d631fbb794"
+    },
+    {
+      "ref_id": 10714,
+      "ann_id": 253008,
+      "image_id": "coco_511279",
+      "file_name": "COCO_train2014_000000511279.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000511279.jpg",
+      "coco_url": "http://mscoco.org/images/511279",
+      "width": 500,
+      "height": 375,
+      "caption": "there is a man standing up against the pole on the sidewalk",
+      "word_count": 12,
+      "bbox_coco_xywh": [
+        416.29,
+        15.87,
+        79.22,
+        226.69
+      ],
+      "gt_bbox_xyxy": [
+        416.29,
+        15.87,
+        495.51,
+        242.56
+      ],
+      "split": "train",
+      "image_sha256": "c754166f31c4980944b38a3f27bce1bbb58a0c4ab3dace2f35df115042ac21ee"
+    },
+    {
+      "ref_id": 11219,
+      "ann_id": 55724,
+      "image_id": "coco_468981",
+      "file_name": "COCO_train2014_000000468981.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000468981.jpg",
+      "coco_url": "http://mscoco.org/images/468981",
+      "width": 640,
+      "height": 427,
+      "caption": "a black horse with all types of equipment on him tied to a carriage",
+      "word_count": 14,
+      "bbox_coco_xywh": [
+        108.12,
+        212.22,
+        147.53,
+        181.43
+      ],
+      "gt_bbox_xyxy": [
+        108.12,
+        212.22,
+        255.65,
+        393.65
+      ],
+      "split": "train",
+      "image_sha256": "0425def745af490d25c3c421868f136dd465d28da48cb634e9e87e0087494169"
+    },
+    {
+      "ref_id": 11335,
+      "ann_id": 578911,
+      "image_id": "coco_358079",
+      "file_name": "COCO_train2014_000000358079.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000358079.jpg",
+      "coco_url": "http://mscoco.org/images/358079",
+      "width": 640,
+      "height": 427,
+      "caption": "the bench the people are sitting on",
+      "word_count": 7,
+      "bbox_coco_xywh": [
+        314.13,
+        190.14,
+        147.54,
+        153.22
+      ],
+      "gt_bbox_xyxy": [
+        314.13,
+        190.14,
+        461.67,
+        343.36
+      ],
+      "split": "train",
+      "image_sha256": "ba56716d938ba6eb092950b3f14154c0fb074906ce46f651df95cc8d41a5923b"
+    },
+    {
+      "ref_id": 11444,
+      "ann_id": 152555,
+      "image_id": "coco_279373",
+      "file_name": "COCO_train2014_000000279373.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000279373.jpg",
+      "coco_url": "http://mscoco.org/images/279373",
+      "width": 640,
+      "height": 441,
+      "caption": "a group of motorcycles",
+      "word_count": 4,
+      "bbox_coco_xywh": [
+        293.58,
+        80.58,
+        279.95,
+        300.4
+      ],
+      "gt_bbox_xyxy": [
+        293.58,
+        80.58,
+        573.53,
+        380.98
+      ],
+      "split": "train",
+      "image_sha256": "518aa5988d97d9ac45a881e87c7f91f2cbe83908449dc87f65fba6be04029112"
+    },
+    {
+      "ref_id": 11454,
+      "ann_id": 430921,
+      "image_id": "coco_307196",
+      "file_name": "COCO_train2014_000000307196.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000307196.jpg",
+      "coco_url": "http://mscoco.org/images/307196",
+      "width": 640,
+      "height": 425,
+      "caption": "the man on the black skateboard",
+      "word_count": 6,
+      "bbox_coco_xywh": [
+        318.27,
+        86.72,
+        139.13,
+        146.74
+      ],
+      "gt_bbox_xyxy": [
+        318.27,
+        86.72,
+        457.4,
+        233.46
+      ],
+      "split": "train",
+      "image_sha256": "d4bddb76b22ee0a0c3eec9e4b2faf77a58cfe832ad4020892ccbdcdf2f747a06"
+    },
+    {
+      "ref_id": 11870,
+      "ann_id": 493556,
+      "image_id": "coco_107670",
+      "file_name": "COCO_train2014_000000107670.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000107670.jpg",
+      "coco_url": "http://mscoco.org/images/107670",
+      "width": 640,
+      "height": 424,
+      "caption": "teenager on a skate pipe makes a move on his skateboard",
+      "word_count": 11,
+      "bbox_coco_xywh": [
+        244.47,
+        74.01,
+        227.28,
+        245.42
+      ],
+      "gt_bbox_xyxy": [
+        244.47,
+        74.01,
+        471.75,
+        319.43
+      ],
+      "split": "train",
+      "image_sha256": "d80ad51066915f5c1dd401bb6ff6810cb002094794d1f9b3fd4a2b9d979be029"
+    },
+    {
+      "ref_id": 12078,
+      "ann_id": 55369,
+      "image_id": "coco_499168",
+      "file_name": "COCO_train2014_000000499168.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000499168.jpg",
+      "coco_url": "http://mscoco.org/images/499168",
+      "width": 612,
+      "height": 612,
+      "caption": "a white and brown pony",
+      "word_count": 5,
+      "bbox_coco_xywh": [
+        48.7,
+        209.26,
+        438.27,
+        347.46
+      ],
+      "gt_bbox_xyxy": [
+        48.7,
+        209.26,
+        486.97,
+        556.72
+      ],
+      "split": "train",
+      "image_sha256": "bd684412983e6bf21ab73c934d25adc493fa9087571042466a5845ed356b74cb"
+    },
+    {
+      "ref_id": 12142,
+      "ann_id": 2176943,
+      "image_id": "coco_475177",
+      "file_name": "COCO_train2014_000000475177.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000475177.jpg",
+      "coco_url": "http://mscoco.org/images/475177",
+      "width": 640,
+      "height": 480,
+      "caption": "a man in a red shirt and shorts playing wii",
+      "word_count": 10,
+      "bbox_coco_xywh": [
+        174.02,
+        67.22,
+        78.48,
+        340.54
+      ],
+      "gt_bbox_xyxy": [
+        174.02,
+        67.22,
+        252.5,
+        407.76
+      ],
+      "split": "train",
+      "image_sha256": "0c563ba98cced917bad05aedcff958f349de369a70c9db9e53143aa1f5aa62f4"
+    },
+    {
+      "ref_id": 12168,
+      "ann_id": 1713096,
+      "image_id": "coco_234422",
+      "file_name": "COCO_train2014_000000234422.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000234422.jpg",
+      "coco_url": "http://mscoco.org/images/234422",
+      "width": 480,
+      "height": 640,
+      "caption": "a catcher is playing baseball",
+      "word_count": 5,
+      "bbox_coco_xywh": [
+        0.0,
+        262.15,
+        140.31,
+        357.94
+      ],
+      "gt_bbox_xyxy": [
+        0.0,
+        262.15,
+        140.31,
+        620.09
+      ],
+      "split": "train",
+      "image_sha256": "db598ed6917308b3de56099242b77fc4cc336a845e3dfeb1d43c10e9db9062da"
+    },
+    {
+      "ref_id": 12195,
+      "ann_id": 15576,
+      "image_id": "coco_79021",
+      "file_name": "COCO_train2014_000000079021.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000079021.jpg",
+      "coco_url": "http://mscoco.org/images/79021",
+      "width": 640,
+      "height": 480,
+      "caption": "light brown dog solidly colored",
+      "word_count": 5,
+      "bbox_coco_xywh": [
+        300.02,
+        113.18,
+        192.5,
+        157.88
+      ],
+      "gt_bbox_xyxy": [
+        300.02,
+        113.18,
+        492.52,
+        271.06
+      ],
+      "split": "train",
+      "image_sha256": "54dd61090043ea701a12319c702fae4911c5fdf64443b97e430123809537b2d8"
+    },
+    {
+      "ref_id": 12307,
+      "ann_id": 177040,
+      "image_id": "coco_341440",
+      "file_name": "COCO_train2014_000000341440.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000341440.jpg",
+      "coco_url": "http://mscoco.org/images/341440",
+      "width": 640,
+      "height": 480,
+      "caption": "a long white boat with some damage to its side sits waiting at the dock",
+      "word_count": 15,
+      "bbox_coco_xywh": [
+        39.91,
+        214.65,
+        537.17,
+        52.86
+      ],
+      "gt_bbox_xyxy": [
+        39.91,
+        214.65,
+        577.08,
+        267.51
+      ],
+      "split": "train",
+      "image_sha256": "9a7573bd1b517ae42fa691fdeaa1a3ec2bdbb74b4f379f5a9bcecfa32c02dc8b"
+    },
+    {
+      "ref_id": 12393,
+      "ann_id": 1807708,
+      "image_id": "coco_357508",
+      "file_name": "COCO_train2014_000000357508.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000357508.jpg",
+      "coco_url": "http://mscoco.org/images/357508",
+      "width": 640,
+      "height": 640,
+      "caption": "the crosswalk sign with the walk signal on",
+      "word_count": 8,
+      "bbox_coco_xywh": [
+        373.6,
+        383.21,
+        225.41,
+        203.35
+      ],
+      "gt_bbox_xyxy": [
+        373.6,
+        383.21,
+        599.01,
+        586.56
+      ],
+      "split": "train",
+      "image_sha256": "8e5d09ba179f1dea9a4d8e5c365a1c0fb1be49486284dad727ad1c9967147b10"
+    },
+    {
+      "ref_id": 12901,
+      "ann_id": 440275,
+      "image_id": "coco_364123",
+      "file_name": "COCO_train2014_000000364123.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000364123.jpg",
+      "coco_url": "http://mscoco.org/images/364123",
+      "width": 499,
+      "height": 500,
+      "caption": "a woman with a leather skirt and dowdy cardigan holding a purse with short hair and unnattractive visage",
+      "word_count": 18,
+      "bbox_coco_xywh": [
+        207.21,
+        10.14,
+        218.47,
+        489.86
+      ],
+      "gt_bbox_xyxy": [
+        207.21,
+        10.14,
+        425.68,
+        500.0
+      ],
+      "split": "train",
+      "image_sha256": "3c74f810be9c75895538dab5cb465159673adfc5d4d7f5083998446df86563c0"
+    },
+    {
+      "ref_id": 12992,
+      "ann_id": 109047,
+      "image_id": "coco_477259",
+      "file_name": "COCO_train2014_000000477259.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000477259.jpg",
+      "coco_url": "http://mscoco.org/images/477259",
+      "width": 640,
+      "height": 480,
+      "caption": "blue lawn chair which the man in grey and blue jeans is sitting on",
+      "word_count": 14,
+      "bbox_coco_xywh": [
+        21.77,
+        202.94,
+        138.92,
+        216.67
+      ],
+      "gt_bbox_xyxy": [
+        21.77,
+        202.94,
+        160.69,
+        419.61
+      ],
+      "split": "train",
+      "image_sha256": "587e6eaba3cdc7891d7108e381fe5103839b0b8881156412b1dc31b79958a5de"
+    },
+    {
+      "ref_id": 13078,
+      "ann_id": 1129048,
+      "image_id": "coco_287541",
+      "file_name": "COCO_train2014_000000287541.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000287541.jpg",
+      "coco_url": "http://mscoco.org/images/287541",
+      "width": 640,
+      "height": 429,
+      "caption": "the sink basin on the outermost left hand side of the photo",
+      "word_count": 12,
+      "bbox_coco_xywh": [
+        0.0,
+        193.77,
+        342.24,
+        219.81
+      ],
+      "gt_bbox_xyxy": [
+        0.0,
+        193.77,
+        342.24,
+        413.58
+      ],
+      "split": "train",
+      "image_sha256": "0d521dde7a157d237060a4f422468fd6320d7f36fa1d5251d5b1aa4b766ce9c0"
+    },
+    {
+      "ref_id": 13561,
+      "ann_id": 514320,
+      "image_id": "coco_331518",
+      "file_name": "COCO_train2014_000000331518.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000331518.jpg",
+      "coco_url": "http://mscoco.org/images/331518",
+      "width": 640,
+      "height": 427,
+      "caption": "the blurry boy dressed in red t - shirt",
+      "word_count": 9,
+      "bbox_coco_xywh": [
+        72.13,
+        40.87,
+        143.29,
+        381.8
+      ],
+      "gt_bbox_xyxy": [
+        72.13,
+        40.87,
+        215.42,
+        422.67
+      ],
+      "split": "train",
+      "image_sha256": "bb20ac0ed0592e2c822c6a73df45668d1d0b27a4e5583cf7668787854f2cfa84"
+    },
+    {
+      "ref_id": 13789,
+      "ann_id": 515956,
+      "image_id": "coco_198327",
+      "file_name": "COCO_train2014_000000198327.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000198327.jpg",
+      "coco_url": "http://mscoco.org/images/198327",
+      "width": 640,
+      "height": 480,
+      "caption": "a man in a yellow shirt catching a frisbee ,",
+      "word_count": 10,
+      "bbox_coco_xywh": [
+        306.55,
+        85.74,
+        114.79,
+        334.61
+      ],
+      "gt_bbox_xyxy": [
+        306.55,
+        85.74,
+        421.34,
+        420.35
+      ],
+      "split": "train",
+      "image_sha256": "7eaf6c2d674c29d4d6047e7561e0efd4f3bdc9ef4c62226a710e873f67fbb5a8"
+    },
+    {
+      "ref_id": 13929,
+      "ann_id": 582510,
+      "image_id": "coco_175021",
+      "file_name": "COCO_train2014_000000175021.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000175021.jpg",
+      "coco_url": "http://mscoco.org/images/175021",
+      "width": 640,
+      "height": 502,
+      "caption": "elephant with hay in mouth",
+      "word_count": 5,
+      "bbox_coco_xywh": [
+        2.26,
+        74.27,
+        309.09,
+        392.57
+      ],
+      "gt_bbox_xyxy": [
+        2.26,
+        74.27,
+        311.35,
+        466.84
+      ],
+      "split": "train",
+      "image_sha256": "b8ca40941f9130e6bd32e2d1307d6707c2fd0ea7c680c32d9c4d855c49398def"
+    },
+    {
+      "ref_id": 13996,
+      "ann_id": 682193,
+      "image_id": "coco_10161",
+      "file_name": "COCO_train2014_000000010161.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000010161.jpg",
+      "coco_url": "http://mscoco.org/images/10161",
+      "width": 640,
+      "height": 427,
+      "caption": "a clear cup next to a bowl of soup",
+      "word_count": 9,
+      "bbox_coco_xywh": [
+        75.8,
+        54.69,
+        118.03,
+        116.11
+      ],
+      "gt_bbox_xyxy": [
+        75.8,
+        54.69,
+        193.83,
+        170.8
+      ],
+      "split": "train",
+      "image_sha256": "d7e7eb212cad6ee8a0bfadb6e9685dcf5e194720d5894ef4a0365c00dbdd2802"
+    },
+    {
+      "ref_id": 14205,
+      "ann_id": 1710937,
+      "image_id": "coco_394880",
+      "file_name": "COCO_train2014_000000394880.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000394880.jpg",
+      "coco_url": "http://mscoco.org/images/394880",
+      "width": 640,
+      "height": 480,
+      "caption": "a man wearing khaki pants standing at the counter",
+      "word_count": 9,
+      "bbox_coco_xywh": [
+        479.77,
+        149.25,
+        120.26,
+        271.14
+      ],
+      "gt_bbox_xyxy": [
+        479.77,
+        149.25,
+        600.03,
+        420.39
+      ],
+      "split": "train",
+      "image_sha256": "0ad3aafcfdced2a4590f6667cd5f8924311074a563330ebb21ea49c00f41ee12"
+    },
+    {
+      "ref_id": 14301,
+      "ann_id": 116045,
+      "image_id": "coco_220053",
+      "file_name": "COCO_train2014_000000220053.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000220053.jpg",
+      "coco_url": "http://mscoco.org/images/220053",
+      "width": 500,
+      "height": 333,
+      "caption": "brown color sofa near black cat",
+      "word_count": 6,
+      "bbox_coco_xywh": [
+        337.99,
+        139.83,
+        161.87,
+        189.67
+      ],
+      "gt_bbox_xyxy": [
+        337.99,
+        139.83,
+        499.86,
+        329.5
+      ],
+      "split": "train",
+      "image_sha256": "b00c1a6d825b82de89fbddc48635154251dbb1b6bbea068533c2ef82c3d623f6"
+    },
+    {
+      "ref_id": 14537,
+      "ann_id": 2207999,
+      "image_id": "coco_176947",
+      "file_name": "COCO_train2014_000000176947.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000176947.jpg",
+      "coco_url": "http://mscoco.org/images/176947",
+      "width": 640,
+      "height": 427,
+      "caption": "baby in bathtub with toy held up to mouth",
+      "word_count": 9,
+      "bbox_coco_xywh": [
+        357.9,
+        204.07,
+        282.1,
+        222.93
+      ],
+      "gt_bbox_xyxy": [
+        357.9,
+        204.07,
+        640.0,
+        427.0
+      ],
+      "split": "train",
+      "image_sha256": "25c59bb75330c816dc091778571e36417b2a03acdfbccdf17ab34fcd6e9bfae3"
+    },
+    {
+      "ref_id": 14576,
+      "ann_id": 374318,
+      "image_id": "coco_487602",
+      "file_name": "COCO_train2014_000000487602.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000487602.jpg",
+      "coco_url": "http://mscoco.org/images/487602",
+      "width": 480,
+      "height": 640,
+      "caption": "an empty seat",
+      "word_count": 3,
+      "bbox_coco_xywh": [
+        0.0,
+        330.76,
+        108.16,
+        182.55
+      ],
+      "gt_bbox_xyxy": [
+        0.0,
+        330.76,
+        108.16,
+        513.31
+      ],
+      "split": "train",
+      "image_sha256": "05b381aa0d32f7b603b41c0d659ee67d725770bd4d1384777ed1a0a191c217d4"
+    },
+    {
+      "ref_id": 14844,
+      "ann_id": 1144243,
+      "image_id": "coco_564361",
+      "file_name": "COCO_train2014_000000564361.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000564361.jpg",
+      "coco_url": "http://mscoco.org/images/564361",
+      "width": 640,
+      "height": 424,
+      "caption": "a book standing behind a sign with a clock",
+      "word_count": 9,
+      "bbox_coco_xywh": [
+        157.46,
+        0.63,
+        303.53,
+        316.82
+      ],
+      "gt_bbox_xyxy": [
+        157.46,
+        0.63,
+        460.99,
+        317.45
+      ],
+      "split": "train",
+      "image_sha256": "89bc50fb80f37f4d337cad1a87b97591f11a5dafdcc245e15d5b8588fdbb035a"
+    },
+    {
+      "ref_id": 14853,
+      "ann_id": 1041831,
+      "image_id": "coco_538776",
+      "file_name": "COCO_train2014_000000538776.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000538776.jpg",
+      "coco_url": "http://mscoco.org/images/538776",
+      "width": 640,
+      "height": 427,
+      "caption": "two frozen bananas by the blender",
+      "word_count": 6,
+      "bbox_coco_xywh": [
+        290.74,
+        118.69,
+        248.53,
+        176.56
+      ],
+      "gt_bbox_xyxy": [
+        290.74,
+        118.69,
+        539.27,
+        295.25
+      ],
+      "split": "train",
+      "image_sha256": "511c810a39561fc065e6cdb610fe1a8acddae797642d0995e40676a7c740223c"
+    },
+    {
+      "ref_id": 14877,
+      "ann_id": 514233,
+      "image_id": "coco_306009",
+      "file_name": "COCO_train2014_000000306009.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000306009.jpg",
+      "coco_url": "http://mscoco.org/images/306009",
+      "width": 427,
+      "height": 640,
+      "caption": "the cheerful boy holding the blue bat",
+      "word_count": 7,
+      "bbox_coco_xywh": [
+        2.88,
+        172.58,
+        391.19,
+        460.23
+      ],
+      "gt_bbox_xyxy": [
+        2.88,
+        172.58,
+        394.07,
+        632.81
+      ],
+      "split": "train",
+      "image_sha256": "db906b3b56850c191a82660f826c55b7019d7f17f95f41fb0a21e1e087a75e47"
+    },
+    {
+      "ref_id": 15294,
+      "ann_id": 436076,
+      "image_id": "coco_351451",
+      "file_name": "COCO_train2014_000000351451.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000351451.jpg",
+      "coco_url": "http://mscoco.org/images/351451",
+      "width": 640,
+      "height": 427,
+      "caption": "a soccer player in a blue uniform with white shorts , rushing forward for the ball",
+      "word_count": 16,
+      "bbox_coco_xywh": [
+        232.1,
+        42.46,
+        197.07,
+        325.21
+      ],
+      "gt_bbox_xyxy": [
+        232.1,
+        42.46,
+        429.17,
+        367.67
+      ],
+      "split": "train",
+      "image_sha256": "312c47d861129336eb9293f723fcf90052284a1169839a9eb6c8464e4daa2b1e"
+    },
+    {
+      "ref_id": 15537,
+      "ann_id": 600421,
+      "image_id": "coco_259489",
+      "file_name": "COCO_train2014_000000259489.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000259489.jpg",
+      "coco_url": "http://mscoco.org/images/259489",
+      "width": 375,
+      "height": 500,
+      "caption": "giraffe standing behind another giraffe",
+      "word_count": 5,
+      "bbox_coco_xywh": [
+        16.85,
+        66.29,
+        270.79,
+        373.04
+      ],
+      "gt_bbox_xyxy": [
+        16.85,
+        66.29,
+        287.64,
+        439.33
+      ],
+      "split": "train",
+      "image_sha256": "7aafe51da430f7db03ab99a79857c086204564d546c6c23d26031eed8504c578"
+    },
+    {
+      "ref_id": 15870,
+      "ann_id": 1084664,
+      "image_id": "coco_367071",
+      "file_name": "COCO_train2014_000000367071.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000367071.jpg",
+      "coco_url": "http://mscoco.org/images/367071",
+      "width": 640,
+      "height": 480,
+      "caption": "a meal with the letters \" so \" on it",
+      "word_count": 10,
+      "bbox_coco_xywh": [
+        387.03,
+        177.3,
+        251.89,
+        240.0
+      ],
+      "gt_bbox_xyxy": [
+        387.03,
+        177.3,
+        638.92,
+        417.3
+      ],
+      "split": "train",
+      "image_sha256": "1b4a1006ae9c1b1cc99e4cc47c76a0a9c0f3d66870d0b8f23347276853ffbdcf"
+    },
+    {
+      "ref_id": 16471,
+      "ann_id": 469814,
+      "image_id": "coco_314462",
+      "file_name": "COCO_train2014_000000314462.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000314462.jpg",
+      "coco_url": "http://mscoco.org/images/314462",
+      "width": 480,
+      "height": 640,
+      "caption": "the woman with the maroon jacket",
+      "word_count": 6,
+      "bbox_coco_xywh": [
+        64.72,
+        94.92,
+        161.08,
+        496.18
+      ],
+      "gt_bbox_xyxy": [
+        64.72,
+        94.92,
+        225.8,
+        591.1
+      ],
+      "split": "train",
+      "image_sha256": "1cb60d5ae0a410a53040878a17444a1c6c67f1243cc1de3e9ab3a9d181716211"
+    },
+    {
+      "ref_id": 16711,
+      "ann_id": 1154358,
+      "image_id": "coco_46055",
+      "file_name": "COCO_train2014_000000046055.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000046055.jpg",
+      "coco_url": "http://mscoco.org/images/46055",
+      "width": 480,
+      "height": 640,
+      "caption": "a white vase with flowers in it",
+      "word_count": 7,
+      "bbox_coco_xywh": [
+        23.8,
+        242.28,
+        151.28,
+        209.56
+      ],
+      "gt_bbox_xyxy": [
+        23.8,
+        242.28,
+        175.08,
+        451.84
+      ],
+      "split": "train",
+      "image_sha256": "c34e0c07d9fa2883c2fb6639992829de7d9863b59e048cbbb4dafcb21512e410"
+    },
+    {
+      "ref_id": 16877,
+      "ann_id": 91674,
+      "image_id": "coco_55468",
+      "file_name": "COCO_train2014_000000055468.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000055468.jpg",
+      "coco_url": "http://mscoco.org/images/55468",
+      "width": 640,
+      "height": 480,
+      "caption": "a bottle of conditioner on a sink",
+      "word_count": 7,
+      "bbox_coco_xywh": [
+        360.38,
+        0.0,
+        96.02,
+        176.69
+      ],
+      "gt_bbox_xyxy": [
+        360.38,
+        0.0,
+        456.4,
+        176.69
+      ],
+      "split": "train",
+      "image_sha256": "37b9c76d28e1ca727c848e691c6c444059eb5cd01028d72fc84bb11c26498427"
+    },
+    {
+      "ref_id": 17208,
+      "ann_id": 208177,
+      "image_id": "coco_456478",
+      "file_name": "COCO_train2014_000000456478.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000456478.jpg",
+      "coco_url": "http://mscoco.org/images/456478",
+      "width": 500,
+      "height": 333,
+      "caption": "a shepard wearing black colour jacket and arabic turban",
+      "word_count": 9,
+      "bbox_coco_xywh": [
+        365.18,
+        113.0,
+        82.31,
+        202.04
+      ],
+      "gt_bbox_xyxy": [
+        365.18,
+        113.0,
+        447.49,
+        315.04
+      ],
+      "split": "train",
+      "image_sha256": "473a813a6491175ad9d48b2c884b3a95ef417d4e4c689735d7ef077b9a0c351b"
+    },
+    {
+      "ref_id": 17394,
+      "ann_id": 188586,
+      "image_id": "coco_297880",
+      "file_name": "COCO_train2014_000000297880.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000297880.jpg",
+      "coco_url": "http://mscoco.org/images/297880",
+      "width": 640,
+      "height": 426,
+      "caption": "a woman in a strapless dress standing next to a man with suspenders on and his arm around her",
+      "word_count": 19,
+      "bbox_coco_xywh": [
+        142.3,
+        69.42,
+        233.53,
+        351.19
+      ],
+      "gt_bbox_xyxy": [
+        142.3,
+        69.42,
+        375.83,
+        420.61
+      ],
+      "split": "train",
+      "image_sha256": "749cac5c66cb1ffd5287bb690eb9255d0e4441556e07c81c3355ea084f2bd966"
+    },
+    {
+      "ref_id": 17567,
+      "ann_id": 112728,
+      "image_id": "coco_509210",
+      "file_name": "COCO_train2014_000000509210.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000509210.jpg",
+      "coco_url": "http://mscoco.org/images/509210",
+      "width": 640,
+      "height": 428,
+      "caption": "the white couch with flowers on it",
+      "word_count": 7,
+      "bbox_coco_xywh": [
+        146.02,
+        314.34,
+        264.67,
+        113.66
+      ],
+      "gt_bbox_xyxy": [
+        146.02,
+        314.34,
+        410.69,
+        428.0
+      ],
+      "split": "train",
+      "image_sha256": "8e2bcbcaccbde168914b751dba3d4d38b97827fe2665fb6d1f91268aca30ea6f"
+    },
+    {
+      "ref_id": 17705,
+      "ann_id": 1539760,
+      "image_id": "coco_276582",
+      "file_name": "COCO_train2014_000000276582.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000276582.jpg",
+      "coco_url": "http://mscoco.org/images/276582",
+      "width": 640,
+      "height": 480,
+      "caption": "smallest white cup",
+      "word_count": 3,
+      "bbox_coco_xywh": [
+        350.56,
+        164.7,
+        154.25,
+        138.07
+      ],
+      "gt_bbox_xyxy": [
+        350.56,
+        164.7,
+        504.81,
+        302.77
+      ],
+      "split": "train",
+      "image_sha256": "7bc5bd51043ac4a37d6b919dd586d0367125d878eb10635006c9cc08b33f4944"
+    },
+    {
+      "ref_id": 17729,
+      "ann_id": 710197,
+      "image_id": "coco_309292",
+      "file_name": "COCO_train2014_000000309292.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000309292.jpg",
+      "coco_url": "http://mscoco.org/images/309292",
+      "width": 500,
+      "height": 333,
+      "caption": "the bowl closest to the camera",
+      "word_count": 6,
+      "bbox_coco_xywh": [
+        157.23,
+        171.84,
+        156.41,
+        139.04
+      ],
+      "gt_bbox_xyxy": [
+        157.23,
+        171.84,
+        313.64,
+        310.88
+      ],
+      "split": "train",
+      "image_sha256": "e35abc86d7b00bb33ea2767e1751486668e9e6e56482d4fa8696536441b52382"
+    },
+    {
+      "ref_id": 17905,
+      "ann_id": 35598,
+      "image_id": "coco_111807",
+      "file_name": "COCO_train2014_000000111807.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000111807.jpg",
+      "coco_url": "http://mscoco.org/images/111807",
+      "width": 640,
+      "height": 480,
+      "caption": "the monitor directly to the left of the laptop",
+      "word_count": 9,
+      "bbox_coco_xywh": [
+        337.78,
+        152.69,
+        144.2,
+        168.89
+      ],
+      "gt_bbox_xyxy": [
+        337.78,
+        152.69,
+        481.98,
+        321.58
+      ],
+      "split": "train",
+      "image_sha256": "b11a07e66f45bc0b314c2ae1b7ea8de90492f264f7b0f2d7be5f8a6c8b897231"
+    },
+    {
+      "ref_id": 18073,
+      "ann_id": 461628,
+      "image_id": "coco_422995",
+      "file_name": "COCO_train2014_000000422995.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000422995.jpg",
+      "coco_url": "http://mscoco.org/images/422995",
+      "width": 640,
+      "height": 425,
+      "caption": "young man with brown hair wearing a black tuxedo with a red tie and white boutennaire",
+      "word_count": 16,
+      "bbox_coco_xywh": [
+        190.16,
+        22.91,
+        357.49,
+        401.32
+      ],
+      "gt_bbox_xyxy": [
+        190.16,
+        22.91,
+        547.65,
+        424.23
+      ],
+      "split": "train",
+      "image_sha256": "15808c7d0c94201a6bfaa708e156ce844d0a717fc673516887745400d9354831"
+    },
+    {
+      "ref_id": 18193,
+      "ann_id": 332289,
+      "image_id": "coco_410992",
+      "file_name": "COCO_train2014_000000410992.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000410992.jpg",
+      "coco_url": "http://mscoco.org/images/410992",
+      "width": 427,
+      "height": 640,
+      "caption": "the yellow fridge in the right hand picture",
+      "word_count": 8,
+      "bbox_coco_xywh": [
+        332.17,
+        164.79,
+        94.83,
+        462.46
+      ],
+      "gt_bbox_xyxy": [
+        332.17,
+        164.79,
+        427.0,
+        627.25
+      ],
+      "split": "train",
+      "image_sha256": "a1cc2e6b534a7e75254d163d9def4b6086ef8c63475df278ac171de3286ca282"
+    },
+    {
+      "ref_id": 18362,
+      "ann_id": 430775,
+      "image_id": "coco_375729",
+      "file_name": "COCO_train2014_000000375729.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000375729.jpg",
+      "coco_url": "http://mscoco.org/images/375729",
+      "width": 640,
+      "height": 427,
+      "caption": "a surfer in white trunks",
+      "word_count": 5,
+      "bbox_coco_xywh": [
+        58.53,
+        54.69,
+        229.34,
+        264.84
+      ],
+      "gt_bbox_xyxy": [
+        58.53,
+        54.69,
+        287.87,
+        319.53
+      ],
+      "split": "train",
+      "image_sha256": "48e8773253a42dd8ad50dafe69ec0bfef2430db25a92e2ddf2d4ec5690deb709"
+    },
+    {
+      "ref_id": 18476,
+      "ann_id": 111362,
+      "image_id": "coco_413799",
+      "file_name": "COCO_train2014_000000413799.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000413799.jpg",
+      "coco_url": "http://mscoco.org/images/413799",
+      "width": 426,
+      "height": 640,
+      "caption": "a grey couch in a living room",
+      "word_count": 7,
+      "bbox_coco_xywh": [
+        1.37,
+        392.08,
+        172.68,
+        204.2
+      ],
+      "gt_bbox_xyxy": [
+        1.37,
+        392.08,
+        174.05,
+        596.28
+      ],
+      "split": "train",
+      "image_sha256": "247763e4a775646213dfc549ad134135b2df699a0873c914cca8cd2b7650762b"
+    },
+    {
+      "ref_id": 18566,
+      "ann_id": 1041431,
+      "image_id": "coco_99642",
+      "file_name": "COCO_train2014_000000099642.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000099642.jpg",
+      "coco_url": "http://mscoco.org/images/99642",
+      "width": 640,
+      "height": 480,
+      "caption": "a banana half peeled sitting on a plate",
+      "word_count": 8,
+      "bbox_coco_xywh": [
+        37.58,
+        131.11,
+        585.24,
+        255.57
+      ],
+      "gt_bbox_xyxy": [
+        37.58,
+        131.11,
+        622.82,
+        386.68
+      ],
+      "split": "train",
+      "image_sha256": "d0f45a639098a1a0eb9afd2979305a0733f4f72aded334ecb56b621cf492dd8e"
+    },
+    {
+      "ref_id": 19235,
+      "ann_id": 187868,
+      "image_id": "coco_257297",
+      "file_name": "COCO_train2014_000000257297.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000257297.jpg",
+      "coco_url": "http://mscoco.org/images/257297",
+      "width": 500,
+      "height": 375,
+      "caption": "a young man with a purple guitar strap playing a video game",
+      "word_count": 12,
+      "bbox_coco_xywh": [
+        258.37,
+        72.69,
+        197.85,
+        298.06
+      ],
+      "gt_bbox_xyxy": [
+        258.37,
+        72.69,
+        456.22,
+        370.75
+      ],
+      "split": "train",
+      "image_sha256": "12ab0c619a2107426738d72caed9d416a51ba85e0420225cea789173640ed36d"
+    },
+    {
+      "ref_id": 19457,
+      "ann_id": 1056757,
+      "image_id": "coco_26981",
+      "file_name": "COCO_train2014_000000026981.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000026981.jpg",
+      "coco_url": "http://mscoco.org/images/26981",
+      "width": 640,
+      "height": 427,
+      "caption": "a side of broccoli on a plate",
+      "word_count": 7,
+      "bbox_coco_xywh": [
+        56.26,
+        123.27,
+        252.18,
+        232.09
+      ],
+      "gt_bbox_xyxy": [
+        56.26,
+        123.27,
+        308.44,
+        355.36
+      ],
+      "split": "train",
+      "image_sha256": "c363b023356f983a0ce6bc5ef32985787a85fa093a361d6f083edadd853a52c7"
+    },
+    {
+      "ref_id": 19900,
+      "ann_id": 1115832,
+      "image_id": "coco_250778",
+      "file_name": "COCO_train2014_000000250778.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000250778.jpg",
+      "coco_url": "http://mscoco.org/images/250778",
+      "width": 500,
+      "height": 375,
+      "caption": "a white color keyboard is in front of the monitor and a laptop is also at the computer table",
+      "word_count": 19,
+      "bbox_coco_xywh": [
+        65.58,
+        258.97,
+        250.56,
+        82.4
+      ],
+      "gt_bbox_xyxy": [
+        65.58,
+        258.97,
+        316.14,
+        341.37
+      ],
+      "split": "train",
+      "image_sha256": "b2e7caf84d898d3bfbab379c251f8bd4369297916fe175316e52669666da745d"
+    },
+    {
+      "ref_id": 19918,
+      "ann_id": 1992770,
+      "image_id": "coco_387212",
+      "file_name": "COCO_train2014_000000387212.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000387212.jpg",
+      "coco_url": "http://mscoco.org/images/387212",
+      "width": 640,
+      "height": 480,
+      "caption": "a white , puprle and brown circle is sitting in front of a green plant",
+      "word_count": 15,
+      "bbox_coco_xywh": [
+        302.17,
+        168.37,
+        331.49,
+        265.68
+      ],
+      "gt_bbox_xyxy": [
+        302.17,
+        168.37,
+        633.66,
+        434.05
+      ],
+      "split": "train",
+      "image_sha256": "fc3ef0fdfaf16eb133e534a0c11c6d17f88e083f8dd0b4ac1b505797c1ca628c"
+    },
+    {
+      "ref_id": 20103,
+      "ann_id": 441999,
+      "image_id": "coco_276949",
+      "file_name": "COCO_train2014_000000276949.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000276949.jpg",
+      "coco_url": "http://mscoco.org/images/276949",
+      "width": 640,
+      "height": 461,
+      "caption": "the woman hitting the tennis ball",
+      "word_count": 6,
+      "bbox_coco_xywh": [
+        302.01,
+        121.65,
+        154.67,
+        283.04
+      ],
+      "gt_bbox_xyxy": [
+        302.01,
+        121.65,
+        456.68,
+        404.69
+      ],
+      "split": "train",
+      "image_sha256": "7668ddc3bd6c98b1f577ae0801fcbb9a9e850eaa9b2073b5ac077c832a75fd37"
+    },
+    {
+      "ref_id": 20222,
+      "ann_id": 273455,
+      "image_id": "coco_26503",
+      "file_name": "COCO_train2014_000000026503.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000026503.jpg",
+      "coco_url": "http://mscoco.org/images/26503",
+      "width": 640,
+      "height": 361,
+      "caption": "black , curly - haired dog laying on a white bedspread",
+      "word_count": 11,
+      "bbox_coco_xywh": [
+        27.51,
+        185.16,
+        153.25,
+        82.63
+      ],
+      "gt_bbox_xyxy": [
+        27.51,
+        185.16,
+        180.76,
+        267.79
+      ],
+      "split": "train",
+      "image_sha256": "d01619672f7af87b6e524d507f43cadcc78f8575cdad9e3104c5864d6db09333"
+    },
+    {
+      "ref_id": 20601,
+      "ann_id": 589668,
+      "image_id": "coco_118478",
+      "file_name": "COCO_train2014_000000118478.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000118478.jpg",
+      "coco_url": "http://mscoco.org/images/118478",
+      "width": 640,
+      "height": 428,
+      "caption": "a zebra ahead of the other zebra",
+      "word_count": 7,
+      "bbox_coco_xywh": [
+        70.85,
+        139.89,
+        240.34,
+        203.94
+      ],
+      "gt_bbox_xyxy": [
+        70.85,
+        139.89,
+        311.19,
+        343.83
+      ],
+      "split": "train",
+      "image_sha256": "f7b488f7261a08e1e83f9f892c7fed54d15a145b3f024eeecffa533840cd263c"
+    },
+    {
+      "ref_id": 20737,
+      "ann_id": 2223975,
+      "image_id": "coco_327813",
+      "file_name": "COCO_train2014_000000327813.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000327813.jpg",
+      "coco_url": "http://mscoco.org/images/327813",
+      "width": 640,
+      "height": 480,
+      "caption": "a black chair with wooden arms",
+      "word_count": 6,
+      "bbox_coco_xywh": [
+        263.23,
+        353.45,
+        148.88,
+        119.11
+      ],
+      "gt_bbox_xyxy": [
+        263.23,
+        353.45,
+        412.11,
+        472.56
+      ],
+      "split": "train",
+      "image_sha256": "758abc3f8ea86b90f4c26fbdf0760f8f6147bf826c4f153d31e94ca365aef5a0"
+    },
+    {
+      "ref_id": 21003,
+      "ann_id": 1391794,
+      "image_id": "coco_306342",
+      "file_name": "COCO_train2014_000000306342.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000306342.jpg",
+      "coco_url": "http://mscoco.org/images/306342",
+      "width": 500,
+      "height": 375,
+      "caption": "the seat in which a lady is sitting",
+      "word_count": 8,
+      "bbox_coco_xywh": [
+        0.0,
+        72.47,
+        199.72,
+        298.32
+      ],
+      "gt_bbox_xyxy": [
+        0.0,
+        72.47,
+        199.72,
+        370.79
+      ],
+      "split": "train",
+      "image_sha256": "a3da7402b8ab866995dffee9163ec9954d66929dec6111732fec5f30cc6f71e3"
+    },
+    {
+      "ref_id": 21085,
+      "ann_id": 718283,
+      "image_id": "coco_352814",
+      "file_name": "COCO_train2014_000000352814.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000352814.jpg",
+      "coco_url": "http://mscoco.org/images/352814",
+      "width": 640,
+      "height": 480,
+      "caption": "sliced manderin oranges",
+      "word_count": 3,
+      "bbox_coco_xywh": [
+        325.37,
+        228.83,
+        251.27,
+        244.83
+      ],
+      "gt_bbox_xyxy": [
+        325.37,
+        228.83,
+        576.64,
+        473.66
+      ],
+      "split": "train",
+      "image_sha256": "f42fc06d8713f1cd4f4606aaa95a43a723a668a00b3533b060a536193cf290f5"
+    },
+    {
+      "ref_id": 21151,
+      "ann_id": 591271,
+      "image_id": "coco_409333",
+      "file_name": "COCO_train2014_000000409333.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000409333.jpg",
+      "coco_url": "http://mscoco.org/images/409333",
+      "width": 640,
+      "height": 480,
+      "caption": "a zebra facing towards the viewer while eating grass",
+      "word_count": 9,
+      "bbox_coco_xywh": [
+        368.31,
+        223.39,
+        269.43,
+        183.67
+      ],
+      "gt_bbox_xyxy": [
+        368.31,
+        223.39,
+        637.74,
+        407.06
+      ],
+      "split": "train",
+      "image_sha256": "10c0ead43d3d2300e5be68fec6c8ce14918a882f64753c125c9f2aeaa94b9ce3"
+    },
+    {
+      "ref_id": 21352,
+      "ann_id": 461242,
+      "image_id": "coco_483992",
+      "file_name": "COCO_train2014_000000483992.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000483992.jpg",
+      "coco_url": "http://mscoco.org/images/483992",
+      "width": 640,
+      "height": 497,
+      "caption": "woman wearing eyeglasses sitting in a pizza restaurant eating a slice of pizza",
+      "word_count": 13,
+      "bbox_coco_xywh": [
+        0.0,
+        46.96,
+        283.5,
+        324.88
+      ],
+      "gt_bbox_xyxy": [
+        0.0,
+        46.96,
+        283.5,
+        371.84
+      ],
+      "split": "train",
+      "image_sha256": "fdf892019421709aed30fcc732cddebed20b7d91c3e8588bd4be21bfe64d7d72"
+    },
+    {
+      "ref_id": 22137,
+      "ann_id": 506547,
+      "image_id": "coco_34810",
+      "file_name": "COCO_train2014_000000034810.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000034810.jpg",
+      "coco_url": "http://mscoco.org/images/34810",
+      "width": 596,
+      "height": 640,
+      "caption": "a person reaching up to catch a frisbee",
+      "word_count": 8,
+      "bbox_coco_xywh": [
+        366.53,
+        96.07,
+        126.0,
+        535.48
+      ],
+      "gt_bbox_xyxy": [
+        366.53,
+        96.07,
+        492.53,
+        631.55
+      ],
+      "split": "train",
+      "image_sha256": "09ea584a7ba0386c8e0958e699330bc9f560ae5b965ad52c6debff953b35e0a6"
+    },
+    {
+      "ref_id": 22258,
+      "ann_id": 51952,
+      "image_id": "coco_161013",
+      "file_name": "COCO_train2014_000000161013.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000161013.jpg",
+      "coco_url": "http://mscoco.org/images/161013",
+      "width": 612,
+      "height": 612,
+      "caption": "a orange color cat",
+      "word_count": 4,
+      "bbox_coco_xywh": [
+        99.81,
+        173.36,
+        325.7,
+        294.18
+      ],
+      "gt_bbox_xyxy": [
+        99.81,
+        173.36,
+        425.51,
+        467.54
+      ],
+      "split": "train",
+      "image_sha256": "136b9b1732897facddb3a97a80ff128a6b695583e639de656171f868e9f3b42c"
+    },
+    {
+      "ref_id": 22848,
+      "ann_id": 284054,
+      "image_id": "coco_461501",
+      "file_name": "COCO_train2014_000000461501.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000461501.jpg",
+      "coco_url": "http://mscoco.org/images/461501",
+      "width": 640,
+      "height": 425,
+      "caption": "an umbrella with images of a newspaper and the logo the onion on it",
+      "word_count": 14,
+      "bbox_coco_xywh": [
+        62.08,
+        99.33,
+        435.5,
+        301.79
+      ],
+      "gt_bbox_xyxy": [
+        62.08,
+        99.33,
+        497.58,
+        401.12
+      ],
+      "split": "train",
+      "image_sha256": "c4b094913452e695610c69e4f3403c2442867f87da66a4c4bc67362c8db7e8f2"
+    },
+    {
+      "ref_id": 23007,
+      "ann_id": 1595244,
+      "image_id": "coco_219760",
+      "file_name": "COCO_train2014_000000219760.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000219760.jpg",
+      "coco_url": "http://mscoco.org/images/219760",
+      "width": 640,
+      "height": 516,
+      "caption": "a fuzzy picture of the white chair sitting outside in front of a dog playing with the frisbee",
+      "word_count": 18,
+      "bbox_coco_xywh": [
+        110.77,
+        76.6,
+        103.07,
+        177.34
+      ],
+      "gt_bbox_xyxy": [
+        110.77,
+        76.6,
+        213.84,
+        253.94
+      ],
+      "split": "train",
+      "image_sha256": "3f42b8c1fd21c505ab1d414ef34539bb6c216a3b7b0ae22ec298a4eafafab313"
+    },
+    {
+      "ref_id": 23621,
+      "ann_id": 479013,
+      "image_id": "coco_453137",
+      "file_name": "COCO_train2014_000000453137.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000453137.jpg",
+      "coco_url": "http://mscoco.org/images/453137",
+      "width": 640,
+      "height": 426,
+      "caption": "a man with a camera",
+      "word_count": 5,
+      "bbox_coco_xywh": [
+        75.46,
+        207.38,
+        151.87,
+        198.67
+      ],
+      "gt_bbox_xyxy": [
+        75.46,
+        207.38,
+        227.33,
+        406.05
+      ],
+      "split": "train",
+      "image_sha256": "e4984227495e1384bebb60294114baf565984d9bb4dbe1bd6a24c7f9d38d7d45"
+    },
+    {
+      "ref_id": 24213,
+      "ann_id": 1042188,
+      "image_id": "coco_114259",
+      "file_name": "COCO_train2014_000000114259.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000114259.jpg",
+      "coco_url": "http://mscoco.org/images/114259",
+      "width": 640,
+      "height": 427,
+      "caption": "the bananas on the left",
+      "word_count": 5,
+      "bbox_coco_xywh": [
+        80.6,
+        10.62,
+        266.76,
+        230.29
+      ],
+      "gt_bbox_xyxy": [
+        80.6,
+        10.62,
+        347.36,
+        240.91
+      ],
+      "split": "train",
+      "image_sha256": "10129284c814665545c69f01299f20bfb4f456cf59aebb2aee6c709a63eb8567"
+    },
+    {
+      "ref_id": 24252,
+      "ann_id": 1212981,
+      "image_id": "coco_372430",
+      "file_name": "COCO_train2014_000000372430.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000372430.jpg",
+      "coco_url": "http://mscoco.org/images/372430",
+      "width": 640,
+      "height": 416,
+      "caption": "boy skateboarding in blue jacket",
+      "word_count": 5,
+      "bbox_coco_xywh": [
+        107.52,
+        76.11,
+        97.36,
+        268.34
+      ],
+      "gt_bbox_xyxy": [
+        107.52,
+        76.11,
+        204.88,
+        344.45
+      ],
+      "split": "train",
+      "image_sha256": "4280ff1050b744cbacc5cfabdd8725956ab6530e42d7fc5f68168f27d49892d1"
+    },
+    {
+      "ref_id": 24429,
+      "ann_id": 446966,
+      "image_id": "coco_199326",
+      "file_name": "COCO_train2014_000000199326.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000199326.jpg",
+      "coco_url": "http://mscoco.org/images/199326",
+      "width": 622,
+      "height": 622,
+      "caption": "a man wearing blue and yellow cleats playing soccer",
+      "word_count": 9,
+      "bbox_coco_xywh": [
+        101.58,
+        242.12,
+        118.53,
+        313.27
+      ],
+      "gt_bbox_xyxy": [
+        101.58,
+        242.12,
+        220.11,
+        555.39
+      ],
+      "split": "train",
+      "image_sha256": "ec9befea6c8e87fd23a22269d11c6592702a3e3b2cffd5e65c779de7a34d1c7f"
+    },
+    {
+      "ref_id": 24467,
+      "ann_id": 1370937,
+      "image_id": "coco_419297",
+      "file_name": "COCO_train2014_000000419297.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000419297.jpg",
+      "coco_url": "http://mscoco.org/images/419297",
+      "width": 640,
+      "height": 425,
+      "caption": "a white truck filled with luggage",
+      "word_count": 6,
+      "bbox_coco_xywh": [
+        0.0,
+        302.33,
+        358.82,
+        120.97
+      ],
+      "gt_bbox_xyxy": [
+        0.0,
+        302.33,
+        358.82,
+        423.3
+      ],
+      "split": "train",
+      "image_sha256": "807973e3994c3347a7b404baff0a7a2ee3b6d072065a055572cab27acc153acf"
+    },
+    {
+      "ref_id": 24492,
+      "ann_id": 496566,
+      "image_id": "coco_428093",
+      "file_name": "COCO_train2014_000000428093.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000428093.jpg",
+      "coco_url": "http://mscoco.org/images/428093",
+      "width": 640,
+      "height": 478,
+      "caption": "the picture of the man in a tie on the right",
+      "word_count": 11,
+      "bbox_coco_xywh": [
+        414.48,
+        0.54,
+        223.93,
+        280.98
+      ],
+      "gt_bbox_xyxy": [
+        414.48,
+        0.54,
+        638.41,
+        281.52
+      ],
+      "split": "train",
+      "image_sha256": "094b0c361bd2229cfc369a3c70c7eefd715acb3b73971c24d1fc6a5d2e54ad91"
+    },
+    {
+      "ref_id": 24953,
+      "ann_id": 1157006,
+      "image_id": "coco_534517",
+      "file_name": "COCO_train2014_000000534517.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000534517.jpg",
+      "coco_url": "http://mscoco.org/images/534517",
+      "width": 500,
+      "height": 375,
+      "caption": "the first wooden dark vase on the left , farthest from the christmas tree",
+      "word_count": 14,
+      "bbox_coco_xywh": [
+        4.21,
+        3.37,
+        80.06,
+        292.42
+      ],
+      "gt_bbox_xyxy": [
+        4.21,
+        3.37,
+        84.27,
+        295.79
+      ],
+      "split": "train",
+      "image_sha256": "7fb6b21a6f3b8934da08188dc145aef5a075b889a17eebf3bba6bfe038f8c0c8"
+    },
+    {
+      "ref_id": 25076,
+      "ann_id": 1160791,
+      "image_id": "coco_134712",
+      "file_name": "COCO_train2014_000000134712.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000134712.jpg",
+      "coco_url": "http://mscoco.org/images/134712",
+      "width": 500,
+      "height": 375,
+      "caption": "the yellow bear",
+      "word_count": 3,
+      "bbox_coco_xywh": [
+        367.19,
+        68.99,
+        101.5,
+        119.63
+      ],
+      "gt_bbox_xyxy": [
+        367.19,
+        68.99,
+        468.69,
+        188.62
+      ],
+      "split": "train",
+      "image_sha256": "a3260e42aadc8c704e042e374a9d68897bffbf447ae9aada45d1e9c114a3c20e"
+    },
+    {
+      "ref_id": 25143,
+      "ann_id": 75928,
+      "image_id": "coco_223511",
+      "file_name": "COCO_train2014_000000223511.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000223511.jpg",
+      "coco_url": "http://mscoco.org/images/223511",
+      "width": 640,
+      "height": 427,
+      "caption": "the cow facing the camera standing behind a cow",
+      "word_count": 9,
+      "bbox_coco_xywh": [
+        142.97,
+        102.67,
+        365.59,
+        262.92
+      ],
+      "gt_bbox_xyxy": [
+        142.97,
+        102.67,
+        508.56,
+        365.59
+      ],
+      "split": "train",
+      "image_sha256": "299154111a42e5e64668923181a0f4d267bec31fe9e478f8370bec0c19abb055"
+    },
+    {
+      "ref_id": 25151,
+      "ann_id": 453455,
+      "image_id": "coco_550652",
+      "file_name": "COCO_train2014_000000550652.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000550652.jpg",
+      "coco_url": "http://mscoco.org/images/550652",
+      "width": 500,
+      "height": 333,
+      "caption": "man in a brown tshirt",
+      "word_count": 5,
+      "bbox_coco_xywh": [
+        104.28,
+        72.02,
+        65.64,
+        223.14
+      ],
+      "gt_bbox_xyxy": [
+        104.28,
+        72.02,
+        169.92,
+        295.16
+      ],
+      "split": "train",
+      "image_sha256": "ff66af6eda171716c4501e370a86308c5689449e61d86f667b0b219f9b3a8f1e"
+    },
+    {
+      "ref_id": 25219,
+      "ann_id": 1162142,
+      "image_id": "coco_106748",
+      "file_name": "COCO_train2014_000000106748.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000106748.jpg",
+      "coco_url": "http://mscoco.org/images/106748",
+      "width": 640,
+      "height": 478,
+      "caption": "a large pink stuffed bear next to an infant sitting in a bumbo",
+      "word_count": 13,
+      "bbox_coco_xywh": [
+        334.49,
+        52.6,
+        220.12,
+        372.26
+      ],
+      "gt_bbox_xyxy": [
+        334.49,
+        52.6,
+        554.61,
+        424.86
+      ],
+      "split": "train",
+      "image_sha256": "1292a027382a962c718e3be043fde054eb2d84097a40bebf9bc43073067f9fac"
+    },
+    {
+      "ref_id": 25264,
+      "ann_id": 1718539,
+      "image_id": "coco_403981",
+      "file_name": "COCO_train2014_000000403981.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000403981.jpg",
+      "coco_url": "http://mscoco.org/images/403981",
+      "width": 640,
+      "height": 432,
+      "caption": "the man sitting on the red crate",
+      "word_count": 7,
+      "bbox_coco_xywh": [
+        138.82,
+        18.44,
+        199.98,
+        317.45
+      ],
+      "gt_bbox_xyxy": [
+        138.82,
+        18.44,
+        338.8,
+        335.89
+      ],
+      "split": "train",
+      "image_sha256": "dedbc911ba949e6e071612af9430e5831ae538db4f91678a254a215e4ecaeaf4"
+    },
+    {
+      "ref_id": 25418,
+      "ann_id": 1538094,
+      "image_id": "coco_340736",
+      "file_name": "COCO_train2014_000000340736.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000340736.jpg",
+      "coco_url": "http://mscoco.org/images/340736",
+      "width": 640,
+      "height": 426,
+      "caption": "big bowl far right",
+      "word_count": 4,
+      "bbox_coco_xywh": [
+        372.99,
+        267.7,
+        179.37,
+        134.53
+      ],
+      "gt_bbox_xyxy": [
+        372.99,
+        267.7,
+        552.36,
+        402.23
+      ],
+      "split": "train",
+      "image_sha256": "ad81950dfdeef13e19eb892c769ca58946349e4f9e56cdf4128bdb16d928f2ed"
+    },
+    {
+      "ref_id": 25623,
+      "ann_id": 594635,
+      "image_id": "coco_243818",
+      "file_name": "COCO_train2014_000000243818.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000243818.jpg",
+      "coco_url": "http://mscoco.org/images/243818",
+      "width": 343,
+      "height": 500,
+      "caption": "kit giraffe down the head",
+      "word_count": 5,
+      "bbox_coco_xywh": [
+        71.58,
+        223.12,
+        232.14,
+        253.26
+      ],
+      "gt_bbox_xyxy": [
+        71.58,
+        223.12,
+        303.72,
+        476.38
+      ],
+      "split": "train",
+      "image_sha256": "d05bb95804e528aefa2041928fa7324ca2f5546e39d4fde4e620cfeeaeddeed3"
+    },
+    {
+      "ref_id": 25978,
+      "ann_id": 172235,
+      "image_id": "coco_562317",
+      "file_name": "COCO_train2014_000000562317.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000562317.jpg",
+      "coco_url": "http://mscoco.org/images/562317",
+      "width": 640,
+      "height": 427,
+      "caption": "a red , blue and yellow train carts in the middle of a field with brown trees and brown grass",
+      "word_count": 20,
+      "bbox_coco_xywh": [
+        1.92,
+        225.73,
+        481.69,
+        69.09
+      ],
+      "gt_bbox_xyxy": [
+        1.92,
+        225.73,
+        483.61,
+        294.82
+      ],
+      "split": "train",
+      "image_sha256": "59d7b8eea4d835f35e0d6c6d38e43597a0f64b18a4f5586f889fafec531cf57d"
+    },
+    {
+      "ref_id": 26394,
+      "ann_id": 1368360,
+      "image_id": "coco_268737",
+      "file_name": "COCO_train2014_000000268737.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000268737.jpg",
+      "coco_url": "http://mscoco.org/images/268737",
+      "width": 640,
+      "height": 426,
+      "caption": "an suv just in front of a stop sign",
+      "word_count": 9,
+      "bbox_coco_xywh": [
+        1.91,
+        147.42,
+        202.95,
+        209.65
+      ],
+      "gt_bbox_xyxy": [
+        1.91,
+        147.42,
+        204.86,
+        357.07
+      ],
+      "split": "train",
+      "image_sha256": "06839a201047845515f53d36284d77a01af6c367f0df8a7340aad8cdde482cc9"
+    },
+    {
+      "ref_id": 26653,
+      "ann_id": 99815,
+      "image_id": "coco_550333",
+      "file_name": "COCO_train2014_000000550333.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000550333.jpg",
+      "coco_url": "http://mscoco.org/images/550333",
+      "width": 640,
+      "height": 480,
+      "caption": "the grey couch with the square throw pillow",
+      "word_count": 8,
+      "bbox_coco_xywh": [
+        0.0,
+        256.07,
+        177.55,
+        218.84
+      ],
+      "gt_bbox_xyxy": [
+        0.0,
+        256.07,
+        177.55,
+        474.91
+      ],
+      "split": "train",
+      "image_sha256": "6dcf8c6e0cca0b03c3b9dff797b07414591f5d4777d744840bed18d2d26de46b"
+    },
+    {
+      "ref_id": 27149,
+      "ann_id": 1726664,
+      "image_id": "coco_69675",
+      "file_name": "COCO_train2014_000000069675.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000069675.jpg",
+      "coco_url": "http://mscoco.org/images/69675",
+      "width": 640,
+      "height": 480,
+      "caption": "a woman dressed in pink helps a girl cook",
+      "word_count": 9,
+      "bbox_coco_xywh": [
+        309.57,
+        44.22,
+        255.64,
+        429.31
+      ],
+      "gt_bbox_xyxy": [
+        309.57,
+        44.22,
+        565.21,
+        473.53
+      ],
+      "split": "train",
+      "image_sha256": "3ed67c5412cdb28327aee27b4575c2a6edf4a8d1ebe7672083103af0196d78fb"
+    },
+    {
+      "ref_id": 27803,
+      "ann_id": 39269,
+      "image_id": "coco_163106",
+      "file_name": "COCO_train2014_000000163106.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000163106.jpg",
+      "coco_url": "http://mscoco.org/images/163106",
+      "width": 500,
+      "height": 333,
+      "caption": "the ostritch in front",
+      "word_count": 4,
+      "bbox_coco_xywh": [
+        114.41,
+        164.32,
+        83.76,
+        112.77
+      ],
+      "gt_bbox_xyxy": [
+        114.41,
+        164.32,
+        198.17,
+        277.09
+      ],
+      "split": "train",
+      "image_sha256": "bf42722b06c3da7a062e8e1d04e5440b2213966860bfe8f119044e0e5238bc87"
+    },
+    {
+      "ref_id": 28488,
+      "ann_id": 547494,
+      "image_id": "coco_349170",
+      "file_name": "COCO_train2014_000000349170.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000349170.jpg",
+      "coco_url": "http://mscoco.org/images/349170",
+      "width": 500,
+      "height": 327,
+      "caption": "a woman in capri pants with a guy ' s arm on her knee",
+      "word_count": 14,
+      "bbox_coco_xywh": [
+        383.55,
+        107.41,
+        116.45,
+        219.59
+      ],
+      "gt_bbox_xyxy": [
+        383.55,
+        107.41,
+        500.0,
+        327.0
+      ],
+      "split": "train",
+      "image_sha256": "4c9fd07fd3d4c803ccf7c858e3a64853912e53d56b1c54e6898a4075dc5d04f3"
+    },
+    {
+      "ref_id": 28716,
+      "ann_id": 328325,
+      "image_id": "coco_531404",
+      "file_name": "COCO_train2014_000000531404.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000531404.jpg",
+      "coco_url": "http://mscoco.org/images/531404",
+      "width": 480,
+      "height": 640,
+      "caption": "there is a silver verizon motorolla flip phone in between another silver motorolla flip phone and a wooden clipboard",
+      "word_count": 19,
+      "bbox_coco_xywh": [
+        138.07,
+        218.61,
+        274.69,
+        166.83
+      ],
+      "gt_bbox_xyxy": [
+        138.07,
+        218.61,
+        412.76,
+        385.44
+      ],
+      "split": "train",
+      "image_sha256": "581590f2500cb41cfd2ed622afa88aba3475d5a101e69deb4f7d805dfda39033"
+    },
+    {
+      "ref_id": 28767,
+      "ann_id": 598553,
+      "image_id": "coco_160510",
+      "file_name": "COCO_train2014_000000160510.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000160510.jpg",
+      "coco_url": "http://mscoco.org/images/160510",
+      "width": 480,
+      "height": 640,
+      "caption": "a giraffe reaching down",
+      "word_count": 4,
+      "bbox_coco_xywh": [
+        21.6,
+        326.28,
+        125.79,
+        135.42
+      ],
+      "gt_bbox_xyxy": [
+        21.6,
+        326.28,
+        147.39,
+        461.7
+      ],
+      "split": "train",
+      "image_sha256": "776d24fff24fcdf5348ea496669bb56cecb4c65e7dfd599cfbd598bf8d1d4690"
+    },
+    {
+      "ref_id": 29170,
+      "ann_id": 485262,
+      "image_id": "coco_369267",
+      "file_name": "COCO_train2014_000000369267.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000369267.jpg",
+      "coco_url": "http://mscoco.org/images/369267",
+      "width": 640,
+      "height": 480,
+      "caption": "a fat woman half naked with a man in black dress",
+      "word_count": 11,
+      "bbox_coco_xywh": [
+        307.03,
+        72.97,
+        110.27,
+        231.35
+      ],
+      "gt_bbox_xyxy": [
+        307.03,
+        72.97,
+        417.3,
+        304.32
+      ],
+      "split": "train",
+      "image_sha256": "aa01cefae1c7073982649c9d5f75677876c79a0d1d48dfbb66c2b6bd9aed2cee"
+    },
+    {
+      "ref_id": 29253,
+      "ann_id": 1744587,
+      "image_id": "coco_282444",
+      "file_name": "COCO_train2014_000000282444.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000282444.jpg",
+      "coco_url": "http://mscoco.org/images/282444",
+      "width": 612,
+      "height": 612,
+      "caption": "a chef standing in front of the kitchen wearing white color chef dress with smiling",
+      "word_count": 15,
+      "bbox_coco_xywh": [
+        224.55,
+        31.32,
+        255.05,
+        580.68
+      ],
+      "gt_bbox_xyxy": [
+        224.55,
+        31.32,
+        479.6,
+        612.0
+      ],
+      "split": "train",
+      "image_sha256": "3e5f8b244303a1c7219195fc05fa8a1977596d6917fd9abdd09c9be3165c6c95"
+    },
+    {
+      "ref_id": 29724,
+      "ann_id": 459202,
+      "image_id": "coco_388933",
+      "file_name": "COCO_train2014_000000388933.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000388933.jpg",
+      "coco_url": "http://mscoco.org/images/388933",
+      "width": 427,
+      "height": 640,
+      "caption": "a woman in black leggings and a black jacket carries a red and black plaid umbrella",
+      "word_count": 16,
+      "bbox_coco_xywh": [
+        260.58,
+        308.39,
+        102.6,
+        271.36
+      ],
+      "gt_bbox_xyxy": [
+        260.58,
+        308.39,
+        363.18,
+        579.75
+      ],
+      "split": "train",
+      "image_sha256": "f95a8decdc19632b4a841d471361cea92224d4574bd43536f3214b718a1192b2"
+    },
+    {
+      "ref_id": 30612,
+      "ann_id": 524983,
+      "image_id": "coco_216524",
+      "file_name": "COCO_train2014_000000216524.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000216524.jpg",
+      "coco_url": "http://mscoco.org/images/216524",
+      "width": 640,
+      "height": 480,
+      "caption": "a man with long hair riding a skateboard",
+      "word_count": 8,
+      "bbox_coco_xywh": [
+        231.87,
+        135.17,
+        273.05,
+        291.47
+      ],
+      "gt_bbox_xyxy": [
+        231.87,
+        135.17,
+        504.92,
+        426.64
+      ],
+      "split": "train",
+      "image_sha256": "5361bb478b1bcfedfdf1d4ae0e2ef7452e20f17a776581ac9b68d48444863c85"
+    },
+    {
+      "ref_id": 30951,
+      "ann_id": 1795420,
+      "image_id": "coco_153462",
+      "file_name": "COCO_train2014_000000153462.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000153462.jpg",
+      "coco_url": "http://mscoco.org/images/153462",
+      "width": 640,
+      "height": 457,
+      "caption": "a black and red steam engine on train tracks",
+      "word_count": 9,
+      "bbox_coco_xywh": [
+        151.2,
+        199.73,
+        234.71,
+        174.9
+      ],
+      "gt_bbox_xyxy": [
+        151.2,
+        199.73,
+        385.91,
+        374.63
+      ],
+      "split": "train",
+      "image_sha256": "a609417512cb18f5112e10fb5f3380899ca6b8b39218a73a591b609ae3199927"
+    }
+  ],
+  "val": [
+    {
+      "ref_id": 5172,
+      "ann_id": 1533550,
+      "image_id": "coco_174892",
+      "file_name": "COCO_train2014_000000174892.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000174892.jpg",
+      "coco_url": "http://mscoco.org/images/174892",
+      "width": 500,
+      "height": 375,
+      "caption": "red fruit pur é e in a pink container",
+      "word_count": 9,
+      "bbox_coco_xywh": [
+        270.51,
+        19.38,
+        139.88,
+        149.16
+      ],
+      "gt_bbox_xyxy": [
+        270.51,
+        19.38,
+        410.39,
+        168.54
+      ],
+      "split": "val",
+      "image_sha256": "a7b77eb80255094415e2ff21f92e6f45f97598bfc8f32f9948543ae58409ec64"
+    },
+    {
+      "ref_id": 5434,
+      "ann_id": 1114932,
+      "image_id": "coco_227891",
+      "file_name": "COCO_train2014_000000227891.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000227891.jpg",
+      "coco_url": "http://mscoco.org/images/227891",
+      "width": 500,
+      "height": 281,
+      "caption": "the laptop on the left",
+      "word_count": 5,
+      "bbox_coco_xywh": [
+        76.84,
+        108.49,
+        211.82,
+        166.84
+      ],
+      "gt_bbox_xyxy": [
+        76.84,
+        108.49,
+        288.66,
+        275.33
+      ],
+      "split": "val",
+      "image_sha256": "6fc36be85bde298b40a33831b8a6b7292c43a003c7f514d162a50fdd728045c0"
+    },
+    {
+      "ref_id": 5752,
+      "ann_id": 598440,
+      "image_id": "coco_298956",
+      "file_name": "COCO_train2014_000000298956.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000298956.jpg",
+      "coco_url": "http://mscoco.org/images/298956",
+      "width": 640,
+      "height": 425,
+      "caption": "the taller giraffe",
+      "word_count": 3,
+      "bbox_coco_xywh": [
+        0.0,
+        44.26,
+        481.78,
+        380.74
+      ],
+      "gt_bbox_xyxy": [
+        0.0,
+        44.26,
+        481.78,
+        425.0
+      ],
+      "split": "val",
+      "image_sha256": "ed4c71331ee8824a4967d531c8571a3f0ecc627e635c8c1a2b8301a08b852303"
+    },
+    {
+      "ref_id": 6250,
+      "ann_id": 482154,
+      "image_id": "coco_555794",
+      "file_name": "COCO_train2014_000000555794.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000555794.jpg",
+      "coco_url": "http://mscoco.org/images/555794",
+      "width": 640,
+      "height": 426,
+      "caption": "a lady in blue pant and pink shirt holding a tennis bat is swing the hand to hit the ball",
+      "word_count": 20,
+      "bbox_coco_xywh": [
+        348.29,
+        7.49,
+        211.6,
+        414.76
+      ],
+      "gt_bbox_xyxy": [
+        348.29,
+        7.49,
+        559.89,
+        422.25
+      ],
+      "split": "val",
+      "image_sha256": "dad96be267c3fe7570d109811e84a646c4ebdc8c2bf4bd1867f50df215c127de"
+    },
+    {
+      "ref_id": 6383,
+      "ann_id": 2206115,
+      "image_id": "coco_457225",
+      "file_name": "COCO_train2014_000000457225.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000457225.jpg",
+      "coco_url": "http://mscoco.org/images/457225",
+      "width": 480,
+      "height": 640,
+      "caption": "a hawaiian native with a blue shirt beside the woman",
+      "word_count": 10,
+      "bbox_coco_xywh": [
+        0.0,
+        307.38,
+        133.89,
+        332.62
+      ],
+      "gt_bbox_xyxy": [
+        0.0,
+        307.38,
+        133.89,
+        640.0
+      ],
+      "split": "val",
+      "image_sha256": "8ceaa214eb59ff28526a46077330c05479116ba4c70abb19af6c056feaad5703"
+    },
+    {
+      "ref_id": 6823,
+      "ann_id": 1153117,
+      "image_id": "coco_330716",
+      "file_name": "COCO_train2014_000000330716.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000330716.jpg",
+      "coco_url": "http://mscoco.org/images/330716",
+      "width": 640,
+      "height": 427,
+      "caption": "a floral vase to the left of a larger vase",
+      "word_count": 10,
+      "bbox_coco_xywh": [
+        1.92,
+        25.75,
+        189.03,
+        243.72
+      ],
+      "gt_bbox_xyxy": [
+        1.92,
+        25.75,
+        190.95,
+        269.47
+      ],
+      "split": "val",
+      "image_sha256": "b48a9579c1ae9e790f8efb9dc839343b2f939d895fcee6cfbab729b3a74ba3d5"
+    },
+    {
+      "ref_id": 6835,
+      "ann_id": 117337,
+      "image_id": "coco_18473",
+      "file_name": "COCO_train2014_000000018473.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000018473.jpg",
+      "coco_url": "http://mscoco.org/images/18473",
+      "width": 640,
+      "height": 480,
+      "caption": "a sofa with pink and white stripes with a white / off - white pillow",
+      "word_count": 15,
+      "bbox_coco_xywh": [
+        0.0,
+        167.64,
+        358.72,
+        301.15
+      ],
+      "gt_bbox_xyxy": [
+        0.0,
+        167.64,
+        358.72,
+        468.79
+      ],
+      "split": "val",
+      "image_sha256": "65b1edc6647fc90b383e691d07aed6a1f940055940838cb81ed709578fec39eb"
+    },
+    {
+      "ref_id": 7119,
+      "ann_id": 683416,
+      "image_id": "coco_327404",
+      "file_name": "COCO_train2014_000000327404.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000327404.jpg",
+      "coco_url": "http://mscoco.org/images/327404",
+      "width": 480,
+      "height": 640,
+      "caption": "a glass of juice",
+      "word_count": 4,
+      "bbox_coco_xywh": [
+        367.38,
+        457.26,
+        93.19,
+        169.8
+      ],
+      "gt_bbox_xyxy": [
+        367.38,
+        457.26,
+        460.57,
+        627.06
+      ],
+      "split": "val",
+      "image_sha256": "22d0b52ca5f140b7d682bfc8dcc6b4b1f397de163fa437c2fd4f78d4f313da9c"
+    },
+    {
+      "ref_id": 7425,
+      "ann_id": 2156945,
+      "image_id": "coco_376241",
+      "file_name": "COCO_train2014_000000376241.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000376241.jpg",
+      "coco_url": "http://mscoco.org/images/376241",
+      "width": 640,
+      "height": 427,
+      "caption": "the arm and the brown shirt of the person standing on far right",
+      "word_count": 13,
+      "bbox_coco_xywh": [
+        577.84,
+        123.88,
+        62.16,
+        296.13
+      ],
+      "gt_bbox_xyxy": [
+        577.84,
+        123.88,
+        640.0,
+        420.01
+      ],
+      "split": "val",
+      "image_sha256": "353be0f15df3a201fcae876de4b2d4209c9ba58db073b2320a5dc8462c3d1c59"
+    },
+    {
+      "ref_id": 7523,
+      "ann_id": 138061,
+      "image_id": "coco_466949",
+      "file_name": "COCO_train2014_000000466949.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000466949.jpg",
+      "coco_url": "http://mscoco.org/images/466949",
+      "width": 640,
+      "height": 425,
+      "caption": "a van standing behind the yellow vehicle",
+      "word_count": 7,
+      "bbox_coco_xywh": [
+        0.0,
+        189.14,
+        130.51,
+        112.47
+      ],
+      "gt_bbox_xyxy": [
+        0.0,
+        189.14,
+        130.51,
+        301.61
+      ],
+      "split": "val",
+      "image_sha256": "0a649626bf1343d50eae63d2537e15af96390257cbc29beb9d05d4883359a2b9"
+    },
+    {
+      "ref_id": 7597,
+      "ann_id": 573026,
+      "image_id": "coco_32818",
+      "file_name": "COCO_train2014_000000032818.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000032818.jpg",
+      "coco_url": "http://mscoco.org/images/32818",
+      "width": 640,
+      "height": 480,
+      "caption": "the bench closest to the palm tree and on a concrete pedestal",
+      "word_count": 12,
+      "bbox_coco_xywh": [
+        275.52,
+        193.72,
+        201.25,
+        184.04
+      ],
+      "gt_bbox_xyxy": [
+        275.52,
+        193.72,
+        476.77,
+        377.76
+      ],
+      "split": "val",
+      "image_sha256": "1941b3c852a39b8c82706ec635c1c8f84a36395a2cf95b1848834405a82cc60d"
+    },
+    {
+      "ref_id": 7974,
+      "ann_id": 507676,
+      "image_id": "coco_371361",
+      "file_name": "COCO_train2014_000000371361.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000371361.jpg",
+      "coco_url": "http://mscoco.org/images/371361",
+      "width": 640,
+      "height": 426,
+      "caption": "the skier wearing black",
+      "word_count": 4,
+      "bbox_coco_xywh": [
+        316.4,
+        77.29,
+        95.3,
+        254.45
+      ],
+      "gt_bbox_xyxy": [
+        316.4,
+        77.29,
+        411.7,
+        331.74
+      ],
+      "split": "val",
+      "image_sha256": "b1305565e0722ddb5e6402c3c01ac47720019c1f11f7f870feed3a310788a0c0"
+    },
+    {
+      "ref_id": 8202,
+      "ann_id": 104758,
+      "image_id": "coco_43655",
+      "file_name": "COCO_train2014_000000043655.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000043655.jpg",
+      "coco_url": "http://mscoco.org/images/43655",
+      "width": 640,
+      "height": 383,
+      "caption": "an empty chair directly to the left of the leftmost of two cats and behind a second empty chair that is closer to the foreground",
+      "word_count": 25,
+      "bbox_coco_xywh": [
+        0.0,
+        121.08,
+        113.66,
+        257.8
+      ],
+      "gt_bbox_xyxy": [
+        0.0,
+        121.08,
+        113.66,
+        378.88
+      ],
+      "split": "val",
+      "image_sha256": "ef20d5acbbe68648004d517f288ba14e088620736ec208641f9d0a6cbaacb319"
+    },
+    {
+      "ref_id": 8618,
+      "ann_id": 574215,
+      "image_id": "coco_240500",
+      "file_name": "COCO_train2014_000000240500.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000240500.jpg",
+      "coco_url": "http://mscoco.org/images/240500",
+      "width": 618,
+      "height": 640,
+      "caption": "a wooden bench with a giant white bird standing on it",
+      "word_count": 11,
+      "bbox_coco_xywh": [
+        46.97,
+        293.66,
+        333.07,
+        220.67
+      ],
+      "gt_bbox_xyxy": [
+        46.97,
+        293.66,
+        380.04,
+        514.33
+      ],
+      "split": "val",
+      "image_sha256": "a5696da18098925bbd7cff185151647f8577af7e5cf3a173aab055b65cc0f010"
+    },
+    {
+      "ref_id": 9186,
+      "ann_id": 197849,
+      "image_id": "coco_491936",
+      "file_name": "COCO_train2014_000000491936.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000491936.jpg",
+      "coco_url": "http://mscoco.org/images/491936",
+      "width": 640,
+      "height": 480,
+      "caption": "the man sitting with the blue and green jacket",
+      "word_count": 9,
+      "bbox_coco_xywh": [
+        0.0,
+        150.81,
+        257.3,
+        324.33
+      ],
+      "gt_bbox_xyxy": [
+        0.0,
+        150.81,
+        257.3,
+        475.14
+      ],
+      "split": "val",
+      "image_sha256": "96386e29101e2657fff63103a9b37d5bb14412ad9d381db54e1d82174f603f46"
+    },
+    {
+      "ref_id": 9381,
+      "ann_id": 574054,
+      "image_id": "coco_160380",
+      "file_name": "COCO_train2014_000000160380.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000160380.jpg",
+      "coco_url": "http://mscoco.org/images/160380",
+      "width": 640,
+      "height": 480,
+      "caption": "the bench that is empty",
+      "word_count": 5,
+      "bbox_coco_xywh": [
+        163.68,
+        327.92,
+        170.65,
+        116.83
+      ],
+      "gt_bbox_xyxy": [
+        163.68,
+        327.92,
+        334.33,
+        444.75
+      ],
+      "split": "val",
+      "image_sha256": "17a2944b6c90b8a998be3acb5ecbe62cbe0218b74e38c84ea1a3362ee3a277ee"
+    },
+    {
+      "ref_id": 9696,
+      "ann_id": 1107541,
+      "image_id": "coco_149556",
+      "file_name": "COCO_train2014_000000149556.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000149556.jpg",
+      "coco_url": "http://mscoco.org/images/149556",
+      "width": 500,
+      "height": 375,
+      "caption": "the mouse nearest the large black object",
+      "word_count": 7,
+      "bbox_coco_xywh": [
+        170.22,
+        43.82,
+        265.45,
+        150.84
+      ],
+      "gt_bbox_xyxy": [
+        170.22,
+        43.82,
+        435.67,
+        194.66
+      ],
+      "split": "val",
+      "image_sha256": "06ea7380fc1fd853a004fe848ec44942eaf37736d5b8d0db164f2614a7a98849"
+    },
+    {
+      "ref_id": 10156,
+      "ann_id": 1064786,
+      "image_id": "coco_426838",
+      "file_name": "COCO_train2014_000000426838.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000426838.jpg",
+      "coco_url": "http://mscoco.org/images/426838",
+      "width": 640,
+      "height": 502,
+      "caption": "the longer of the two carrots",
+      "word_count": 6,
+      "bbox_coco_xywh": [
+        285.84,
+        94.49,
+        339.0,
+        87.41
+      ],
+      "gt_bbox_xyxy": [
+        285.84,
+        94.49,
+        624.84,
+        181.9
+      ],
+      "split": "val",
+      "image_sha256": "547cc906bccd5582a80d4ddd85a65778e5505d5b8683aa09f0da1e538a0cc14d"
+    },
+    {
+      "ref_id": 10370,
+      "ann_id": 258615,
+      "image_id": "coco_106652",
+      "file_name": "COCO_train2014_000000106652.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000106652.jpg",
+      "coco_url": "http://mscoco.org/images/106652",
+      "width": 640,
+      "height": 480,
+      "caption": "a woman in a brown dress with a floral scarf standing next to a man",
+      "word_count": 15,
+      "bbox_coco_xywh": [
+        280.0,
+        44.86,
+        162.16,
+        428.11
+      ],
+      "gt_bbox_xyxy": [
+        280.0,
+        44.86,
+        442.16,
+        472.97
+      ],
+      "split": "val",
+      "image_sha256": "60f4a17c77fc1d9747450d57902060a80544cf877c93c2e0781e125aefe92417"
+    },
+    {
+      "ref_id": 10596,
+      "ann_id": 124379,
+      "image_id": "coco_333842",
+      "file_name": "COCO_train2014_000000333842.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000333842.jpg",
+      "coco_url": "http://mscoco.org/images/333842",
+      "width": 640,
+      "height": 427,
+      "caption": "a samsung display on small table with many toys and next to another display of other brand with beautiful keyboard and mouse",
+      "word_count": 22,
+      "bbox_coco_xywh": [
+        328.55,
+        0.0,
+        311.45,
+        165.85
+      ],
+      "gt_bbox_xyxy": [
+        328.55,
+        0.0,
+        640.0,
+        165.85
+      ],
+      "split": "val",
+      "image_sha256": "62e383b7e47cbaab93fb787bb3e383976b1ed3834887607e20ae334c84e6f5ff"
+    },
+    {
+      "ref_id": 11048,
+      "ann_id": 1157228,
+      "image_id": "coco_427805",
+      "file_name": "COCO_train2014_000000427805.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000427805.jpg",
+      "coco_url": "http://mscoco.org/images/427805",
+      "width": 612,
+      "height": 612,
+      "caption": "vase with small blue flowers",
+      "word_count": 5,
+      "bbox_coco_xywh": [
+        442.84,
+        283.31,
+        169.16,
+        306.69
+      ],
+      "gt_bbox_xyxy": [
+        442.84,
+        283.31,
+        612.0,
+        590.0
+      ],
+      "split": "val",
+      "image_sha256": "932a2746bf9d02d7e295548c30a8db1382d869bd09cb465113acc6e51d4b15b0"
+    },
+    {
+      "ref_id": 11213,
+      "ann_id": 166879,
+      "image_id": "coco_169656",
+      "file_name": "COCO_train2014_000000169656.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000169656.jpg",
+      "coco_url": "http://mscoco.org/images/169656",
+      "width": 640,
+      "height": 427,
+      "caption": "brown double bus",
+      "word_count": 3,
+      "bbox_coco_xywh": [
+        398.21,
+        100.03,
+        111.31,
+        163.13
+      ],
+      "gt_bbox_xyxy": [
+        398.21,
+        100.03,
+        509.52,
+        263.16
+      ],
+      "split": "val",
+      "image_sha256": "7c2547348f1e444351dad8e29754c118545ac021764b8af24ee45a1858c010ac"
+    },
+    {
+      "ref_id": 11277,
+      "ann_id": 588241,
+      "image_id": "coco_73387",
+      "file_name": "COCO_train2014_000000073387.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000073387.jpg",
+      "coco_url": "http://mscoco.org/images/73387",
+      "width": 640,
+      "height": 427,
+      "caption": "zebra with birds on its back",
+      "word_count": 6,
+      "bbox_coco_xywh": [
+        97.95,
+        134.25,
+        505.82,
+        284.17
+      ],
+      "gt_bbox_xyxy": [
+        97.95,
+        134.25,
+        603.77,
+        418.42
+      ],
+      "split": "val",
+      "image_sha256": "1bec7765856a53be1025fccade0c97cdb986a8a43406fbf899240bfc2ec3ba8c"
+    },
+    {
+      "ref_id": 11655,
+      "ann_id": 65715,
+      "image_id": "coco_397760",
+      "file_name": "COCO_train2014_000000397760.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000397760.jpg",
+      "coco_url": "http://mscoco.org/images/397760",
+      "width": 640,
+      "height": 480,
+      "caption": "a black sheep lying down looking at the camera",
+      "word_count": 9,
+      "bbox_coco_xywh": [
+        379.87,
+        180.65,
+        260.13,
+        197.16
+      ],
+      "gt_bbox_xyxy": [
+        379.87,
+        180.65,
+        640.0,
+        377.81
+      ],
+      "split": "val",
+      "image_sha256": "bb144aefc658e59831f0e079bf076470d023c6668af8bb515030bc0a1493dc66"
+    },
+    {
+      "ref_id": 11749,
+      "ann_id": 417847,
+      "image_id": "coco_505546",
+      "file_name": "COCO_train2014_000000505546.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000505546.jpg",
+      "coco_url": "http://mscoco.org/images/505546",
+      "width": 480,
+      "height": 640,
+      "caption": "a green fire hydrant with water coming out of it",
+      "word_count": 10,
+      "bbox_coco_xywh": [
+        168.27,
+        84.95,
+        169.71,
+        243.06
+      ],
+      "gt_bbox_xyxy": [
+        168.27,
+        84.95,
+        337.98,
+        328.01
+      ],
+      "split": "val",
+      "image_sha256": "f816b5f2ec25fe079cb50c5c535995d8c36bb6e3725db9123c05aab96315a025"
+    },
+    {
+      "ref_id": 12335,
+      "ann_id": 173498,
+      "image_id": "coco_136736",
+      "file_name": "COCO_train2014_000000136736.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000136736.jpg",
+      "coco_url": "http://mscoco.org/images/136736",
+      "width": 640,
+      "height": 480,
+      "caption": "train with green t on it",
+      "word_count": 6,
+      "bbox_coco_xywh": [
+        12.94,
+        122.97,
+        345.17,
+        238.38
+      ],
+      "gt_bbox_xyxy": [
+        12.94,
+        122.97,
+        358.11,
+        361.35
+      ],
+      "split": "val",
+      "image_sha256": "cd323568dfa28657c2ef295e0ff864bacce223472ad2de27636873262b6c9a72"
+    },
+    {
+      "ref_id": 12403,
+      "ann_id": 2140856,
+      "image_id": "coco_68305",
+      "file_name": "COCO_train2014_000000068305.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000068305.jpg",
+      "coco_url": "http://mscoco.org/images/68305",
+      "width": 640,
+      "height": 480,
+      "caption": "the white sink",
+      "word_count": 3,
+      "bbox_coco_xywh": [
+        177.69,
+        252.87,
+        192.77,
+        103.91
+      ],
+      "gt_bbox_xyxy": [
+        177.69,
+        252.87,
+        370.46,
+        356.78
+      ],
+      "split": "val",
+      "image_sha256": "4e4ade6dc29526ebee6f0f9295be17eacfe3c6365c6b2f46d579ccb26876cd2a"
+    },
+    {
+      "ref_id": 12414,
+      "ann_id": 478122,
+      "image_id": "coco_122231",
+      "file_name": "COCO_train2014_000000122231.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000122231.jpg",
+      "coco_url": "http://mscoco.org/images/122231",
+      "width": 640,
+      "height": 427,
+      "caption": "person on right with hat",
+      "word_count": 5,
+      "bbox_coco_xywh": [
+        280.49,
+        141.69,
+        113.74,
+        246.51
+      ],
+      "gt_bbox_xyxy": [
+        280.49,
+        141.69,
+        394.23,
+        388.2
+      ],
+      "split": "val",
+      "image_sha256": "ef4ea77e211bfc4e76cd0bfde9db222f1085f4ff684ad55e78c6c58623e489bf"
+    },
+    {
+      "ref_id": 12979,
+      "ann_id": 32807,
+      "image_id": "coco_437224",
+      "file_name": "COCO_train2014_000000437224.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000437224.jpg",
+      "coco_url": "http://mscoco.org/images/437224",
+      "width": 640,
+      "height": 427,
+      "caption": "the screen on the back of the seat that says spoil yourself",
+      "word_count": 12,
+      "bbox_coco_xywh": [
+        171.74,
+        220.02,
+        164.69,
+        111.01
+      ],
+      "gt_bbox_xyxy": [
+        171.74,
+        220.02,
+        336.43,
+        331.03
+      ],
+      "split": "val",
+      "image_sha256": "a9c4bc6161431928e5c51e1eef13f218530ac4d536731b84a9e6caebacc36e42"
+    },
+    {
+      "ref_id": 14892,
+      "ann_id": 1742952,
+      "image_id": "coco_277284",
+      "file_name": "COCO_train2014_000000277284.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000277284.jpg",
+      "coco_url": "http://mscoco.org/images/277284",
+      "width": 640,
+      "height": 426,
+      "caption": "the man in white holding a red frisbee",
+      "word_count": 8,
+      "bbox_coco_xywh": [
+        545.62,
+        26.93,
+        94.38,
+        391.38
+      ],
+      "gt_bbox_xyxy": [
+        545.62,
+        26.93,
+        640.0,
+        418.31
+      ],
+      "split": "val",
+      "image_sha256": "472c17a1ac9263adf4d87bd18b6156e92deb40414a2233a15068f1f1010944c4"
+    },
+    {
+      "ref_id": 15001,
+      "ann_id": 497359,
+      "image_id": "coco_452565",
+      "file_name": "COCO_train2014_000000452565.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000452565.jpg",
+      "coco_url": "http://mscoco.org/images/452565",
+      "width": 640,
+      "height": 640,
+      "caption": "indian man in button up colored shirt and blue pants walking",
+      "word_count": 11,
+      "bbox_coco_xywh": [
+        330.82,
+        307.65,
+        164.35,
+        332.35
+      ],
+      "gt_bbox_xyxy": [
+        330.82,
+        307.65,
+        495.17,
+        640.0
+      ],
+      "split": "val",
+      "image_sha256": "f5ea95857d61efe43385e7537c3e3c5d633e319d5c4247b22ac2e8de7e7f2468"
+    },
+    {
+      "ref_id": 15552,
+      "ann_id": 438579,
+      "image_id": "coco_83605",
+      "file_name": "COCO_train2014_000000083605.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000083605.jpg",
+      "coco_url": "http://mscoco.org/images/83605",
+      "width": 400,
+      "height": 600,
+      "caption": "a man wearinf a light blue t - shirt and jeans with his arms extended",
+      "word_count": 15,
+      "bbox_coco_xywh": [
+        107.38,
+        17.58,
+        107.39,
+        157.12
+      ],
+      "gt_bbox_xyxy": [
+        107.38,
+        17.58,
+        214.77,
+        174.7
+      ],
+      "split": "val",
+      "image_sha256": "c039bfdcc1cc60244ddd456b380e8e252a015af1a70c60f577fd70832781ad6d"
+    },
+    {
+      "ref_id": 15891,
+      "ann_id": 461644,
+      "image_id": "coco_487992",
+      "file_name": "COCO_train2014_000000487992.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000487992.jpg",
+      "coco_url": "http://mscoco.org/images/487992",
+      "width": 413,
+      "height": 550,
+      "caption": "the man wearing the long black wig with sunglasses on",
+      "word_count": 10,
+      "bbox_coco_xywh": [
+        67.98,
+        30.9,
+        169.32,
+        472.13
+      ],
+      "gt_bbox_xyxy": [
+        67.98,
+        30.9,
+        237.3,
+        503.03
+      ],
+      "split": "val",
+      "image_sha256": "07bea626671eca10aa7f0519320d339da2474232ae36cd03f46bb3de11fc97c1"
+    },
+    {
+      "ref_id": 16503,
+      "ann_id": 525147,
+      "image_id": "coco_268197",
+      "file_name": "COCO_train2014_000000268197.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000268197.jpg",
+      "coco_url": "http://mscoco.org/images/268197",
+      "width": 640,
+      "height": 351,
+      "caption": "a man with surfing board standing back of other man",
+      "word_count": 10,
+      "bbox_coco_xywh": [
+        256.91,
+        112.56,
+        115.44,
+        122.93
+      ],
+      "gt_bbox_xyxy": [
+        256.91,
+        112.56,
+        372.35,
+        235.49
+      ],
+      "split": "val",
+      "image_sha256": "c23787e4ebfd03b553fc51d67123e3c8d31bac225ee281da7b7561eab3b3c774"
+    },
+    {
+      "ref_id": 16512,
+      "ann_id": 179965,
+      "image_id": "coco_501493",
+      "file_name": "COCO_train2014_000000501493.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000501493.jpg",
+      "coco_url": "http://mscoco.org/images/501493",
+      "width": 640,
+      "height": 250,
+      "caption": "a long white boat",
+      "word_count": 4,
+      "bbox_coco_xywh": [
+        134.35,
+        134.18,
+        450.65,
+        45.55
+      ],
+      "gt_bbox_xyxy": [
+        134.35,
+        134.18,
+        585.0,
+        179.73
+      ],
+      "split": "val",
+      "image_sha256": "d8fb10b58b83dacb086a60bd38224437d05a1e676210274e9dfb8eef3922c438"
+    },
+    {
+      "ref_id": 18429,
+      "ann_id": 151613,
+      "image_id": "coco_287140",
+      "file_name": "COCO_train2014_000000287140.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000287140.jpg",
+      "coco_url": "http://mscoco.org/images/287140",
+      "width": 640,
+      "height": 425,
+      "caption": "the racing bike , having white and black colors",
+      "word_count": 9,
+      "bbox_coco_xywh": [
+        0.2,
+        119.83,
+        207.75,
+        264.06
+      ],
+      "gt_bbox_xyxy": [
+        0.2,
+        119.83,
+        207.95,
+        383.89
+      ],
+      "split": "val",
+      "image_sha256": "c96c687784362c2bc64a7db47c45d04c3a8d777628cd344f111864001d652ef6"
+    },
+    {
+      "ref_id": 18611,
+      "ann_id": 598515,
+      "image_id": "coco_473348",
+      "file_name": "COCO_train2014_000000473348.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000473348.jpg",
+      "coco_url": "http://mscoco.org/images/473348",
+      "width": 640,
+      "height": 427,
+      "caption": "the giraffe eating from the water jug",
+      "word_count": 7,
+      "bbox_coco_xywh": [
+        151.34,
+        111.52,
+        488.61,
+        315.48
+      ],
+      "gt_bbox_xyxy": [
+        151.34,
+        111.52,
+        639.95,
+        427.0
+      ],
+      "split": "val",
+      "image_sha256": "393d052756e41371ce3516e8a9ab3ea98b27ce8bd765e32e956b451e09675001"
+    },
+    {
+      "ref_id": 18755,
+      "ann_id": 2172063,
+      "image_id": "coco_507520",
+      "file_name": "COCO_train2014_000000507520.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000507520.jpg",
+      "coco_url": "http://mscoco.org/images/507520",
+      "width": 640,
+      "height": 427,
+      "caption": "a tractor with a pull card attached has two men sitting in it",
+      "word_count": 13,
+      "bbox_coco_xywh": [
+        302.43,
+        112.98,
+        201.22,
+        175.69
+      ],
+      "gt_bbox_xyxy": [
+        302.43,
+        112.98,
+        503.65,
+        288.67
+      ],
+      "split": "val",
+      "image_sha256": "96f22d7035faa83724548c04b399662996da5706b2267c5fa4bd79af2e68dc01"
+    },
+    {
+      "ref_id": 19055,
+      "ann_id": 582074,
+      "image_id": "coco_470085",
+      "file_name": "COCO_train2014_000000470085.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000470085.jpg",
+      "coco_url": "http://mscoco.org/images/470085",
+      "width": 640,
+      "height": 427,
+      "caption": "an elephant with his trunk touching the mouth of the other elephant",
+      "word_count": 12,
+      "bbox_coco_xywh": [
+        0.96,
+        2.82,
+        503.59,
+        416.47
+      ],
+      "gt_bbox_xyxy": [
+        0.96,
+        2.82,
+        504.55,
+        419.29
+      ],
+      "split": "val",
+      "image_sha256": "d9134c89c2a86306a0199dcb803c54482f70038115a50350ca1485639575f09b"
+    },
+    {
+      "ref_id": 19492,
+      "ann_id": 1568435,
+      "image_id": "coco_554706",
+      "file_name": "COCO_train2014_000000554706.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000554706.jpg",
+      "coco_url": "http://mscoco.org/images/554706",
+      "width": 500,
+      "height": 375,
+      "caption": "the right - most hot dog on the far right of the lunch tray",
+      "word_count": 14,
+      "bbox_coco_xywh": [
+        347.19,
+        69.94,
+        133.99,
+        138.21
+      ],
+      "gt_bbox_xyxy": [
+        347.19,
+        69.94,
+        481.18,
+        208.15
+      ],
+      "split": "val",
+      "image_sha256": "189bab3eec407fe749989f8c7fcc92f52c207611febe8fb6d8813757d9679c8e"
+    },
+    {
+      "ref_id": 19567,
+      "ann_id": 1962580,
+      "image_id": "coco_466825",
+      "file_name": "COCO_train2014_000000466825.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000466825.jpg",
+      "coco_url": "http://mscoco.org/images/466825",
+      "width": 428,
+      "height": 640,
+      "caption": "the portion of the table largely empty",
+      "word_count": 7,
+      "bbox_coco_xywh": [
+        0.0,
+        435.53,
+        428.0,
+        204.47
+      ],
+      "gt_bbox_xyxy": [
+        0.0,
+        435.53,
+        428.0,
+        640.0
+      ],
+      "split": "val",
+      "image_sha256": "1c2af96424e4d07357127ceedb667ec4113baae11292c443aefabad59e016c5a"
+    },
+    {
+      "ref_id": 19741,
+      "ann_id": 1951210,
+      "image_id": "coco_247181",
+      "file_name": "COCO_train2014_000000247181.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000247181.jpg",
+      "coco_url": "http://mscoco.org/images/247181",
+      "width": 500,
+      "height": 332,
+      "caption": "a brown sofa chair sitting next to window curtains",
+      "word_count": 9,
+      "bbox_coco_xywh": [
+        326.84,
+        151.89,
+        94.61,
+        134.18
+      ],
+      "gt_bbox_xyxy": [
+        326.84,
+        151.89,
+        421.45,
+        286.07
+      ],
+      "split": "val",
+      "image_sha256": "b087662ad6395fba7c5418cbf01abb7040bcff30d427f3695d43434e2ac9beb7"
+    },
+    {
+      "ref_id": 19753,
+      "ann_id": 282936,
+      "image_id": "coco_298262",
+      "file_name": "COCO_train2014_000000298262.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000298262.jpg",
+      "coco_url": "http://mscoco.org/images/298262",
+      "width": 640,
+      "height": 640,
+      "caption": "a black umbrella which a manis carrying",
+      "word_count": 7,
+      "bbox_coco_xywh": [
+        69.03,
+        38.83,
+        359.55,
+        238.74
+      ],
+      "gt_bbox_xyxy": [
+        69.03,
+        38.83,
+        428.58,
+        277.57
+      ],
+      "split": "val",
+      "image_sha256": "f362ce0aa005618073ccf3d184dd5997a9232aaf49653f4ae87798c2f09b5f81"
+    },
+    {
+      "ref_id": 20154,
+      "ann_id": 64389,
+      "image_id": "coco_498297",
+      "file_name": "COCO_train2014_000000498297.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000498297.jpg",
+      "coco_url": "http://mscoco.org/images/498297",
+      "width": 640,
+      "height": 253,
+      "caption": "a sheep that is next to two others",
+      "word_count": 8,
+      "bbox_coco_xywh": [
+        492.94,
+        53.86,
+        147.06,
+        139.29
+      ],
+      "gt_bbox_xyxy": [
+        492.94,
+        53.86,
+        640.0,
+        193.15
+      ],
+      "split": "val",
+      "image_sha256": "9ace28830ef82e2da8b90c3e360c5bd65da25b1d0ebe5043b82c83949f75dd51"
+    },
+    {
+      "ref_id": 21024,
+      "ann_id": 117372,
+      "image_id": "coco_130163",
+      "file_name": "COCO_train2014_000000130163.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000130163.jpg",
+      "coco_url": "http://mscoco.org/images/130163",
+      "width": 640,
+      "height": 480,
+      "caption": "the chair to the right of the fireplace",
+      "word_count": 8,
+      "bbox_coco_xywh": [
+        533.45,
+        260.14,
+        106.55,
+        149.04
+      ],
+      "gt_bbox_xyxy": [
+        533.45,
+        260.14,
+        640.0,
+        409.18
+      ],
+      "split": "val",
+      "image_sha256": "9ac2b4d355405585e11d26e943ad718e89ffbb71138ca09c98bd314916899bae"
+    },
+    {
+      "ref_id": 23856,
+      "ann_id": 437790,
+      "image_id": "coco_460362",
+      "file_name": "COCO_train2014_000000460362.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000460362.jpg",
+      "coco_url": "http://mscoco.org/images/460362",
+      "width": 640,
+      "height": 425,
+      "caption": "a man wearing blue dress serving some sweets",
+      "word_count": 8,
+      "bbox_coco_xywh": [
+        119.5,
+        12.78,
+        304.37,
+        405.83
+      ],
+      "gt_bbox_xyxy": [
+        119.5,
+        12.78,
+        423.87,
+        418.61
+      ],
+      "split": "val",
+      "image_sha256": "1110e5982c18d67f5012ee157a3254f272dd91a5d0579d867eb323736ef38c0d"
+    },
+    {
+      "ref_id": 24083,
+      "ann_id": 1928111,
+      "image_id": "coco_265235",
+      "file_name": "COCO_train2014_000000265235.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000265235.jpg",
+      "coco_url": "http://mscoco.org/images/265235",
+      "width": 640,
+      "height": 383,
+      "caption": "a cake made of cupcakes shaped like a baseball bat",
+      "word_count": 10,
+      "bbox_coco_xywh": [
+        7.96,
+        47.75,
+        534.21,
+        329.28
+      ],
+      "gt_bbox_xyxy": [
+        7.96,
+        47.75,
+        542.17,
+        377.03
+      ],
+      "split": "val",
+      "image_sha256": "f485019544f11e672482d64439cad7071847bcdd2bbe5809ad9b6233078e60ff"
+    },
+    {
+      "ref_id": 25549,
+      "ann_id": 1229296,
+      "image_id": "coco_285478",
+      "file_name": "COCO_train2014_000000285478.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000285478.jpg",
+      "coco_url": "http://mscoco.org/images/285478",
+      "width": 462,
+      "height": 640,
+      "caption": "a catcher about to catch a baseball",
+      "word_count": 7,
+      "bbox_coco_xywh": [
+        92.04,
+        329.35,
+        143.83,
+        169.71
+      ],
+      "gt_bbox_xyxy": [
+        92.04,
+        329.35,
+        235.87,
+        499.06
+      ],
+      "split": "val",
+      "image_sha256": "d19972006cf2143d5cb5e77444dda8f30d7d767843b89e03ac7baef24a34e29b"
+    },
+    {
+      "ref_id": 26040,
+      "ann_id": 88236,
+      "image_id": "coco_226046",
+      "file_name": "COCO_train2014_000000226046.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000226046.jpg",
+      "coco_url": "http://mscoco.org/images/226046",
+      "width": 640,
+      "height": 480,
+      "caption": "the bottle",
+      "word_count": 2,
+      "bbox_coco_xywh": [
+        426.44,
+        0.62,
+        124.63,
+        207.04
+      ],
+      "gt_bbox_xyxy": [
+        426.44,
+        0.62,
+        551.07,
+        207.66
+      ],
+      "split": "val",
+      "image_sha256": "982986736a017a29e315cd0ce871c826fd7279e4579637c54ee21f52b69386f2"
+    },
+    {
+      "ref_id": 26106,
+      "ann_id": 285530,
+      "image_id": "coco_184224",
+      "file_name": "COCO_train2014_000000184224.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000184224.jpg",
+      "coco_url": "http://mscoco.org/images/184224",
+      "width": 281,
+      "height": 446,
+      "caption": "a unbrella held my a woman",
+      "word_count": 6,
+      "bbox_coco_xywh": [
+        60.85,
+        0.04,
+        204.61,
+        88.12
+      ],
+      "gt_bbox_xyxy": [
+        60.85,
+        0.04,
+        265.46,
+        88.16
+      ],
+      "split": "val",
+      "image_sha256": "fee35f11aaf3103c5f2754961a2ab3f69cee04dd1944d5e7caf728ec803bb214"
+    },
+    {
+      "ref_id": 27226,
+      "ann_id": 185675,
+      "image_id": "coco_440689",
+      "file_name": "COCO_train2014_000000440689.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000440689.jpg",
+      "coco_url": "http://mscoco.org/images/440689",
+      "width": 600,
+      "height": 450,
+      "caption": "person on scooter wearing black helmet , and has black backpack",
+      "word_count": 11,
+      "bbox_coco_xywh": [
+        172.92,
+        82.62,
+        238.65,
+        351.91
+      ],
+      "gt_bbox_xyxy": [
+        172.92,
+        82.62,
+        411.57,
+        434.53
+      ],
+      "split": "val",
+      "image_sha256": "fe93fcd3a5253e73cff93276e3585a1801f690ea6cf8a26fadd4f79793db17b0"
+    },
+    {
+      "ref_id": 29272,
+      "ann_id": 485194,
+      "image_id": "coco_61460",
+      "file_name": "COCO_train2014_000000061460.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000061460.jpg",
+      "coco_url": "http://mscoco.org/images/61460",
+      "width": 640,
+      "height": 424,
+      "caption": "a person in a brons shirt and stipped skirt standing next to luggage",
+      "word_count": 13,
+      "bbox_coco_xywh": [
+        18.64,
+        236.69,
+        621.36,
+        183.58
+      ],
+      "gt_bbox_xyxy": [
+        18.64,
+        236.69,
+        640.0,
+        420.27
+      ],
+      "split": "val",
+      "image_sha256": "250917a996a6dccae1f940b4cc3da21869b1052ccd1b49f611a45e8d30efe2f6"
+    },
+    {
+      "ref_id": 30362,
+      "ann_id": 675791,
+      "image_id": "coco_106100",
+      "file_name": "COCO_train2014_000000106100.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000106100.jpg",
+      "coco_url": "http://mscoco.org/images/106100",
+      "width": 640,
+      "height": 457,
+      "caption": "a glass containing a yellow colored beverage",
+      "word_count": 7,
+      "bbox_coco_xywh": [
+        503.21,
+        2.05,
+        136.79,
+        218.75
+      ],
+      "gt_bbox_xyxy": [
+        503.21,
+        2.05,
+        640.0,
+        220.8
+      ],
+      "split": "val",
+      "image_sha256": "b520e1507a5d323de04063c9747b5587b505cc1a6681ce06a375f16cf2b3449c"
+    },
+    {
+      "ref_id": 31930,
+      "ann_id": 250487,
+      "image_id": "coco_480797",
+      "file_name": "COCO_train2014_000000480797.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000480797.jpg",
+      "coco_url": "http://mscoco.org/images/480797",
+      "width": 640,
+      "height": 480,
+      "caption": "a very large ship called aurora",
+      "word_count": 6,
+      "bbox_coco_xywh": [
+        21.52,
+        0.65,
+        617.76,
+        160.35
+      ],
+      "gt_bbox_xyxy": [
+        21.52,
+        0.65,
+        639.28,
+        161.0
+      ],
+      "split": "val",
+      "image_sha256": "9ae80675177c346e6fc76bf56d4e94b2f78ab879b32f0040d41f4e180ac70f80"
+    },
+    {
+      "ref_id": 32025,
+      "ann_id": 1801844,
+      "image_id": "coco_429143",
+      "file_name": "COCO_train2014_000000429143.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000429143.jpg",
+      "coco_url": "http://mscoco.org/images/429143",
+      "width": 375,
+      "height": 500,
+      "caption": "a sailboat with a yellow base",
+      "word_count": 6,
+      "bbox_coco_xywh": [
+        93.83,
+        0.0,
+        254.32,
+        371.6
+      ],
+      "gt_bbox_xyxy": [
+        93.83,
+        0.0,
+        348.15,
+        371.6
+      ],
+      "split": "val",
+      "image_sha256": "fa6285c74eadd0e481f6f45e7bab03872984a594f7349ac366b4658bf7f0d11c"
+    },
+    {
+      "ref_id": 33339,
+      "ann_id": 2139764,
+      "image_id": "coco_258440",
+      "file_name": "COCO_train2014_000000258440.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000258440.jpg",
+      "coco_url": "http://mscoco.org/images/258440",
+      "width": 431,
+      "height": 640,
+      "caption": "a sink in a barber shop in front of the chair in the picture",
+      "word_count": 14,
+      "bbox_coco_xywh": [
+        156.11,
+        340.85,
+        209.78,
+        100.14
+      ],
+      "gt_bbox_xyxy": [
+        156.11,
+        340.85,
+        365.89,
+        440.99
+      ],
+      "split": "val",
+      "image_sha256": "6bcbe8f61692a934949008d7b5a7791e7fb9a1c7a4846c65b18b3ce339974c86"
+    },
+    {
+      "ref_id": 33391,
+      "ann_id": 480921,
+      "image_id": "coco_333302",
+      "file_name": "COCO_train2014_000000333302.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000333302.jpg",
+      "coco_url": "http://mscoco.org/images/333302",
+      "width": 640,
+      "height": 427,
+      "caption": "a man in flannel smiles",
+      "word_count": 5,
+      "bbox_coco_xywh": [
+        409.81,
+        168.22,
+        213.02,
+        254.1
+      ],
+      "gt_bbox_xyxy": [
+        409.81,
+        168.22,
+        622.83,
+        422.32
+      ],
+      "split": "val",
+      "image_sha256": "661ce33cf26f64476b024f4c1417ce6c6315d90041458eeb4948c0ada594fde7"
+    },
+    {
+      "ref_id": 33421,
+      "ann_id": 191272,
+      "image_id": "coco_551553",
+      "file_name": "COCO_train2014_000000551553.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000551553.jpg",
+      "coco_url": "http://mscoco.org/images/551553",
+      "width": 480,
+      "height": 268,
+      "caption": "a man riding a bike in desert runes",
+      "word_count": 8,
+      "bbox_coco_xywh": [
+        134.9,
+        34.33,
+        121.66,
+        162.6
+      ],
+      "gt_bbox_xyxy": [
+        134.9,
+        34.33,
+        256.56,
+        196.93
+      ],
+      "split": "val",
+      "image_sha256": "bcf1b9ec6587938ecb188045d12d167cd8cbd51482aee56456267158e980b50d"
+    },
+    {
+      "ref_id": 33743,
+      "ann_id": 2168879,
+      "image_id": "coco_288310",
+      "file_name": "COCO_train2014_000000288310.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000288310.jpg",
+      "coco_url": "http://mscoco.org/images/288310",
+      "width": 640,
+      "height": 480,
+      "caption": "a silver and blue van is parked next to a motorcycle",
+      "word_count": 11,
+      "bbox_coco_xywh": [
+        1.25,
+        2.49,
+        435.11,
+        203.22
+      ],
+      "gt_bbox_xyxy": [
+        1.25,
+        2.49,
+        436.36,
+        205.71
+      ],
+      "split": "val",
+      "image_sha256": "33d49ebe0bc585ff4431f2eaf2bc8cf58fa90776bbf26802da5de8635fd962e3"
+    },
+    {
+      "ref_id": 33856,
+      "ann_id": 118239,
+      "image_id": "coco_298481",
+      "file_name": "COCO_train2014_000000298481.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000298481.jpg",
+      "coco_url": "http://mscoco.org/images/298481",
+      "width": 424,
+      "height": 640,
+      "caption": "a red table",
+      "word_count": 3,
+      "bbox_coco_xywh": [
+        3.0,
+        457.62,
+        421.0,
+        174.27
+      ],
+      "gt_bbox_xyxy": [
+        3.0,
+        457.62,
+        424.0,
+        631.89
+      ],
+      "split": "val",
+      "image_sha256": "b0a9b9b459f7521e624a1080fcd3baf5f05d4cafff430ce35de405df459c1837"
+    }
+  ],
+  "test": [
+    {
+      "ref_id": 0,
+      "ann_id": 491042,
+      "image_id": "coco_380440",
+      "file_name": "COCO_train2014_000000380440.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000380440.jpg",
+      "coco_url": "http://mscoco.org/images/380440",
+      "width": 640,
+      "height": 376,
+      "caption": "the man in yellow coat",
+      "word_count": 5,
+      "bbox_coco_xywh": [
+        374.31,
+        65.06,
+        136.04,
+        201.94
+      ],
+      "gt_bbox_xyxy": [
+        374.31,
+        65.06,
+        510.35,
+        267.0
+      ],
+      "split": "test",
+      "image_sha256": "76c4625c076d33c75ae48a09e5a5464fbe0abb6e3e2e5ca5230552f9191e2bea"
+    },
+    {
+      "ref_id": 7,
+      "ann_id": 468642,
+      "image_id": "coco_185558",
+      "file_name": "COCO_train2014_000000185558.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000185558.jpg",
+      "coco_url": "http://mscoco.org/images/185558",
+      "width": 640,
+      "height": 427,
+      "caption": "a lady in blue t - shirt and white shorts sitting on a park bench",
+      "word_count": 15,
+      "bbox_coco_xywh": [
+        182.85,
+        191.93,
+        100.03,
+        155.69
+      ],
+      "gt_bbox_xyxy": [
+        182.85,
+        191.93,
+        282.88,
+        347.62
+      ],
+      "split": "test",
+      "image_sha256": "493a11531e52a170f9f7a96bdd7608389449e5b7d150a313dd33712a0021bbd4"
+    },
+    {
+      "ref_id": 39,
+      "ann_id": 29023,
+      "image_id": "coco_377007",
+      "file_name": "COCO_train2014_000000377007.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000377007.jpg",
+      "coco_url": "http://mscoco.org/images/377007",
+      "width": 640,
+      "height": 427,
+      "caption": "white apple computer monitor displaying two web pages",
+      "word_count": 8,
+      "bbox_coco_xywh": [
+        356.15,
+        75.63,
+        224.03,
+        219.25
+      ],
+      "gt_bbox_xyxy": [
+        356.15,
+        75.63,
+        580.18,
+        294.88
+      ],
+      "split": "test",
+      "image_sha256": "2d0b0ed8ab64498d5b76c02f4aa40e18e88f12733b78144a6bbe0692d3c33624"
+    },
+    {
+      "ref_id": 48,
+      "ann_id": 1843641,
+      "image_id": "coco_382784",
+      "file_name": "COCO_train2014_000000382784.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000382784.jpg",
+      "coco_url": "http://mscoco.org/images/382784",
+      "width": 480,
+      "height": 640,
+      "caption": "brown and colorful luggage",
+      "word_count": 4,
+      "bbox_coco_xywh": [
+        34.91,
+        483.74,
+        280.93,
+        147.95
+      ],
+      "gt_bbox_xyxy": [
+        34.91,
+        483.74,
+        315.84,
+        631.69
+      ],
+      "split": "test",
+      "image_sha256": "b8768a3594904e272a02861759396990b5f5ca4398b21ea4f8142f82f53f4ad4"
+    },
+    {
+      "ref_id": 56,
+      "ann_id": 650381,
+      "image_id": "coco_37682",
+      "file_name": "COCO_train2014_000000037682.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000037682.jpg",
+      "coco_url": "http://mscoco.org/images/37682",
+      "width": 640,
+      "height": 427,
+      "caption": "a surfboard near a girl resting on some rocks",
+      "word_count": 9,
+      "bbox_coco_xywh": [
+        454.36,
+        228.44,
+        185.12,
+        83.89
+      ],
+      "gt_bbox_xyxy": [
+        454.36,
+        228.44,
+        639.48,
+        312.33
+      ],
+      "split": "test",
+      "image_sha256": "f699d8441a366fcbb4b6dfb02f31ce89eee2d6ab02a06577e32c913237b24f55"
+    },
+    {
+      "ref_id": 82,
+      "ann_id": 309515,
+      "image_id": "coco_369735",
+      "file_name": "COCO_train2014_000000369735.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000369735.jpg",
+      "coco_url": "http://mscoco.org/images/369735",
+      "width": 612,
+      "height": 612,
+      "caption": "a thick sandwich which appears to be made with bananas and bacon on whole wheat bread sits on a wooden cutting board",
+      "word_count": 22,
+      "bbox_coco_xywh": [
+        0.0,
+        187.04,
+        378.2,
+        292.93
+      ],
+      "gt_bbox_xyxy": [
+        0.0,
+        187.04,
+        378.2,
+        479.97
+      ],
+      "split": "test",
+      "image_sha256": "360e142c94f5ea0ed405289b6f4b5e61c40638cb2fdf9d4bebbb3ab880b73d74"
+    },
+    {
+      "ref_id": 165,
+      "ann_id": 595436,
+      "image_id": "coco_561339",
+      "file_name": "COCO_train2014_000000561339.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000561339.jpg",
+      "coco_url": "http://mscoco.org/images/561339",
+      "width": 640,
+      "height": 480,
+      "caption": "large giraffee with head over railing",
+      "word_count": 6,
+      "bbox_coco_xywh": [
+        248.16,
+        137.59,
+        292.25,
+        248.26
+      ],
+      "gt_bbox_xyxy": [
+        248.16,
+        137.59,
+        540.41,
+        385.85
+      ],
+      "split": "test",
+      "image_sha256": "dc42551a53321c51526ddf58c5fc4b1b06cab3d4fa0415e629c6d4cd44d5cdd8"
+    },
+    {
+      "ref_id": 255,
+      "ann_id": 477185,
+      "image_id": "coco_328663",
+      "file_name": "COCO_train2014_000000328663.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000328663.jpg",
+      "coco_url": "http://mscoco.org/images/328663",
+      "width": 612,
+      "height": 612,
+      "caption": "man in yellow jacket",
+      "word_count": 4,
+      "bbox_coco_xywh": [
+        23.33,
+        151.67,
+        142.45,
+        358.4
+      ],
+      "gt_bbox_xyxy": [
+        23.33,
+        151.67,
+        165.78,
+        510.07
+      ],
+      "split": "test",
+      "image_sha256": "fc62c21558465b1c506c925541b6049f76d2eaf476f91873488c91a488d67f13"
+    },
+    {
+      "ref_id": 275,
+      "ann_id": 2212886,
+      "image_id": "coco_55733",
+      "file_name": "COCO_train2014_000000055733.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000055733.jpg",
+      "coco_url": "http://mscoco.org/images/55733",
+      "width": 640,
+      "height": 480,
+      "caption": "the green ski board that the woman is holding",
+      "word_count": 9,
+      "bbox_coco_xywh": [
+        69.92,
+        231.01,
+        181.65,
+        248.99
+      ],
+      "gt_bbox_xyxy": [
+        69.92,
+        231.01,
+        251.57,
+        480.0
+      ],
+      "split": "test",
+      "image_sha256": "ce23bad59021505fcb2e80e9ded6a9969561e5fca0b3f93ccac993a2a71ce36c"
+    },
+    {
+      "ref_id": 309,
+      "ann_id": 1595010,
+      "image_id": "coco_405013",
+      "file_name": "COCO_train2014_000000405013.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000405013.jpg",
+      "coco_url": "http://mscoco.org/images/405013",
+      "width": 640,
+      "height": 480,
+      "caption": "the chair the baby is sitting in",
+      "word_count": 7,
+      "bbox_coco_xywh": [
+        240.54,
+        33.44,
+        398.02,
+        314.96
+      ],
+      "gt_bbox_xyxy": [
+        240.54,
+        33.44,
+        638.56,
+        348.4
+      ],
+      "split": "test",
+      "image_sha256": "85d26b8ae5de317ea45cbca5b148a685f7a14641795283a5372eb644273d542b"
+    },
+    {
+      "ref_id": 391,
+      "ann_id": 585861,
+      "image_id": "coco_10471",
+      "file_name": "COCO_train2014_000000010471.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000010471.jpg",
+      "coco_url": "http://mscoco.org/images/10471",
+      "width": 640,
+      "height": 427,
+      "caption": "an elephant with a tusk standing between two other elephants",
+      "word_count": 10,
+      "bbox_coco_xywh": [
+        66.65,
+        89.03,
+        301.61,
+        244.0
+      ],
+      "gt_bbox_xyxy": [
+        66.65,
+        89.03,
+        368.26,
+        333.03
+      ],
+      "split": "test",
+      "image_sha256": "8f6f3792ffe1920bab51003665989863e80d7adc36795b55e56ad8831bb0599d"
+    },
+    {
+      "ref_id": 412,
+      "ann_id": 1073896,
+      "image_id": "coco_162645",
+      "file_name": "COCO_train2014_000000162645.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000162645.jpg",
+      "coco_url": "http://mscoco.org/images/162645",
+      "width": 640,
+      "height": 640,
+      "caption": "a pizza on a conference room table , topped very heavily with mushrooms",
+      "word_count": 13,
+      "bbox_coco_xywh": [
+        2.88,
+        467.42,
+        637.12,
+        163.95
+      ],
+      "gt_bbox_xyxy": [
+        2.88,
+        467.42,
+        640.0,
+        631.37
+      ],
+      "split": "test",
+      "image_sha256": "3d264bcbe41d0a82ee030331de1fca21d9d4c0c98d115b383486d03d1baf09d4"
+    },
+    {
+      "ref_id": 427,
+      "ann_id": 1108526,
+      "image_id": "coco_523505",
+      "file_name": "COCO_train2014_000000523505.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000523505.jpg",
+      "coco_url": "http://mscoco.org/images/523505",
+      "width": 640,
+      "height": 480,
+      "caption": "the remote that is to the left of the other remote",
+      "word_count": 11,
+      "bbox_coco_xywh": [
+        62.59,
+        16.2,
+        252.98,
+        384.87
+      ],
+      "gt_bbox_xyxy": [
+        62.59,
+        16.2,
+        315.57,
+        401.07
+      ],
+      "split": "test",
+      "image_sha256": "7e592b9263d35fdff8267bac66abcedae1a1aeb5084ceacac042bc43dff6afe5"
+    },
+    {
+      "ref_id": 501,
+      "ann_id": 600597,
+      "image_id": "coco_315961",
+      "file_name": "COCO_train2014_000000315961.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000315961.jpg",
+      "coco_url": "http://mscoco.org/images/315961",
+      "width": 640,
+      "height": 480,
+      "caption": "a small giraffe behind a fence",
+      "word_count": 6,
+      "bbox_coco_xywh": [
+        443.33,
+        303.17,
+        149.93,
+        121.89
+      ],
+      "gt_bbox_xyxy": [
+        443.33,
+        303.17,
+        593.26,
+        425.06
+      ],
+      "split": "test",
+      "image_sha256": "b11596fd8133bd81296a6a3018552bb01125dedea9750df2caafb4bf88103c72"
+    },
+    {
+      "ref_id": 504,
+      "ann_id": 1715185,
+      "image_id": "coco_197629",
+      "file_name": "COCO_train2014_000000197629.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000197629.jpg",
+      "coco_url": "http://mscoco.org/images/197629",
+      "width": 427,
+      "height": 640,
+      "caption": "an onlooker with a camera shoots a trio of flying kites",
+      "word_count": 11,
+      "bbox_coco_xywh": [
+        2.87,
+        343.1,
+        126.28,
+        291.3
+      ],
+      "gt_bbox_xyxy": [
+        2.87,
+        343.1,
+        129.15,
+        634.4
+      ],
+      "split": "test",
+      "image_sha256": "6e1860158fe7ff01044ca31a5c7d0bb001937dc99e29b44368904a37c961b77b"
+    },
+    {
+      "ref_id": 512,
+      "ann_id": 2147489,
+      "image_id": "coco_135815",
+      "file_name": "COCO_train2014_000000135815.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000135815.jpg",
+      "coco_url": "http://mscoco.org/images/135815",
+      "width": 640,
+      "height": 480,
+      "caption": "yellow toy",
+      "word_count": 2,
+      "bbox_coco_xywh": [
+        175.79,
+        230.65,
+        347.85,
+        243.12
+      ],
+      "gt_bbox_xyxy": [
+        175.79,
+        230.65,
+        523.64,
+        473.77
+      ],
+      "split": "test",
+      "image_sha256": "ca93a180318c092e42db7894dabd3ba799c775fed050a6aed09fab9e4c41ba67"
+    },
+    {
+      "ref_id": 523,
+      "ann_id": 439866,
+      "image_id": "coco_172957",
+      "file_name": "COCO_train2014_000000172957.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000172957.jpg",
+      "coco_url": "http://mscoco.org/images/172957",
+      "width": 640,
+      "height": 426,
+      "caption": "a man who is holding a baby and using a keyboard",
+      "word_count": 11,
+      "bbox_coco_xywh": [
+        72.76,
+        0.96,
+        537.04,
+        308.25
+      ],
+      "gt_bbox_xyxy": [
+        72.76,
+        0.96,
+        609.8,
+        309.21
+      ],
+      "split": "test",
+      "image_sha256": "5b9b15858e7653124a5ebb305d0cfeb389e4839cedfa71c76d7e6e237d0cbffb"
+    },
+    {
+      "ref_id": 552,
+      "ann_id": 590258,
+      "image_id": "coco_234653",
+      "file_name": "COCO_train2014_000000234653.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000234653.jpg",
+      "coco_url": "http://mscoco.org/images/234653",
+      "width": 491,
+      "height": 500,
+      "caption": "zebra standing up against a large wooden fence made of posts",
+      "word_count": 11,
+      "bbox_coco_xywh": [
+        152.83,
+        89.04,
+        324.87,
+        274.68
+      ],
+      "gt_bbox_xyxy": [
+        152.83,
+        89.04,
+        477.7,
+        363.72
+      ],
+      "split": "test",
+      "image_sha256": "6931fe3664a5814e29e2910904abc53f99598ac7274f6b51cda8e32c93a3a250"
+    },
+    {
+      "ref_id": 568,
+      "ann_id": 348046,
+      "image_id": "coco_311088",
+      "file_name": "COCO_train2014_000000311088.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000311088.jpg",
+      "coco_url": "http://mscoco.org/images/311088",
+      "width": 640,
+      "height": 446,
+      "caption": "the open hood next to the truck",
+      "word_count": 7,
+      "bbox_coco_xywh": [
+        465.96,
+        97.16,
+        133.06,
+        108.63
+      ],
+      "gt_bbox_xyxy": [
+        465.96,
+        97.16,
+        599.02,
+        205.79
+      ],
+      "split": "test",
+      "image_sha256": "b7f50305750c7aaea3beda34dcc201a6669285a57c6e33534374618a930cdd89"
+    },
+    {
+      "ref_id": 573,
+      "ann_id": 1925782,
+      "image_id": "coco_36445",
+      "file_name": "COCO_train2014_000000036445.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000036445.jpg",
+      "coco_url": "http://mscoco.org/images/36445",
+      "width": 425,
+      "height": 283,
+      "caption": "the donut far from the camera",
+      "word_count": 6,
+      "bbox_coco_xywh": [
+        135.63,
+        5.62,
+        123.91,
+        109.98
+      ],
+      "gt_bbox_xyxy": [
+        135.63,
+        5.62,
+        259.54,
+        115.6
+      ],
+      "split": "test",
+      "image_sha256": "24720e7dc0d068d8cdf54a94f228a1b46ac47f989510145924cd97fef2d8e8fb"
+    },
+    {
+      "ref_id": 579,
+      "ann_id": 512726,
+      "image_id": "coco_200678",
+      "file_name": "COCO_train2014_000000200678.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000200678.jpg",
+      "coco_url": "http://mscoco.org/images/200678",
+      "width": 640,
+      "height": 480,
+      "caption": "hey man watching over an active grill",
+      "word_count": 7,
+      "bbox_coco_xywh": [
+        261.62,
+        147.57,
+        168.65,
+        273.51
+      ],
+      "gt_bbox_xyxy": [
+        261.62,
+        147.57,
+        430.27,
+        421.08
+      ],
+      "split": "test",
+      "image_sha256": "72d635a746024d5a24efb9131bdea1c1206709e776c889eb8f47f7e4e30db2c3"
+    },
+    {
+      "ref_id": 600,
+      "ann_id": 226187,
+      "image_id": "coco_89208",
+      "file_name": "COCO_train2014_000000089208.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000089208.jpg",
+      "coco_url": "http://mscoco.org/images/89208",
+      "width": 640,
+      "height": 430,
+      "caption": "girl in green sweater with baby horse",
+      "word_count": 7,
+      "bbox_coco_xywh": [
+        188.43,
+        0.81,
+        190.36,
+        425.16
+      ],
+      "gt_bbox_xyxy": [
+        188.43,
+        0.81,
+        378.79,
+        425.97
+      ],
+      "split": "test",
+      "image_sha256": "edf896b79059e88caff2754de688bb204a97b3d997b2fe4f327aec00abd85ad1"
+    },
+    {
+      "ref_id": 602,
+      "ann_id": 496950,
+      "image_id": "coco_73694",
+      "file_name": "COCO_train2014_000000073694.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000073694.jpg",
+      "coco_url": "http://mscoco.org/images/73694",
+      "width": 431,
+      "height": 640,
+      "caption": "a skateboarder in a jersey and camoflague pants",
+      "word_count": 8,
+      "bbox_coco_xywh": [
+        144.61,
+        207.87,
+        243.4,
+        425.24
+      ],
+      "gt_bbox_xyxy": [
+        144.61,
+        207.87,
+        388.01,
+        633.11
+      ],
+      "split": "test",
+      "image_sha256": "b66b05a33014a52a89455353c09fd0fdefba672ec1010f25bb8721748a2d5099"
+    },
+    {
+      "ref_id": 613,
+      "ann_id": 1830967,
+      "image_id": "coco_431947",
+      "file_name": "COCO_train2014_000000431947.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000431947.jpg",
+      "coco_url": "http://mscoco.org/images/431947",
+      "width": 640,
+      "height": 331,
+      "caption": "a umbrella near the green flag",
+      "word_count": 6,
+      "bbox_coco_xywh": [
+        0.0,
+        130.68,
+        196.88,
+        118.64
+      ],
+      "gt_bbox_xyxy": [
+        0.0,
+        130.68,
+        196.88,
+        249.32
+      ],
+      "split": "test",
+      "image_sha256": "667a2bafc54f06d3afd808358786c40093b9cbe2ed8080d677149f1232750caf"
+    },
+    {
+      "ref_id": 651,
+      "ann_id": 445480,
+      "image_id": "coco_128282",
+      "file_name": "COCO_train2014_000000128282.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000128282.jpg",
+      "coco_url": "http://mscoco.org/images/128282",
+      "width": 640,
+      "height": 431,
+      "caption": "a tennis player bending down in right picture",
+      "word_count": 8,
+      "bbox_coco_xywh": [
+        449.4,
+        166.59,
+        176.28,
+        220.83
+      ],
+      "gt_bbox_xyxy": [
+        449.4,
+        166.59,
+        625.68,
+        387.42
+      ],
+      "split": "test",
+      "image_sha256": "40509dad26f40b671a26797e2b21604b69d80d5ecfd5365d4426998d55087506"
+    },
+    {
+      "ref_id": 662,
+      "ann_id": 126311,
+      "image_id": "coco_365527",
+      "file_name": "COCO_train2014_000000365527.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000365527.jpg",
+      "coco_url": "http://mscoco.org/images/365527",
+      "width": 406,
+      "height": 640,
+      "caption": "a bicycle being ridden by a man",
+      "word_count": 7,
+      "bbox_coco_xywh": [
+        48.6,
+        222.14,
+        258.16,
+        349.42
+      ],
+      "gt_bbox_xyxy": [
+        48.6,
+        222.14,
+        306.76,
+        571.56
+      ],
+      "split": "test",
+      "image_sha256": "90460ffb52ab2084de484ac03b2e309c3cb9aecd6ae2cbe5121e60493f641cd2"
+    },
+    {
+      "ref_id": 687,
+      "ann_id": 669574,
+      "image_id": "coco_452837",
+      "file_name": "COCO_train2014_000000452837.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000452837.jpg",
+      "coco_url": "http://mscoco.org/images/452837",
+      "width": 612,
+      "height": 612,
+      "caption": "a glass of soda with ice cubes",
+      "word_count": 7,
+      "bbox_coco_xywh": [
+        1.38,
+        9.63,
+        258.55,
+        379.57
+      ],
+      "gt_bbox_xyxy": [
+        1.38,
+        9.63,
+        259.93,
+        389.2
+      ],
+      "split": "test",
+      "image_sha256": "407a3b338a0c98e4548f7561e899a6155ac2814370f15d1180f86f61f0c4d593"
+    },
+    {
+      "ref_id": 705,
+      "ann_id": 430539,
+      "image_id": "coco_433704",
+      "file_name": "COCO_train2014_000000433704.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000433704.jpg",
+      "coco_url": "http://mscoco.org/images/433704",
+      "width": 640,
+      "height": 480,
+      "caption": "the man with the bat wearing his shirt untucked",
+      "word_count": 9,
+      "bbox_coco_xywh": [
+        112.69,
+        153.59,
+        76.93,
+        221.04
+      ],
+      "gt_bbox_xyxy": [
+        112.69,
+        153.59,
+        189.62,
+        374.63
+      ],
+      "split": "test",
+      "image_sha256": "ec3cca84ae9c1ae804f93baa783196b7d97f3546818d66498a5b7b145c21a25b"
+    },
+    {
+      "ref_id": 745,
+      "ann_id": 373593,
+      "image_id": "coco_238828",
+      "file_name": "COCO_train2014_000000238828.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000238828.jpg",
+      "coco_url": "http://mscoco.org/images/238828",
+      "width": 640,
+      "height": 480,
+      "caption": "the beach chair the man is sitting on",
+      "word_count": 8,
+      "bbox_coco_xywh": [
+        25.89,
+        84.13,
+        613.75,
+        390.48
+      ],
+      "gt_bbox_xyxy": [
+        25.89,
+        84.13,
+        639.64,
+        474.61
+      ],
+      "split": "test",
+      "image_sha256": "6ff46b902eb0ddf5c8a18cc5f8d3fbc6f7a7513e45fdfc27e5c2817666b9c539"
+    },
+    {
+      "ref_id": 749,
+      "ann_id": 314890,
+      "image_id": "coco_85893",
+      "file_name": "COCO_train2014_000000085893.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000085893.jpg",
+      "coco_url": "http://mscoco.org/images/85893",
+      "width": 640,
+      "height": 478,
+      "caption": "a made bed with pink flip flops on it",
+      "word_count": 9,
+      "bbox_coco_xywh": [
+        0.0,
+        86.68,
+        308.28,
+        368.43
+      ],
+      "gt_bbox_xyxy": [
+        0.0,
+        86.68,
+        308.28,
+        455.11
+      ],
+      "split": "test",
+      "image_sha256": "b7cad1292445846f1650da1bc1c71264544cfc8212ea4e261c0b7656575e97e8"
+    },
+    {
+      "ref_id": 757,
+      "ann_id": 2213973,
+      "image_id": "coco_53643",
+      "file_name": "COCO_train2014_000000053643.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000053643.jpg",
+      "coco_url": "http://mscoco.org/images/53643",
+      "width": 640,
+      "height": 480,
+      "caption": "a carafe of water sitting on a table",
+      "word_count": 8,
+      "bbox_coco_xywh": [
+        336.59,
+        80.59,
+        98.37,
+        251.26
+      ],
+      "gt_bbox_xyxy": [
+        336.59,
+        80.59,
+        434.96,
+        331.85
+      ],
+      "split": "test",
+      "image_sha256": "8cce67038220c22f35970032a122a828ffb188d6c66fa436f6c30f58b0ae3771"
+    },
+    {
+      "ref_id": 780,
+      "ann_id": 117914,
+      "image_id": "coco_547767",
+      "file_name": "COCO_train2014_000000547767.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000547767.jpg",
+      "coco_url": "http://mscoco.org/images/547767",
+      "width": 600,
+      "height": 393,
+      "caption": "the right side of a dining room table",
+      "word_count": 8,
+      "bbox_coco_xywh": [
+        127.62,
+        285.66,
+        202.84,
+        106.49
+      ],
+      "gt_bbox_xyxy": [
+        127.62,
+        285.66,
+        330.46,
+        392.15
+      ],
+      "split": "test",
+      "image_sha256": "477f48b044c006aca2c37b1f31ded1a474f47bbdecac8092148187809f018f4c"
+    },
+    {
+      "ref_id": 810,
+      "ann_id": 43947,
+      "image_id": "coco_494382",
+      "file_name": "COCO_train2014_000000494382.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000494382.jpg",
+      "coco_url": "http://mscoco.org/images/494382",
+      "width": 480,
+      "height": 640,
+      "caption": "a goose in center",
+      "word_count": 4,
+      "bbox_coco_xywh": [
+        16.76,
+        201.5,
+        292.0,
+        285.66
+      ],
+      "gt_bbox_xyxy": [
+        16.76,
+        201.5,
+        308.76,
+        487.16
+      ],
+      "split": "test",
+      "image_sha256": "aafc65882ba5c950ce242fd0d0f9ece8f94c6eadb035362f80a00389d0220d9e"
+    },
+    {
+      "ref_id": 911,
+      "ann_id": 2072587,
+      "image_id": "coco_203867",
+      "file_name": "COCO_train2014_000000203867.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000203867.jpg",
+      "coco_url": "http://mscoco.org/images/203867",
+      "width": 640,
+      "height": 480,
+      "caption": "straps",
+      "word_count": 1,
+      "bbox_coco_xywh": [
+        0.2,
+        189.49,
+        130.45,
+        290.51
+      ],
+      "gt_bbox_xyxy": [
+        0.2,
+        189.49,
+        130.65,
+        480.0
+      ],
+      "split": "test",
+      "image_sha256": "2c851a72f83c36ce66c5945e128c932d14aca1bc865f0ddb3a83b71c914b5dc5"
+    },
+    {
+      "ref_id": 936,
+      "ann_id": 274546,
+      "image_id": "coco_347511",
+      "file_name": "COCO_train2014_000000347511.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000347511.jpg",
+      "coco_url": "http://mscoco.org/images/347511",
+      "width": 640,
+      "height": 424,
+      "caption": "the third horse in is holding a rider with a blue flag",
+      "word_count": 12,
+      "bbox_coco_xywh": [
+        311.28,
+        171.15,
+        114.67,
+        252.85
+      ],
+      "gt_bbox_xyxy": [
+        311.28,
+        171.15,
+        425.95,
+        424.0
+      ],
+      "split": "test",
+      "image_sha256": "0c31a23b265f1043776713505366c6c80ab43d9061d78884645162c02a0c37f6"
+    },
+    {
+      "ref_id": 1034,
+      "ann_id": 585699,
+      "image_id": "coco_536820",
+      "file_name": "COCO_train2014_000000536820.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000536820.jpg",
+      "coco_url": "http://mscoco.org/images/536820",
+      "width": 640,
+      "height": 480,
+      "caption": "the elephant in the middle",
+      "word_count": 5,
+      "bbox_coco_xywh": [
+        143.66,
+        145.43,
+        263.06,
+        131.16
+      ],
+      "gt_bbox_xyxy": [
+        143.66,
+        145.43,
+        406.72,
+        276.59
+      ],
+      "split": "test",
+      "image_sha256": "d6d9ec1262af43267829a5e3c5c7033a8d8db2b045c3634f1ec7528f5848bcaf"
+    },
+    {
+      "ref_id": 1042,
+      "ann_id": 1074994,
+      "image_id": "coco_537304",
+      "file_name": "COCO_train2014_000000537304.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000537304.jpg",
+      "coco_url": "http://mscoco.org/images/537304",
+      "width": 640,
+      "height": 425,
+      "caption": "an uncooked pizza with four hotdogs",
+      "word_count": 6,
+      "bbox_coco_xywh": [
+        81.64,
+        310.35,
+        240.11,
+        94.84
+      ],
+      "gt_bbox_xyxy": [
+        81.64,
+        310.35,
+        321.75,
+        405.19
+      ],
+      "split": "test",
+      "image_sha256": "8758db86a960a478373a3ca934785fbbe5edc22fdf57766762b0a24d97dc1f09"
+    },
+    {
+      "ref_id": 1063,
+      "ann_id": 457268,
+      "image_id": "coco_519228",
+      "file_name": "COCO_train2014_000000519228.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000519228.jpg",
+      "coco_url": "http://mscoco.org/images/519228",
+      "width": 640,
+      "height": 423,
+      "caption": "a man in tan shirt and khaki shorts walking along the beach",
+      "word_count": 12,
+      "bbox_coco_xywh": [
+        173.0,
+        102.3,
+        96.96,
+        208.77
+      ],
+      "gt_bbox_xyxy": [
+        173.0,
+        102.3,
+        269.96,
+        311.07
+      ],
+      "split": "test",
+      "image_sha256": "4c5aa2a26af6ea3cd4f3ce36130b719dc366f3057805a3c07437a416e437e5b8"
+    },
+    {
+      "ref_id": 1070,
+      "ann_id": 455405,
+      "image_id": "coco_169179",
+      "file_name": "COCO_train2014_000000169179.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000169179.jpg",
+      "coco_url": "http://mscoco.org/images/169179",
+      "width": 375,
+      "height": 500,
+      "caption": "a man in a grey pullover",
+      "word_count": 6,
+      "bbox_coco_xywh": [
+        207.4,
+        153.21,
+        167.6,
+        339.69
+      ],
+      "gt_bbox_xyxy": [
+        207.4,
+        153.21,
+        375.0,
+        492.9
+      ],
+      "split": "test",
+      "image_sha256": "0b30c44deb0ec8875a7ab9737f02cf99d2be19ab95831300ef90a8b88adab9d9"
+    },
+    {
+      "ref_id": 1145,
+      "ann_id": 177527,
+      "image_id": "coco_314130",
+      "file_name": "COCO_train2014_000000314130.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000314130.jpg",
+      "coco_url": "http://mscoco.org/images/314130",
+      "width": 640,
+      "height": 423,
+      "caption": "tug boat moving down the river",
+      "word_count": 6,
+      "bbox_coco_xywh": [
+        94.0,
+        149.63,
+        363.53,
+        160.19
+      ],
+      "gt_bbox_xyxy": [
+        94.0,
+        149.63,
+        457.53,
+        309.82
+      ],
+      "split": "test",
+      "image_sha256": "47ece9f2f3cd73dcf758e1652f210a92067a5ba4ce7c6af6b311b4070130932e"
+    },
+    {
+      "ref_id": 1151,
+      "ann_id": 158352,
+      "image_id": "coco_368014",
+      "file_name": "COCO_train2014_000000368014.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000368014.jpg",
+      "coco_url": "http://mscoco.org/images/368014",
+      "width": 640,
+      "height": 482,
+      "caption": "the fighter plane with a w on the side",
+      "word_count": 9,
+      "bbox_coco_xywh": [
+        0.0,
+        220.96,
+        617.39,
+        197.13
+      ],
+      "gt_bbox_xyxy": [
+        0.0,
+        220.96,
+        617.39,
+        418.09
+      ],
+      "split": "test",
+      "image_sha256": "5ce2b09fd7ddcfc02750b348309f77350bf59500bbc753f06982725741cd1fef"
+    },
+    {
+      "ref_id": 1152,
+      "ann_id": 1994483,
+      "image_id": "coco_132793",
+      "file_name": "COCO_train2014_000000132793.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000132793.jpg",
+      "coco_url": "http://mscoco.org/images/132793",
+      "width": 500,
+      "height": 333,
+      "caption": "large lantern floor light closest to desk",
+      "word_count": 7,
+      "bbox_coco_xywh": [
+        1.0,
+        127.9,
+        50.22,
+        193.45
+      ],
+      "gt_bbox_xyxy": [
+        1.0,
+        127.9,
+        51.22,
+        321.35
+      ],
+      "split": "test",
+      "image_sha256": "900b66add2d92ba52307d3b6a87c6f0f45cbb1ab451f5b38417f7df08790e618"
+    },
+    {
+      "ref_id": 1166,
+      "ann_id": 386087,
+      "image_id": "coco_48939",
+      "file_name": "COCO_train2014_000000048939.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000048939.jpg",
+      "coco_url": "http://mscoco.org/images/48939",
+      "width": 640,
+      "height": 428,
+      "caption": "the chair on the right near the door",
+      "word_count": 8,
+      "bbox_coco_xywh": [
+        487.71,
+        204.48,
+        107.16,
+        169.36
+      ],
+      "gt_bbox_xyxy": [
+        487.71,
+        204.48,
+        594.87,
+        373.84
+      ],
+      "split": "test",
+      "image_sha256": "2a62923f7af69074bf3db9e29cf417449953c42773d3baa25c58d77cc4448b37"
+    },
+    {
+      "ref_id": 1249,
+      "ann_id": 396270,
+      "image_id": "coco_301461",
+      "file_name": "COCO_train2014_000000301461.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000301461.jpg",
+      "coco_url": "http://mscoco.org/images/301461",
+      "width": 640,
+      "height": 436,
+      "caption": "the blue back end of a large truck behind a horse",
+      "word_count": 11,
+      "bbox_coco_xywh": [
+        0.0,
+        1.47,
+        141.41,
+        182.65
+      ],
+      "gt_bbox_xyxy": [
+        0.0,
+        1.47,
+        141.41,
+        184.12
+      ],
+      "split": "test",
+      "image_sha256": "c8248a77ea7e7e343f040e408e4d3e44060bd15843383fb8ed49ec6a677bb504"
+    },
+    {
+      "ref_id": 1327,
+      "ann_id": 62710,
+      "image_id": "coco_280241",
+      "file_name": "COCO_train2014_000000280241.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000280241.jpg",
+      "coco_url": "http://mscoco.org/images/280241",
+      "width": 640,
+      "height": 427,
+      "caption": "left hand most sheep",
+      "word_count": 4,
+      "bbox_coco_xywh": [
+        1.59,
+        141.3,
+        312.21,
+        236.25
+      ],
+      "gt_bbox_xyxy": [
+        1.59,
+        141.3,
+        313.8,
+        377.55
+      ],
+      "split": "test",
+      "image_sha256": "8371bb4257c5a36c852578362638e9ce4e66a9845f6d424fcf536e0b34afc8aa"
+    },
+    {
+      "ref_id": 1367,
+      "ann_id": 14960,
+      "image_id": "coco_305564",
+      "file_name": "COCO_train2014_000000305564.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000305564.jpg",
+      "coco_url": "http://mscoco.org/images/305564",
+      "width": 640,
+      "height": 480,
+      "caption": "the sleeping golden retriever",
+      "word_count": 4,
+      "bbox_coco_xywh": [
+        55.05,
+        228.02,
+        303.26,
+        104.31
+      ],
+      "gt_bbox_xyxy": [
+        55.05,
+        228.02,
+        358.31,
+        332.33
+      ],
+      "split": "test",
+      "image_sha256": "46e9868cc7660650faa49e17ff136769e898165c2152bb9bf0f39bee9720ac07"
+    },
+    {
+      "ref_id": 1405,
+      "ann_id": 16244,
+      "image_id": "coco_329528",
+      "file_name": "COCO_train2014_000000329528.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000329528.jpg",
+      "coco_url": "http://mscoco.org/images/329528",
+      "width": 640,
+      "height": 480,
+      "caption": "a black dog is sitting on sofa between two dogs",
+      "word_count": 10,
+      "bbox_coco_xywh": [
+        198.79,
+        131.72,
+        139.63,
+        247.27
+      ],
+      "gt_bbox_xyxy": [
+        198.79,
+        131.72,
+        338.42,
+        378.99
+      ],
+      "split": "test",
+      "image_sha256": "89f905aa255d9cecd00af4f30372fcd4cba2dd1cdecd47cd68ef56342796bd02"
+    },
+    {
+      "ref_id": 1416,
+      "ann_id": 226435,
+      "image_id": "coco_319735",
+      "file_name": "COCO_train2014_000000319735.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000319735.jpg",
+      "coco_url": "http://mscoco.org/images/319735",
+      "width": 427,
+      "height": 640,
+      "caption": "girl in pink hat staring at horse",
+      "word_count": 7,
+      "bbox_coco_xywh": [
+        120.59,
+        404.82,
+        222.99,
+        229.62
+      ],
+      "gt_bbox_xyxy": [
+        120.59,
+        404.82,
+        343.58,
+        634.44
+      ],
+      "split": "test",
+      "image_sha256": "bca94920f7698da3caabe49df930ac90a149d879fc8f41477a7359e9a29bf11e"
+    },
+    {
+      "ref_id": 1485,
+      "ann_id": 29238,
+      "image_id": "coco_253513",
+      "file_name": "COCO_train2014_000000253513.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000253513.jpg",
+      "coco_url": "http://mscoco.org/images/253513",
+      "width": 640,
+      "height": 427,
+      "caption": "computer screen of a news headline",
+      "word_count": 6,
+      "bbox_coco_xywh": [
+        126.66,
+        180.46,
+        188.07,
+        129.54
+      ],
+      "gt_bbox_xyxy": [
+        126.66,
+        180.46,
+        314.73,
+        310.0
+      ],
+      "split": "test",
+      "image_sha256": "1fa38adb9c9fe628678c24ccc06093bb19eb78d64d4a46d2d8ba4b981b58d585"
+    },
+    {
+      "ref_id": 1491,
+      "ann_id": 499607,
+      "image_id": "coco_539632",
+      "file_name": "COCO_train2014_000000539632.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000539632.jpg",
+      "coco_url": "http://mscoco.org/images/539632",
+      "width": 480,
+      "height": 640,
+      "caption": "woman in blue directly behind the food",
+      "word_count": 7,
+      "bbox_coco_xywh": [
+        190.27,
+        5.77,
+        184.5,
+        223.42
+      ],
+      "gt_bbox_xyxy": [
+        190.27,
+        5.77,
+        374.77,
+        229.19
+      ],
+      "split": "test",
+      "image_sha256": "bca525faaf2d70dd33631ae83a5b7c14c81c805945c6d234741226fad0c1283b"
+    },
+    {
+      "ref_id": 1543,
+      "ann_id": 1421151,
+      "image_id": "coco_448531",
+      "file_name": "COCO_train2014_000000448531.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000448531.jpg",
+      "coco_url": "http://mscoco.org/images/448531",
+      "width": 612,
+      "height": 612,
+      "caption": "an orange backback with a monkey print sitting on top of a peice of blue luggage",
+      "word_count": 16,
+      "bbox_coco_xywh": [
+        402.88,
+        121.57,
+        207.88,
+        242.17
+      ],
+      "gt_bbox_xyxy": [
+        402.88,
+        121.57,
+        610.76,
+        363.74
+      ],
+      "split": "test",
+      "image_sha256": "f9900aa11ec58390f81c8581de34dda20b02c5e36283a4ac249cb423bf6faff7"
+    },
+    {
+      "ref_id": 1651,
+      "ann_id": 685094,
+      "image_id": "coco_425175",
+      "file_name": "COCO_train2014_000000425175.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000425175.jpg",
+      "coco_url": "http://mscoco.org/images/425175",
+      "width": 640,
+      "height": 360,
+      "caption": "a glass filled with a dark beverage",
+      "word_count": 7,
+      "bbox_coco_xywh": [
+        443.14,
+        56.5,
+        195.34,
+        299.46
+      ],
+      "gt_bbox_xyxy": [
+        443.14,
+        56.5,
+        638.48,
+        355.96
+      ],
+      "split": "test",
+      "image_sha256": "5c4706de4202c40f50139d5157f72b8a7434b0719f75b57d48ffcf8b5e2833d1"
+    },
+    {
+      "ref_id": 1663,
+      "ann_id": 578955,
+      "image_id": "coco_393493",
+      "file_name": "COCO_train2014_000000393493.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000393493.jpg",
+      "coco_url": "http://mscoco.org/images/393493",
+      "width": 500,
+      "height": 400,
+      "caption": "the red picnic table",
+      "word_count": 4,
+      "bbox_coco_xywh": [
+        0.0,
+        150.67,
+        183.86,
+        129.15
+      ],
+      "gt_bbox_xyxy": [
+        0.0,
+        150.67,
+        183.86,
+        279.82
+      ],
+      "split": "test",
+      "image_sha256": "2277ca52341109817b6aa2c20b28a56a982ebbce2768e858109293cbd71f13db"
+    },
+    {
+      "ref_id": 1664,
+      "ann_id": 539027,
+      "image_id": "coco_470072",
+      "file_name": "COCO_train2014_000000470072.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000470072.jpg",
+      "coco_url": "http://mscoco.org/images/470072",
+      "width": 640,
+      "height": 424,
+      "caption": "a person using their right hand to flip burgers on a grill",
+      "word_count": 12,
+      "bbox_coco_xywh": [
+        2.8,
+        3.73,
+        187.3,
+        414.68
+      ],
+      "gt_bbox_xyxy": [
+        2.8,
+        3.73,
+        190.1,
+        418.41
+      ],
+      "split": "test",
+      "image_sha256": "1f32de19cacf36ce99054a90efce445ca382d4682b507a8d9e89aee76d8d3383"
+    },
+    {
+      "ref_id": 1682,
+      "ann_id": 1620457,
+      "image_id": "coco_481355",
+      "file_name": "COCO_train2014_000000481355.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000481355.jpg",
+      "coco_url": "http://mscoco.org/images/481355",
+      "width": 640,
+      "height": 428,
+      "caption": "a tabletop covered in food and drink",
+      "word_count": 7,
+      "bbox_coco_xywh": [
+        106.76,
+        170.48,
+        366.44,
+        70.21
+      ],
+      "gt_bbox_xyxy": [
+        106.76,
+        170.48,
+        473.2,
+        240.69
+      ],
+      "split": "test",
+      "image_sha256": "121de39c3d885e8e9718072dd5a3027bedd1a6e332188d2783d8c16b4556b886"
+    },
+    {
+      "ref_id": 1686,
+      "ann_id": 197012,
+      "image_id": "coco_61803",
+      "file_name": "COCO_train2014_000000061803.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000061803.jpg",
+      "coco_url": "http://mscoco.org/images/61803",
+      "width": 429,
+      "height": 640,
+      "caption": "a boy and a girl riding on a horse",
+      "word_count": 9,
+      "bbox_coco_xywh": [
+        100.14,
+        81.27,
+        161.08,
+        306.21
+      ],
+      "gt_bbox_xyxy": [
+        100.14,
+        81.27,
+        261.22,
+        387.48
+      ],
+      "split": "test",
+      "image_sha256": "8640efd3b2c23193d9014718ec063a9438fcf93ef443a231b3573d1937ad927c"
+    },
+    {
+      "ref_id": 1775,
+      "ann_id": 554038,
+      "image_id": "coco_336242",
+      "file_name": "COCO_train2014_000000336242.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000336242.jpg",
+      "coco_url": "http://mscoco.org/images/336242",
+      "width": 480,
+      "height": 640,
+      "caption": "the lady wearing the red sweater",
+      "word_count": 6,
+      "bbox_coco_xywh": [
+        260.17,
+        0.46,
+        105.48,
+        310.93
+      ],
+      "gt_bbox_xyxy": [
+        260.17,
+        0.46,
+        365.65,
+        311.39
+      ],
+      "split": "test",
+      "image_sha256": "ef6b796b279f0e87857bb663554f86bba3647775e0c492ea67719519d4c94fbc"
+    },
+    {
+      "ref_id": 1858,
+      "ann_id": 109203,
+      "image_id": "coco_237515",
+      "file_name": "COCO_train2014_000000237515.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000237515.jpg",
+      "coco_url": "http://mscoco.org/images/237515",
+      "width": 619,
+      "height": 640,
+      "caption": "chair above tabby cat",
+      "word_count": 4,
+      "bbox_coco_xywh": [
+        34.41,
+        2.75,
+        561.55,
+        573.94
+      ],
+      "gt_bbox_xyxy": [
+        34.41,
+        2.75,
+        595.96,
+        576.69
+      ],
+      "split": "test",
+      "image_sha256": "728a2850a494c51ce922e20266800167ea77809b0720af0315c39f94ba38fd45"
+    },
+    {
+      "ref_id": 1865,
+      "ann_id": 199122,
+      "image_id": "coco_9057",
+      "file_name": "COCO_train2014_000000009057.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000009057.jpg",
+      "coco_url": "http://mscoco.org/images/9057",
+      "width": 640,
+      "height": 480,
+      "caption": "a lady watching the water",
+      "word_count": 5,
+      "bbox_coco_xywh": [
+        17.26,
+        300.94,
+        144.54,
+        171.51
+      ],
+      "gt_bbox_xyxy": [
+        17.26,
+        300.94,
+        161.8,
+        472.45
+      ],
+      "split": "test",
+      "image_sha256": "b2f27dc49e5c5cba636591d2eb2b7a949eb095b53e58d51935f2ee4a574fce22"
+    },
+    {
+      "ref_id": 1908,
+      "ann_id": 437479,
+      "image_id": "coco_444583",
+      "file_name": "COCO_train2014_000000444583.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000444583.jpg",
+      "coco_url": "http://mscoco.org/images/444583",
+      "width": 424,
+      "height": 640,
+      "caption": "a man in a camo hat and camo pants",
+      "word_count": 9,
+      "bbox_coco_xywh": [
+        86.23,
+        86.29,
+        207.73,
+        553.13
+      ],
+      "gt_bbox_xyxy": [
+        86.23,
+        86.29,
+        293.96,
+        639.42
+      ],
+      "split": "test",
+      "image_sha256": "fba280672d4d99ecb94adf70a1213663a1a43420ed2db7955ff128a361476b90"
+    },
+    {
+      "ref_id": 1934,
+      "ann_id": 148263,
+      "image_id": "coco_426728",
+      "file_name": "COCO_train2014_000000426728.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000426728.jpg",
+      "coco_url": "http://mscoco.org/images/426728",
+      "width": 640,
+      "height": 425,
+      "caption": "a large black motorcycle beneath a man in a helmet",
+      "word_count": 10,
+      "bbox_coco_xywh": [
+        250.62,
+        139.7,
+        216.31,
+        277.3
+      ],
+      "gt_bbox_xyxy": [
+        250.62,
+        139.7,
+        466.93,
+        417.0
+      ],
+      "split": "test",
+      "image_sha256": "93fa75c7a476aacd6100b1041c43dd8bbfdcfc055a317176ead41a5352579eb9"
+    },
+    {
+      "ref_id": 1972,
+      "ann_id": 1152048,
+      "image_id": "coco_172669",
+      "file_name": "COCO_train2014_000000172669.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000172669.jpg",
+      "coco_url": "http://mscoco.org/images/172669",
+      "width": 640,
+      "height": 513,
+      "caption": "a textured vase holds an array of pink flowers",
+      "word_count": 9,
+      "bbox_coco_xywh": [
+        412.01,
+        260.63,
+        100.99,
+        238.71
+      ],
+      "gt_bbox_xyxy": [
+        412.01,
+        260.63,
+        513.0,
+        499.34
+      ],
+      "split": "test",
+      "image_sha256": "f770e47c5c32f86b353d702873020cbc0cf10b83104bd3389dcb618e99cd003c"
+    },
+    {
+      "ref_id": 2024,
+      "ann_id": 600798,
+      "image_id": "coco_329963",
+      "file_name": "COCO_train2014_000000329963.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000329963.jpg",
+      "coco_url": "http://mscoco.org/images/329963",
+      "width": 640,
+      "height": 425,
+      "caption": "girrafe furthest to the left",
+      "word_count": 5,
+      "bbox_coco_xywh": [
+        8.6,
+        29.85,
+        192.92,
+        390.61
+      ],
+      "gt_bbox_xyxy": [
+        8.6,
+        29.85,
+        201.52,
+        420.46
+      ],
+      "split": "test",
+      "image_sha256": "273a62917d584bc99123798033952520b4772ed9f60c1189f6d7ca7e9b24d356"
+    },
+    {
+      "ref_id": 2042,
+      "ann_id": 516782,
+      "image_id": "coco_298312",
+      "file_name": "COCO_train2014_000000298312.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000298312.jpg",
+      "coco_url": "http://mscoco.org/images/298312",
+      "width": 640,
+      "height": 480,
+      "caption": "a man with glasses running on a beach",
+      "word_count": 8,
+      "bbox_coco_xywh": [
+        456.42,
+        119.58,
+        142.03,
+        305.08
+      ],
+      "gt_bbox_xyxy": [
+        456.42,
+        119.58,
+        598.45,
+        424.66
+      ],
+      "split": "test",
+      "image_sha256": "e63bf810799ccfab39a30cc7863fd609f178b0fac3da7a2866cfd5af03daa14b"
+    },
+    {
+      "ref_id": 2048,
+      "ann_id": 456087,
+      "image_id": "coco_423988",
+      "file_name": "COCO_train2014_000000423988.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000423988.jpg",
+      "coco_url": "http://mscoco.org/images/423988",
+      "width": 442,
+      "height": 640,
+      "caption": "a woman in white pants",
+      "word_count": 5,
+      "bbox_coco_xywh": [
+        108.68,
+        334.0,
+        102.6,
+        263.46
+      ],
+      "gt_bbox_xyxy": [
+        108.68,
+        334.0,
+        211.28,
+        597.46
+      ],
+      "split": "test",
+      "image_sha256": "dbaca5db2e30f0c07229a13d00cde6b5d35e3d7bb7151ba1b4287ae550514d7f"
+    },
+    {
+      "ref_id": 2049,
+      "ann_id": 60684,
+      "image_id": "coco_486713",
+      "file_name": "COCO_train2014_000000486713.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000486713.jpg",
+      "coco_url": "http://mscoco.org/images/486713",
+      "width": 640,
+      "height": 524,
+      "caption": "a dark brown horse carrying a person in white chaps and blue shirt",
+      "word_count": 13,
+      "bbox_coco_xywh": [
+        382.51,
+        263.58,
+        196.55,
+        260.42
+      ],
+      "gt_bbox_xyxy": [
+        382.51,
+        263.58,
+        579.06,
+        524.0
+      ],
+      "split": "test",
+      "image_sha256": "ed08148d672e65e3ea788b0a81e5affcd69a01a12603246eaa733276fc6fb9a4"
+    },
+    {
+      "ref_id": 2070,
+      "ann_id": 464755,
+      "image_id": "coco_147941",
+      "file_name": "COCO_train2014_000000147941.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000147941.jpg",
+      "coco_url": "http://mscoco.org/images/147941",
+      "width": 640,
+      "height": 480,
+      "caption": "a woman in red and white plays tennis",
+      "word_count": 8,
+      "bbox_coco_xywh": [
+        250.81,
+        133.51,
+        210.81,
+        339.46
+      ],
+      "gt_bbox_xyxy": [
+        250.81,
+        133.51,
+        461.62,
+        472.97
+      ],
+      "split": "test",
+      "image_sha256": "17f47c7dd17af70b089f629b224a6900ce7df03e225dd3281a462285aeb89145"
+    },
+    {
+      "ref_id": 2071,
+      "ann_id": 421386,
+      "image_id": "coco_251523",
+      "file_name": "COCO_train2014_000000251523.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000251523.jpg",
+      "coco_url": "http://mscoco.org/images/251523",
+      "width": 480,
+      "height": 640,
+      "caption": "a persons right hand reaching for the donut",
+      "word_count": 8,
+      "bbox_coco_xywh": [
+        240.18,
+        325.03,
+        237.3,
+        307.78
+      ],
+      "gt_bbox_xyxy": [
+        240.18,
+        325.03,
+        477.48,
+        632.81
+      ],
+      "split": "test",
+      "image_sha256": "e1ec2719ada01961c9bbc32c017da2bc0ca9c8dbd520974ab18dec18158d92d1"
+    },
+    {
+      "ref_id": 2089,
+      "ann_id": 1170487,
+      "image_id": "coco_184889",
+      "file_name": "COCO_train2014_000000184889.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000184889.jpg",
+      "coco_url": "http://mscoco.org/images/184889",
+      "width": 500,
+      "height": 332,
+      "caption": "a red and blue bag",
+      "word_count": 5,
+      "bbox_coco_xywh": [
+        225.21,
+        178.9,
+        125.26,
+        84.57
+      ],
+      "gt_bbox_xyxy": [
+        225.21,
+        178.9,
+        350.47,
+        263.47
+      ],
+      "split": "test",
+      "image_sha256": "5b0e680084738f105264507d5222a3d3aee5c55b932570d24ce537aa66154e26"
+    },
+    {
+      "ref_id": 2131,
+      "ann_id": 580181,
+      "image_id": "coco_336185",
+      "file_name": "COCO_train2014_000000336185.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000336185.jpg",
+      "coco_url": "http://mscoco.org/images/336185",
+      "width": 640,
+      "height": 427,
+      "caption": "a mother elephant",
+      "word_count": 3,
+      "bbox_coco_xywh": [
+        30.71,
+        11.51,
+        386.69,
+        367.51
+      ],
+      "gt_bbox_xyxy": [
+        30.71,
+        11.51,
+        417.4,
+        379.02
+      ],
+      "split": "test",
+      "image_sha256": "cabef714895f71d52c4419fecf6cdbf2b0ed29d85dc5940cca7fe8a1c425ef86"
+    },
+    {
+      "ref_id": 2140,
+      "ann_id": 1893575,
+      "image_id": "coco_56480",
+      "file_name": "COCO_train2014_000000056480.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000056480.jpg",
+      "coco_url": "http://mscoco.org/images/56480",
+      "width": 640,
+      "height": 480,
+      "caption": "the knife to the right of the bowl",
+      "word_count": 8,
+      "bbox_coco_xywh": [
+        532.23,
+        255.75,
+        107.77,
+        177.83
+      ],
+      "gt_bbox_xyxy": [
+        532.23,
+        255.75,
+        640.0,
+        433.58
+      ],
+      "split": "test",
+      "image_sha256": "c1f91cd0c2a016fed2e1b6fc0d0ba8ae896cf323b9d69bdb60f015ca279dcbe5"
+    },
+    {
+      "ref_id": 2160,
+      "ann_id": 1739125,
+      "image_id": "coco_518966",
+      "file_name": "COCO_train2014_000000518966.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000518966.jpg",
+      "coco_url": "http://mscoco.org/images/518966",
+      "width": 427,
+      "height": 640,
+      "caption": "person in white hoodie on the right",
+      "word_count": 7,
+      "bbox_coco_xywh": [
+        285.71,
+        62.76,
+        141.29,
+        387.4
+      ],
+      "gt_bbox_xyxy": [
+        285.71,
+        62.76,
+        427.0,
+        450.16
+      ],
+      "split": "test",
+      "image_sha256": "93600f0d0dbf7fc7599807f5111b22b65ae3832fae9294d1a5cc2394a529d00f"
+    },
+    {
+      "ref_id": 2164,
+      "ann_id": 176074,
+      "image_id": "coco_188087",
+      "file_name": "COCO_train2014_000000188087.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000188087.jpg",
+      "coco_url": "http://mscoco.org/images/188087",
+      "width": 640,
+      "height": 416,
+      "caption": "fishing boat parked next to the light house",
+      "word_count": 8,
+      "bbox_coco_xywh": [
+        219.06,
+        221.85,
+        331.16,
+        87.09
+      ],
+      "gt_bbox_xyxy": [
+        219.06,
+        221.85,
+        550.22,
+        308.94
+      ],
+      "split": "test",
+      "image_sha256": "b4c1ac8317de881e36aa3aec687ae481f68559804154d561340466f82c1a50d2"
+    },
+    {
+      "ref_id": 2272,
+      "ann_id": 1707551,
+      "image_id": "coco_70161",
+      "file_name": "COCO_train2014_000000070161.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000070161.jpg",
+      "coco_url": "http://mscoco.org/images/70161",
+      "width": 640,
+      "height": 424,
+      "caption": "the catcher of the game",
+      "word_count": 5,
+      "bbox_coco_xywh": [
+        507.85,
+        239.16,
+        132.15,
+        179.12
+      ],
+      "gt_bbox_xyxy": [
+        507.85,
+        239.16,
+        640.0,
+        418.28
+      ],
+      "split": "test",
+      "image_sha256": "4ba5dbb8dc3cc97fb479e4c5ca6e7ba36177c35562f9a878cc892865108eec62"
+    },
+    {
+      "ref_id": 2375,
+      "ann_id": 1078470,
+      "image_id": "coco_244846",
+      "file_name": "COCO_train2014_000000244846.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000244846.jpg",
+      "coco_url": "http://mscoco.org/images/244846",
+      "width": 640,
+      "height": 480,
+      "caption": "donut with sprinkles to the top right of the other donuts",
+      "word_count": 11,
+      "bbox_coco_xywh": [
+        296.63,
+        12.94,
+        201.71,
+        215.73
+      ],
+      "gt_bbox_xyxy": [
+        296.63,
+        12.94,
+        498.34,
+        228.67
+      ],
+      "split": "test",
+      "image_sha256": "9ebcfaa5f533ff0ab52fb7ce66401a58f135ca2d54e8cde0fe395c16929a6a57"
+    },
+    {
+      "ref_id": 2382,
+      "ann_id": 65602,
+      "image_id": "coco_34389",
+      "file_name": "COCO_train2014_000000034389.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000034389.jpg",
+      "coco_url": "http://mscoco.org/images/34389",
+      "width": 427,
+      "height": 640,
+      "caption": "a brown sheep laying in hay next to a cat",
+      "word_count": 10,
+      "bbox_coco_xywh": [
+        128.0,
+        119.74,
+        299.0,
+        312.43
+      ],
+      "gt_bbox_xyxy": [
+        128.0,
+        119.74,
+        427.0,
+        432.17
+      ],
+      "split": "test",
+      "image_sha256": "0b307a001f25fbcb24c874fd4258341053742c40c71262a1a626cefbbbcf65a0"
+    },
+    {
+      "ref_id": 2404,
+      "ann_id": 1389909,
+      "image_id": "coco_59817",
+      "file_name": "COCO_train2014_000000059817.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000059817.jpg",
+      "coco_url": "http://mscoco.org/images/59817",
+      "width": 500,
+      "height": 375,
+      "caption": "the meter that you cannot see",
+      "word_count": 6,
+      "bbox_coco_xywh": [
+        252.61,
+        0.52,
+        189.73,
+        76.71
+      ],
+      "gt_bbox_xyxy": [
+        252.61,
+        0.52,
+        442.34,
+        77.23
+      ],
+      "split": "test",
+      "image_sha256": "582d4e8e779d21dc68ca2b2d1b8656496d244698231d1b4edfc1563fce5199a6"
+    },
+    {
+      "ref_id": 2428,
+      "ann_id": 350643,
+      "image_id": "coco_105374",
+      "file_name": "COCO_train2014_000000105374.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000105374.jpg",
+      "coco_url": "http://mscoco.org/images/105374",
+      "width": 427,
+      "height": 640,
+      "caption": "a blurry , silver car",
+      "word_count": 5,
+      "bbox_coco_xywh": [
+        356.63,
+        314.63,
+        70.37,
+        210.02
+      ],
+      "gt_bbox_xyxy": [
+        356.63,
+        314.63,
+        427.0,
+        524.65
+      ],
+      "split": "test",
+      "image_sha256": "089f41b368a63286d6df1dee5a9a0af2c0fdbc198cdfc539d53c1619db35c88e"
+    },
+    {
+      "ref_id": 2522,
+      "ann_id": 1041679,
+      "image_id": "coco_528992",
+      "file_name": "COCO_train2014_000000528992.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000528992.jpg",
+      "coco_url": "http://mscoco.org/images/528992",
+      "width": 640,
+      "height": 480,
+      "caption": "scallots",
+      "word_count": 1,
+      "bbox_coco_xywh": [
+        139.48,
+        214.63,
+        196.24,
+        129.65
+      ],
+      "gt_bbox_xyxy": [
+        139.48,
+        214.63,
+        335.72,
+        344.28
+      ],
+      "split": "test",
+      "image_sha256": "fc96ee72c5c059bf36fa24ff6d19f91d2f250a5aebc0716010da2d91b082eaf7"
+    },
+    {
+      "ref_id": 2593,
+      "ann_id": 154335,
+      "image_id": "coco_37779",
+      "file_name": "COCO_train2014_000000037779.jpg",
+      "s3_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000037779.jpg",
+      "coco_url": "http://mscoco.org/images/37779",
+      "width": 640,
+      "height": 480,
+      "caption": "a close - up of the front of a motorcycle , including the mirrors",
+      "word_count": 14,
+      "bbox_coco_xywh": [
+        30.27,
+        325.95,
+        565.41,
+        149.19
+      ],
+      "gt_bbox_xyxy": [
+        30.27,
+        325.95,
+        595.68,
+        475.14
+      ],
+      "split": "test",
+      "image_sha256": "f50d746d5b655ff59e8d96b6014a8fb4c541883dcead7de21ffad599877f137e"
+    }
+  ]
+}
